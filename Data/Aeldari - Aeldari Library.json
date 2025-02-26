@@ -1,0 +1,139 @@
+{"name": "Asurmen", "characteristics": {"M": "7\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Autarch Skyrunner", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Autarch", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Autarch Wayleaper", "characteristics": {"M": "14\"", "T": "3", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Avatar of Khaine", "characteristics": {"M": "10\"", "T": "11", "SV": "2+", "W": "14", "LD": "6+", "OC": "5"}}
+{"name": "Baharroth", "characteristics": {"M": "14\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Crimson Hunter", "characteristics": {"M": "20+\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "0"}}
+{"name": "Dark Reaper Exarch", "characteristics": {"M": "6\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Dark Reaper", "characteristics": {"M": "6\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Death Jester", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Dire Avenger", "characteristics": {"M": "7\"", "T": "3", "SV": "4+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Dire Avenger Exarch", "characteristics": {"M": "7\"", "T": "3", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Eldrad Ulthran", "characteristics": {"M": "7\"", "T": "4", "SV": "6+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Falcon", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "12", "LD": "7+", "OC": "3"}}
+{"name": "Farseer", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Farseer Skyrunner", "characteristics": {"M": "14\"", "T": "4", "SV": "6+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Fire Dragon", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Fire Dragon Exarch", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Fire Prism", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "12", "LD": "7+", "OC": "3"}}
+{"name": "Fuegan", "characteristics": {"M": "7\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Guardian Defender", "characteristics": {"M": "7\"", "T": "3", "SV": "4+", "W": "1", "LD": "7+", "OC": "2"}}
+{"name": "Heavy Weapon Platform", "characteristics": {"M": "7\"", "T": "3", "SV": "4+", "W": "2", "LD": "7+", "OC": "0"}}
+{"name": "Hemlock Wraithfighter", "characteristics": {"M": "20+\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "0"}}
+{"name": "Howling Banshee Exarch", "characteristics": {"M": "8\"", "T": "3", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Howling Banshee", "characteristics": {"M": "8\"", "T": "3", "SV": "4+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Illic Nightspear", "characteristics": {"M": "7\"", "T": "3", "SV": "5+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Jain Zar", "characteristics": {"M": "8\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Karandras", "characteristics": {"M": "7\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Maugan Ra", "characteristics": {"M": "7\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Night Spinner", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "12", "LD": "7+", "OC": "3"}}
+{"name": "Prince Yriel", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Rangers", "characteristics": {"M": "7\"", "T": "3", "SV": "5+", "W": "1", "LD": "7+", "OC": "1"}}
+{"name": "Shadowseer", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Shining Spear", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Shining Spear Exarch", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Shroud Runner", "characteristics": {"M": "14\"", "T": "4", "SV": "4+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Skyweaver", "characteristics": {"M": "14\"", "T": "4", "SV": "4+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Solitaire", "characteristics": {"M": "12\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Spiritseer", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Starweaver", "characteristics": {"M": "14\"", "T": "6", "SV": "4+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Serpent's Scale Platform", "characteristics": {"M": "7\"", "T": "3", "SV": "4+", "W": "2", "LD": "7+", "OC": "0"}}
+{"name": "Striking Scorpion", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Striking Scorpion Exarch", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "D-Cannon Platform", "characteristics": {"M": "7\"", "T": "6", "SV": "4+", "W": "5", "LD": "7+", "OC": "1"}}
+{"name": "Swooping Hawk", "characteristics": {"M": "14\"", "T": "3", "SV": "4+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Swooping Hawk Exarch", "characteristics": {"M": "14\"", "T": "3", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "The Visarch", "characteristics": {"M": "8\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "The Yncarne", "characteristics": {"M": "10\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Troupe", "characteristics": {}}
+{"name": "Troupe", "characteristics": {}}
+{"name": "Troupe", "characteristics": {}}
+{"name": "Troupe", "characteristics": {}}
+{"name": "Troupe", "characteristics": {}}
+{"name": "Troupe Master", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Voidweaver", "characteristics": {"M": "14\"", "T": "6", "SV": "4+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Warlock", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Warlock", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Warlock", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Warp Spider", "characteristics": {"M": "12\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Warp Spider Exarch", "characteristics": {"M": "12\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Wave Serpent", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "13", "LD": "7+", "OC": "2"}}
+{"name": "Webway Gate", "characteristics": {"M": "-", "T": "12", "SV": "3+", "W": "14", "LD": "6+", "OC": "0"}}
+{"name": "Wraithknight", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "18", "LD": "6+", "OC": "10"}}
+{"name": "Wraithlord", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "10", "LD": "8+", "OC": "3"}}
+{"name": "Wraithguard", "characteristics": {"M": "6\"", "T": "6", "SV": "2+", "W": "3", "LD": "8+", "OC": "1"}}
+{"name": "Yvraine", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Wraithblade", "characteristics": {"M": "6\"", "T": "6", "SV": "2+", "W": "3", "LD": "8+", "OC": "1"}}
+{"name": "Archon", "characteristics": {"M": "8\"", "T": "3", "SV": "4+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Beastmaster", "characteristics": {"M": "12\"", "T": "4", "SV": "6+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Khymerae", "characteristics": {"M": "12\"", "T": "4", "SV": "6+", "W": "2", "LD": "8+", "OC": "1"}}
+{"name": "Clawed Fiend", "characteristics": {"M": "12\"", "T": "4", "SV": "6+", "W": "5", "LD": "8+", "OC": "1"}}
+{"name": "Razorwing Flock", "characteristics": {"M": "12\"", "T": "4", "SV": "6+", "W": "3", "LD": "8+", "OC": "1"}}
+{"name": "Court of the Archon", "characteristics": {"M": "8\"", "T": "3", "SV": "5+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Cronos", "characteristics": {"M": "7\"", "T": "7", "SV": "3+", "W": "7", "LD": "6+", "OC": "2"}}
+{"name": "Drazhar", "characteristics": {"M": "7\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Grotesque", "characteristics": {"M": "7\"", "T": "5", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Haemonculus", "characteristics": {"M": "7\"", "T": "4", "SV": "6+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Hellions", "characteristics": {"M": "14\"", "T": "4", "SV": "5+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Klaivex", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Incubi", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Kabalite Warriors", "characteristics": {"M": "8\"", "T": "3", "SV": "4+", "W": "1", "LD": "6+", "OC": "2"}}
+{"name": "Lelith Hesperax", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Mandrake", "characteristics": {"M": "8\"", "T": "3", "SV": "7+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Raider", "characteristics": {"M": "14\"", "T": "8", "SV": "4+", "W": "10", "LD": "6+", "OC": "2"}}
+{"name": "Ravager", "characteristics": {"M": "14\"", "T": "9", "SV": "4+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Razorwing Jetfighter", "characteristics": {"M": "20+\"", "T": "8", "SV": "4+", "W": "10", "LD": "6+", "OC": "0"}}
+{"name": "Reavers", "characteristics": {"M": "16\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Scourges", "characteristics": {"M": "14\"", "T": "3", "SV": "4+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Succubus", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Talos", "characteristics": {"M": "7\"", "T": "7", "SV": "3+", "W": "7", "LD": "6+", "OC": "2"}}
+{"name": "Urien Rakarth", "characteristics": {"M": "7\"", "T": "4", "SV": "6+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Venom", "characteristics": {"M": "14\"", "T": "6", "SV": "4+", "W": "6", "LD": "6+", "OC": "1"}}
+{"name": "Voidraven", "characteristics": {"M": "20+\"", "T": "9", "SV": "4+", "W": "12", "LD": "6+", "OC": "0"}}
+{"name": "Wracks", "characteristics": {"M": "7\"", "T": "4", "SV": "6+", "W": "1", "LD": "6+", "OC": "2"}}
+{"name": "Wyches", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "1", "LD": "6+", "OC": "2"}}
+{"name": "Cobra", "characteristics": {"M": "14\"", "T": "11", "SV": "2+", "W": "24", "LD": "6+", "OC": "8"}}
+{"name": "Scorpion", "characteristics": {"M": "14\"", "T": "11", "SV": "2+", "W": "24", "LD": "6+", "OC": "8"}}
+{"name": "Hornet", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
+{"name": "Irillyth", "characteristics": {"M": "12\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Lynx", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "16", "LD": "6+", "OC": "4"}}
+{"name": "Nightwing", "characteristics": {"M": "20+\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "0"}}
+{"name": "Skathach Wraithknight", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "18", "LD": "6+", "OC": "10"}}
+{"name": "Shadow Spectre", "characteristics": {"M": "12\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Shadow Spectre Exarch", "characteristics": {"M": "12\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Phantom Titan", "characteristics": {"M": "14\"", "T": "14", "SV": "2+", "W": "55", "LD": "6+", "OC": "20"}}
+{"name": "Revenant Titan", "characteristics": {"M": "16\"", "T": "13", "SV": "2+", "W": "30", "LD": "6+", "OC": "16"}}
+{"name": "Warp Hunter", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Wraithseer", "characteristics": {"M": "8\"", "T": "11", "SV": "2+", "W": "10", "LD": "6+", "OC": "3"}}
+{"name": "Tantalus", "characteristics": {"M": "16\"", "T": "10", "SV": "4+", "W": "18", "LD": "6+", "OC": "5"}}
+{"name": "Amallyn Shadowguide", "characteristics": {"M": "7\"", "T": "3", "SV": "5+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Bonesinger", "characteristics": {"M": "7\"", "T": "3", "SV": "6+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Corsair Cloud Dancer", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Firestorm", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Phoenix", "characteristics": {"M": "20+\"", "T": "9", "SV": "3+", "W": "16", "LD": "6+", "OC": "0"}}
+{"name": "Vampire Hunter", "characteristics": {"M": "20+\"", "T": "12", "SV": "3+", "W": "30", "LD": "6+", "OC": "0"}}
+{"name": "Vampire Raider", "characteristics": {"M": "20+\"", "T": "12", "SV": "3+", "W": "30", "LD": "6+", "OC": "0"}}
+{"name": "Wasp Assault Walker", "characteristics": {"M": "10\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Raven Strike Fighter", "characteristics": {"M": "20+\"", "T": "8", "SV": "4+", "W": "10", "LD": "6+", "OC": "0"}}
+{"name": "Reaper", "characteristics": {"M": "14\"", "T": "9", "SV": "4+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Warlock Skyrunner", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Warlock Skyrunner", "characteristics": {"M": "14\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Archon", "characteristics": {"M": "8\"", "T": "3", "SV": "4+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Lhykhis", "characteristics": {"M": "12\"", "T": "3", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "War Walker", "characteristics": {"M": "10\"", "T": "7", "SV": "3+", "W": "6", "LD": "7+", "OC": "2"}}
+{"name": "Shadow Weaver Platform", "characteristics": {"M": "7\"", "T": "6", "SV": "4+", "W": "5", "LD": "7+", "OC": "1"}}
+{"name": "Vibro Cannon Platform", "characteristics": {"M": "7\"", "T": "6", "SV": "4+", "W": "5", "LD": "7+", "OC": "1"}}
+{"name": "Vyper", "characteristics": {"M": "14\"", "T": "6", "SV": "3+", "W": "6", "LD": "7+", "OC": "2"}}
+{"name": "Wraithknight", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "18", "LD": "6+", "OC": "10"}}
+{"name": "Succubus", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Wyches", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "1", "LD": "6+", "OC": "2"}}
+{"name": "Wyches", "characteristics": {"M": "8\"", "T": "3", "SV": "6+", "W": "1", "LD": "6+", "OC": "2"}}
+{"name": "Klaivex", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Incubi", "characteristics": {"M": "7\"", "T": "3", "SV": "3+", "W": "1", "LD": "6+", "OC": "1"}}
+{"name": "Reavers", "characteristics": {"M": "16\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Reavers", "characteristics": {"M": "16\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Reavers", "characteristics": {"M": "16\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Reavers", "characteristics": {"M": "16\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Raider", "characteristics": {"M": "14\"", "T": "8", "SV": "4+", "W": "10", "LD": "6+", "OC": "2"}}
+{"name": "Venom", "characteristics": {"M": "14\"", "T": "6", "SV": "4+", "W": "6", "LD": "6+", "OC": "1"}}

@@ -1,0 +1,128 @@
+{"name": "Captain in Gravis Armour", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "6", "LD": "6+", "OC": "1"}}
+{"name": "Captain in Phobos Armour", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Captain in Terminator Armour", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "6", "LD": "6+", "OC": "1"}}
+{"name": "Captain with Jump Pack", "characteristics": {}}
+{"name": "Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Infernus Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Assault Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Heavy intercessor Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Infiltrator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Incursor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Tactical Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
+{"name": "Scout Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Scout Sniper Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Bladeguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Vanguard Veterans with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Vanguard Veterans", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Sternguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Reiver Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Aggressors", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Assault Terminator w/ Storm Shield", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Assault Terminator w/ Lightning Claws", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Assault Terminator Sergeant", "characteristics": {}}
+{"name": "Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Relic Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Centurion Assault Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
+{"name": "Centurion Devastator Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
+{"name": "Invictor Tactical Warsuit", "characteristics": {"M": "8\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "4"}}
+{"name": "Dreadnought", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
+{"name": "Ironclad Dreadnought", "characteristics": {"M": "6\"", "T": "10", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
+{"name": "Redemptor Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
+{"name": "Ballistus Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
+{"name": "Brutalis Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
+{"name": "Assault Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Assault Squad with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Invader ATV", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
+{"name": "Outrider Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "4", "LD": "6+", "OC": "2"}}
+{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Scout Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "4+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Suppressor Squad", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Inceptor Squad", "characteristics": {"M": "10\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Storm Speeder Hailstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Storm Speeder Thunderstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Storm Speeder Hammerstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Land Speeder Typhoon", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Land Speeder Tornado", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Land Speeder", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Hellblaster Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Eliminator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Eradicator Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Devastator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Desolation Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Thunderfire Cannon", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Firestrike Servo-Turrets", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
+{"name": "Hunter", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Stalker", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Whirlwind", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Predator Destructor", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Predator Annihilator", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Gladiator Lancer", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Gladiator Reaper", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Gladiator Valiant", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
+{"name": "Vindicator", "characteristics": {"M": "9\"", "T": "11", "SV": "2+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Land Raider", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Land Raider Crusader", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Land Raider Redeemer", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Repulsor", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Repulsor Executioner", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Rhino", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
+{"name": "Razorback", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
+{"name": "Impulsor", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "2"}}
+{"name": "Drop Pod", "characteristics": {"M": "-", "T": "7", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
+{"name": "Land Speeder Storm", "characteristics": {"M": "14\"", "T": "7", "SV": "4+", "W": "7", "LD": "6+", "OC": "1"}}
+{"name": "Stormhawk Interceptor", "characteristics": {"M": "20\"+", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
+{"name": "Stormtalon Gunship", "characteristics": {"M": "20\"+", "T": "8", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
+{"name": "Stormraven Gunship", "characteristics": {"M": "20\"+", "T": "10", "SV": "3+", "W": "14", "LD": "6+", "OC": "0"}}
+{"name": "Hammerfall Bunker", "characteristics": {"M": "-", "T": "12", "SV": "2+", "W": "14", "LD": "6+", "OC": "0"}}
+{"name": "Captain on Bike", "characteristics": {}}
+{"name": "Lieutenant", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Lieutenant in Reiver Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Lieutenant in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Librarian", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Librarian in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Librarian in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Librarian", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Chaplain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
+{"name": "Chaplain in Terminator Armour", "characteristics": {}}
+{"name": "Chaplain on Bike", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "5+", "OC": "1"}}
+{"name": "Chaplain with Jump Pack", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
+{"name": "Techmarine", "characteristics": {"M": "6\"", "T": "4", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Astartes Servitors", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "1", "LD": "8+", "OC": "0"}}
+{"name": "Lieutenant with Combi-weapon", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Primaris Company Champion", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Primaris Apothecary", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Apothecary Biologis", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "5", "LD": "6+", "OC": "3"}}
+{"name": "Primaris Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Bladeguard Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Ancient in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Command Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
+{"name": "Judiciar", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
+{"name": "Captain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
+{"name": "Astraeus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "24", "LD": "6+", "OC": "8"}}
+{"name": "Thunderhawk Gunship", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
+{"name": "Land Raider Helios [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Mortis Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
+{"name": "Deimos Predator [Legends]", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
+{"name": "Chaplain Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
+{"name": "Land Speeder Tempest [Legends]", "characteristics": {"M": "14\"", "T": "8", "SV": "3+", "W": "7", "LD": "6+", "OC": "2"}}
+{"name": "Carab Culln the Risen [Legends]", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
+{"name": "Caestus Assault Ram [Legends]", "characteristics": {"M": "20+\"", "T": "10", "SV": "3+", "W": "18", "LD": "6+", "OC": "0"}}
+{"name": "Land Raider Prometheus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
+{"name": "Rhino Primaris [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "3"}}
+{"name": "Land Raider Excelsior [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Imperial Space Marine [Legends]", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{"name": "Terminus Ultra [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
+{"name": "Relic Razorback [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
+{"name": "Company Veterans on Bikes", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
+{"name": "Company Champion on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Ancient on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Apothecary on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Techmarine on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Librarian on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
+{"name": "Thunderhawk Transporter [Legends]", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
+{"name": "Tarantula Air Defense Battery [Legends]", "characteristics": {"M": "-", "T": "5", "SV": "3+", "W": "4", "LD": "7+", "OC": "0"}}
+{"name": "Assault Intercessors with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
+{"name": "Company Heroes", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
