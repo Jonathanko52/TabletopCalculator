@@ -126,3 +126,7 @@
 {"name": "Tarantula Air Defense Battery [Legends]", "characteristics": {"M": "-", "T": "5", "SV": "3+", "W": "4", "LD": "7+", "OC": "0"}}
 {"name": "Assault Intercessors with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
 {"name": "Company Heroes", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+
+
+{"name": "Assault Squad", 
+"characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
