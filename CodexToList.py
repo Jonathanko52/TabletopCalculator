@@ -90,32 +90,17 @@ for selectionEntry in sharedSelectionEntries:
   if(selectionEntry.attrib["type"] == "unit" or selectionEntry.attrib["type"] == "model"):
     count += 1
 
-    print()
-    print("********************")
-    print()
-    print("UNIT NAME: ", selectionEntry.attrib["name"], selectionEntry.attrib["id"])
+    # print()
+    # print("********************")
+    # print()
+    # print("UNIT NAME: ", selectionEntry.attrib["name"], selectionEntry.attrib["id"])
     # print("COUNT", count)
     unitObject = findProfile(selectionEntry.findall("."))
     unitObject["Cost"] = findCost(selectionEntry.findall("."))
     armyList.append(unitObject)
-
-
-
-# Writes the file.
-  # f = open("./Data/" + codexName + ".json", "a")
-  # for unit in armyList:
-  #     jsonString = json.dumps(unit)
-  #     jsonString += "\n"
-  #     f.write(jsonString)
-  # f.close()
 
 # Writes the file.
 f = open("./Data/" + codexName + ".json", "a")
 jsonString = json.dumps(armyList)
 f.write(jsonString)
 f.close()
-
-
-    #   <costs>
-    #     <cost name="pts" typeId="51b2-306e-1021-d207" value="185"/>
-    #   </costs>
