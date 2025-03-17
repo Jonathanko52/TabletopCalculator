@@ -29,7 +29,7 @@ def findCharacteristic(elementList):
 # which also uses findcharacteristic helper funciton. going to ahve to split those more
 def findProfile(elementList):
     if elementList is None:
-        return {}
+        return
     returnObj = {}
     for element in elementList:
         if(element.tag == "{http://www.battlescribe.net/schema/catalogueSchema}profiles"):
@@ -38,8 +38,11 @@ def findProfile(elementList):
                     returnObj["Name"] = child.attrib["name"]
                     convertUnitProfile(child,returnObj)
                     return returnObj          
-        else:
-          return findProfile(element)
+        # else:
+        #   return findProfile(element)
+        foundValue = findProfile(element)
+        if foundValue is not None:
+            return foundValue
 
 
 
@@ -93,11 +96,10 @@ for selectionEntry in sharedSelectionEntries:
     print("UNIT NAME: ", selectionEntry.attrib["name"], selectionEntry.attrib["id"])
     # print("COUNT", count)
     unitObject = findProfile(selectionEntry.findall("."))
-    # unitObject["Cost"] = findCost(selectionEntry.findall("."))
+    unitObject["Cost"] = findCost(selectionEntry.findall("."))
     armyList.append(unitObject)
 
 
-print(armyList, len(armyList))
 
 # Writes the file.
   # f = open("./Data/" + codexName + ".json", "a")
@@ -107,7 +109,11 @@ print(armyList, len(armyList))
   #     f.write(jsonString)
   # f.close()
 
-
+# Writes the file.
+f = open("./Data/" + codexName + ".json", "a")
+jsonString = json.dumps(armyList)
+f.write(jsonString)
+f.close()
 
 
     #   <costs>
