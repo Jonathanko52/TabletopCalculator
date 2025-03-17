@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 
-codexName = "Imperium - Space Marines"
+codexName = "Imperium - Adeptus Custodes"
 
 
 armyList = []
@@ -23,27 +23,53 @@ def findCharacteristic(elementList):
            findCharacteristic(element)
     return returnDictionary
 
+
+
+# Master function for finding the profile of the unit. Currently utilizies convert unit profile helper funciton, 
+# which also uses findcharacteristic helper funciton. going to ahve to split those more
 def findProfile(elementList):
     if elementList is None:
-        return
-    
+        return {}
+    returnObj = {}
     for element in elementList:
         if(element.tag == "{http://www.battlescribe.net/schema/catalogueSchema}profiles"):
             for child in element:
                 if(child.attrib["typeName"].lower() == "unit"):
-                    armyList.append(convertUnitProfile(child))             
+                    returnObj["Name"] = child.attrib["name"]
+                    convertUnitProfile(child,returnObj)
+                    return returnObj          
         else:
-           findProfile(element)
+          return findProfile(element)
 
 
 
-def convertUnitProfile(unitElement):
-    convertedUnit = {"name":unitElement.attrib["name"], "characteristics":findCharacteristic(unitElement)}
-    return convertedUnit
 
-def convertWeaponProfile(weaponElement):
-    convertedUnit = {"name":unitElement.attrib["name"], "characteristics":findCharacteristic(unitElement)}
-    return convertedUnit
+
+#funciton for recursively finding unit cost
+
+def findCost(elementList, unitPointValue = "0"):
+    if elementList is None:
+        return None
+    for element in elementList:
+        if(element.tag == "{http://www.battlescribe.net/schema/catalogueSchema}costs"):
+            for child in element:
+                if(child.attrib["name"] == "pts"):
+                    unitPointValue = child.attrib["value"]
+                    return unitPointValue
+                  
+        foundValue = findCost(element, unitPointValue)
+        if foundValue is not None:
+            return foundValue
+
+
+
+def convertUnitProfile(unitElement,unitObject):
+    unitObject["characteristics"]= findCharacteristic(unitElement)
+    return unitObject
+
+# def convertWeaponProfile(weaponElement):
+#     convertedWeapon= {"name":weaponElement.attrib["name"], "characteristics":findCharacteristic(weaponElement)}
+#     return convertedWeapon
 
 
 # Parse the XML file
@@ -60,20 +86,26 @@ sharedSelectionEntries = root.find('./{http://www.battlescribe.net/schema/catalo
 for selectionEntry in sharedSelectionEntries:
   if(selectionEntry.attrib["type"] == "unit" or selectionEntry.attrib["type"] == "model"):
     count += 1
-    # print()
-    # print("********************")
-    # print()
-    # print("UNIT NAME: ", selectionEntry.attrib["name"], selectionEntry.attrib["id"])
-    # findCharacteristic(selectionEntry.findall("."))
-    findProfile(selectionEntry.findall("."))
+
+    print()
+    print("********************")
+    print()
+    print("UNIT NAME: ", selectionEntry.attrib["name"], selectionEntry.attrib["id"])
+    # print("COUNT", count)
+    unitObject = findProfile(selectionEntry.findall("."))
+    # unitObject["Cost"] = findCost(selectionEntry.findall("."))
+    armyList.append(unitObject)
 
 
-f = open("./Data/" + codexName + ".json", "a")
-for unit in armyList:
-    jsonString = json.dumps(unit)
-    jsonString += "\n"
-    f.write(jsonString)
-f.close()
+print(armyList, len(armyList))
+
+# Writes the file.
+  # f = open("./Data/" + codexName + ".json", "a")
+  # for unit in armyList:
+  #     jsonString = json.dumps(unit)
+  #     jsonString += "\n"
+  #     f.write(jsonString)
+  # f.close()
 
 
 

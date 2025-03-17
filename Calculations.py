@@ -54,7 +54,8 @@ attackerModelCount
 # 2. Number of attacks per model shooting with this profile. 
 # Multiply one by the other to get the total amount of attacks.
 totalAttacks = attackerModelCount * attackerAttackCount
-# 3. Number of attacks connecting. Take the total number of attacks and multipliy it with the weapon/ballistic skill.
+# 3. Number of attacks connecting. 
+# Take the total number of attacks and multipliy it with the weapon/ballistic skill.
 totalAttacksConnecting = totalAttacks * diceApprox[attackerwBSkill]
 # 4. Number of attacks that wound.
 totalWoundsInflicted = calculateWounds(totalAttacksConnecting, attackerStrength, defenderToughness)
@@ -62,9 +63,9 @@ totalWoundsInflicted = calculateWounds(totalAttacksConnecting, attackerStrength,
 unsavedWounds = totalWoundsInflicted / diceApprox[defenderArmorSave]
 # 6. Subtract Wounds to determine models destroyed.
 defenderWoundsLeft = (totalDefenderWounds) - unsavedWounds
-if(defenderWoundsLeft > 0):
-  
-modelsLeft
+# if(defenderWoundsLeft > 0):
+
+
 
 
 
