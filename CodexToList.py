@@ -56,7 +56,7 @@ def findCost(elementList, unitPointValue = "0"):
     for element in elementList:
         if(element.tag == "{http://www.battlescribe.net/schema/catalogueSchema}costs"):
             for child in element:
-                if(child.attrib["name"] == "pts"):
+                if(child.attrib["name"] == "pts" and child.attrib["value"] != "0"):
                     unitPointValue = child.attrib["value"]
                     return unitPointValue
                   
@@ -99,8 +99,18 @@ for selectionEntry in sharedSelectionEntries:
     unitObject["Cost"] = findCost(selectionEntry.findall("."))
     armyList.append(unitObject)
 
+# Tests to see if army list is filled
+for item in armyList:
+    print()
+    print("********************")
+    print()
+    print("UNIT NAME: ", item["Name"])
+    print("UNIT COST: ", item["Cost"])
+
+
+
 # Writes the file.
-f = open("./Data/" + codexName + ".json", "a")
-jsonString = json.dumps(armyList)
-f.write(jsonString)
-f.close()
+# f = open("./Data/" + codexName + ".json", "a")
+# jsonString = json.dumps(armyList)
+# f.write(jsonString)
+# f.close()
