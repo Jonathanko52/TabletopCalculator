@@ -6,7 +6,7 @@ codexName = "Imperium - Adeptus Custodes"
 
 armyList = []
 
-unit = {"name":"", "characteristics":{}}
+unit = {"name":"", "Characteristics":{}}
 
 
 def findCharacteristic(elementList):
@@ -38,8 +38,7 @@ def findProfile(elementList):
                     returnObj["Name"] = child.attrib["name"]
                     convertUnitProfile(child,returnObj)
                     return returnObj          
-        # else:
-        #   return findProfile(element)
+                
         foundValue = findProfile(element)
         if foundValue is not None:
             return foundValue
@@ -48,7 +47,7 @@ def findProfile(elementList):
 
 
 
-#funciton for recursively finding unit cost
+#Funciton for recursively finding unit cost
 
 def findCost(elementList, unitPointValue = "0"):
     if elementList is None:
@@ -65,15 +64,30 @@ def findCost(elementList, unitPointValue = "0"):
             return foundValue
 
 
+def findWeaponProfile(elementList):
+    if elementList is None:
+        return
+    returnDictionary = {}
+    
+    for element in elementList:
+        returnDictionary = {}
+        if(element.tag == "{http://www.battlescribe.net/schema/catalogueSchema}characteristics" 
+           and child.attrib["typeName"] == "Melee Weapons"):
+            for child in element:
+                returnDictionary[child.attrib["name"]] = child.text
+        else:
+           findCharacteristic(element)
+    return returnDictionary
+
+
 
 def convertUnitProfile(unitElement,unitObject):
-    unitObject["characteristics"]= findCharacteristic(unitElement)
+    unitObject["Characteristics"]= findCharacteristic(unitElement)
     return unitObject
 
-# def convertWeaponProfile(weaponElement):
-#     convertedWeapon= {"name":weaponElement.attrib["name"], "characteristics":findCharacteristic(weaponElement)}
-#     return convertedWeapon
-
+def convertWeaponProfile(unitElement,unitObject):
+    unitObject["Weapons"]= findWeaponProfile(unitElement)
+    return unitObject
 
 # Parse the XML file
 tree = ET.parse('./40k/' + codexName + '.cat')
@@ -97,6 +111,7 @@ for selectionEntry in sharedSelectionEntries:
     # print("COUNT", count)
     unitObject = findProfile(selectionEntry.findall("."))
     unitObject["Cost"] = findCost(selectionEntry.findall("."))
+    unitObject["Weapon"] = findWeaponProfile(selectionEntry.findall("."))
     armyList.append(unitObject)
 
 # Tests to see if army list is filled
@@ -104,8 +119,10 @@ for item in armyList:
     print()
     print("********************")
     print()
-    print("UNIT NAME: ", item["Name"])
-    print("UNIT COST: ", item["Cost"])
+    # print("UNIT NAME: ", item["Name"])
+    # print("UNIT COST: ", item["Cost"])
+    # print("UNIT STATS: ", item["Characteristics"])
+    print(item)
 
 
 
