@@ -84,7 +84,7 @@ for value in result2:
     print(value["unitName"])
 print("_________________________________")
 for value in result3:
-    print(value["unitName"])
+    print(value)
 
 print(len(result1))
 print(len(result2))
