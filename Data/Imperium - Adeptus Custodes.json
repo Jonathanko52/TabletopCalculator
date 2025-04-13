@@ -1,6 +1,7 @@
-[
-  {
+{
+  "Aleya": {
     "Name": "Aleya",
+    "Cost": "75",
     "characteristics": {
       "M": "6\"",
       "T": "3",
@@ -9,10 +10,22 @@
       "LD": "6+",
       "OC": "1"
     },
-    "Cost": "75"
+    "Weapons": [
+      {
+        "Name": "Somnus",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      }
+    ]
   },
-  {
-    "Name": "Allarus Custodian",
+  "Allarus Custodians": {
+    "Name": "Allarus Custodians",
+    "Cost": "130",
     "characteristics": {
       "M": "5\"",
       "T": "7",
@@ -21,10 +34,76 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Allarus Custodian (Guardian Spear)": {
+    "Name": "Allarus Custodian (Guardian Spear)"
+  },
+  "Allarus Custodian (Castellan Axe)": {
+    "Name": "Allarus Custodian (Castellan Axe)"
+  },
+  "Allarus Custodian (Vexilla & Misericordia)": {
+    "Name": "Allarus Custodian (Vexilla & Misericordia)"
+  },
+  "Anathema Psykana Rhino": {
     "Name": "Anathema Psykana Rhino",
+    "Cost": "75",
     "characteristics": {
       "M": "12\"",
       "T": "9",
@@ -33,10 +112,45 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Blade Champion": {
     "Name": "Blade Champion",
+    "Cost": "110",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -45,10 +159,111 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "110"
+    "Weapons": [
+      {
+        "Name": "\u27a4 Vaultswords - Victus",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "\u27a4 Vaultswords - Victus",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "\u27a4 Vaultswords - Victus",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
   },
-  {
+  "Custodian Guard": {
     "Name": "Custodian Guard",
+    "Cost": "180",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      }
+    ]
+  },
+  "Custodian Guard (Guardian Spear)": {
+    "Name": "Custodian Guard (Guardian Spear)",
+    "Cost": "0",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -57,10 +272,94 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Guardian Spear",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Guardian Spear",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      }
+    ]
   },
-  {
-    "Name": "Custodian Warden",
+  "Custodian Guard (Sentinel Blade & Praesidium Shield)": {
+    "Name": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Sentinel Blade",
+        "Range": "12\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault, Pistol",
+        "BS": "2+"
+      },
+      {
+        "Name": "Sentinel Blade",
+        "Range": "12\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault, Pistol",
+        "BS": "2+"
+      }
+    ]
+  },
+  "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)": {
+    "Name": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Custodian Wardens": {
+    "Name": "Custodian Wardens",
+    "Cost": "200",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -69,10 +368,107 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Custodian Warden (Guardian Spear)": {
+    "Name": "Custodian Warden (Guardian Spear)"
+  },
+  "Custodian Warden (Castellan axe)": {
+    "Name": "Custodian Warden (Castellan axe)"
+  },
+  "Custodian Warden w/ Vexilla": { "Name": "Custodian Warden w/ Vexilla" },
+  "Knight-Centura": {
     "Name": "Knight-Centura",
+    "Cost": "70",
     "characteristics": {
       "M": "6\"",
       "T": "3",
@@ -81,10 +477,67 @@
       "LD": "6+",
       "OC": "1"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "2+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "2+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "2+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "2+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "2+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "2+"
+      }
+    ]
   },
-  {
-    "Name": "Prosecutor Sister Superior",
+  "Prosecutors": {
+    "Name": "Prosecutors",
+    "Cost": "40",
     "characteristics": {
       "M": "6\"",
       "T": "3",
@@ -93,10 +546,128 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
   },
-  {
+  "Prosecutor Sister Superior": {
+    "Name": "Prosecutor Sister Superior",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Prosecutor": {
+    "Name": "Prosecutor",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Shield-Captain": {
     "Name": "Shield-Captain",
+    "Cost": "140",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -105,10 +676,122 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite Spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Shield-Captain in Allarus Terminator Armour": {
     "Name": "Shield-Captain in Allarus Terminator Armour",
+    "Cost": "140",
     "characteristics": {
       "M": "5\"",
       "T": "7",
@@ -117,10 +800,67 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Balistus grenade launcher",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "2+"
+      },
+      {
+        "Name": "Balistus grenade launcher",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "2+"
+      },
+      {
+        "Name": "Balistus grenade launcher",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "2+"
+      },
+      {
+        "Name": "Balistus grenade launcher",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "2+"
+      },
+      {
+        "Name": "Balistus grenade launcher",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Shield-Captain on Dawneagle Jetbike": {
     "Name": "Shield-Captain on Dawneagle Jetbike",
+    "Cost": "160",
     "characteristics": {
       "M": "12\"",
       "T": "7",
@@ -129,10 +869,45 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Interceptor lance",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor lance",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor lance",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Trajann Valoris": {
     "Name": "Trajann Valoris",
+    "Cost": "140",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -141,10 +916,34 @@
       "LD": "5+",
       "OC": "2"
     },
-    "Cost": "140"
+    "Weapons": [
+      {
+        "Name": "Eagle's Scream",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Assault",
+        "BS": "2+"
+      },
+      {
+        "Name": "Eagle's Scream",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Assault",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Valerian": {
     "Name": "Valerian",
+    "Cost": "110",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -153,10 +952,34 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "110"
+    "Weapons": [
+      {
+        "Name": "Gnosis",
+        "Range": "Melee",
+        "A": "7",
+        "BS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Gnosis",
+        "Range": "Melee",
+        "A": "7",
+        "BS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Venerable Contemptor Dreadnought": {
     "Name": "Venerable Contemptor Dreadnought",
+    "Cost": "160",
     "characteristics": {
       "M": "6\"",
       "T": "9",
@@ -165,10 +988,56 @@
       "LD": "6+",
       "OC": "3"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Contemptor combat weapon",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Contemptor combat weapon",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Contemptor combat weapon",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Contemptor combat weapon",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Venerable Land Raider": {
     "Name": "Venerable Land Raider",
+    "Cost": "240",
     "characteristics": {
       "M": "10\"",
       "T": "12",
@@ -177,10 +1046,67 @@
       "LD": "6+",
       "OC": "5"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured tracks",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Vertus Praetors": {
     "Name": "Vertus Praetors",
+    "Cost": "150",
     "characteristics": {
       "M": "12\"",
       "T": "7",
@@ -189,10 +1115,96 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Vertus hurricane bolter",
+        "Range": "18\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Rapid Fire 3, Twin-linked",
+        "BS": "2+"
+      },
+      {
+        "Name": "Vertus hurricane bolter",
+        "Range": "18\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Rapid Fire 3, Twin-linked",
+        "BS": "2+"
+      },
+      {
+        "Name": "Vertus hurricane bolter",
+        "Range": "18\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Rapid Fire 3, Twin-linked",
+        "BS": "2+"
+      },
+      {
+        "Name": "Vertus hurricane bolter",
+        "Range": "18\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Rapid Fire 3, Twin-linked",
+        "BS": "2+"
+      }
+    ]
   },
-  {
+  "Vertus Praetor (Salvo Launcher)": {
+    "Name": "Vertus Praetor (Salvo Launcher)"
+  },
+  "Vertus Praetor (Hurricane Bolter)": {
+    "Name": "Vertus Praetor (Hurricane Bolter)"
+  },
+  "Vigilators": {
+    "Name": "Vigilators",
+    "Cost": "50",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Executioner greatblade",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      },
+      {
+        "Name": "Executioner greatblade",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      }
+    ]
+  },
+  "Vigilator Sister Superior": {
     "Name": "Vigilator Sister Superior",
+    "Cost": "0",
     "characteristics": {
       "M": "6\"",
       "T": "3",
@@ -201,10 +1213,104 @@
       "LD": "6+",
       "OC": "1"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Executioner greatblade",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      }
+    ]
   },
-  {
+  "Vigilator": {
+    "Name": "Vigilator",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Executioner greatblade",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      }
+    ]
+  },
+  "Witchseekers": {
+    "Name": "Witchseekers",
+    "Cost": "50",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Witchseeker Sister Superior": {
     "Name": "Witchseeker Sister Superior",
+    "Cost": "0",
     "characteristics": {
       "M": "6\"",
       "T": "3",
@@ -213,10 +1319,70 @@
       "LD": "6+",
       "OC": "1"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Witchseeker flamer",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Witchseeker flamer",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "BS": "N/A"
+      }
+    ]
   },
-  {
-    "Name": "Custodian Guard",
+  "Witchseeker": {
+    "Name": "Witchseeker",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "3+",
+      "W": "1",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "N/A",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "N/A",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Custodian Guard with Adrasite and Pyrithite spears": {
+    "Name": "Custodian Guard with Adrasite and Pyrithite spears",
+    "Cost": "250",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -225,10 +1391,164 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "WS": "2+"
+      },
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "WS": "2+"
+      },
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "WS": "2+"
+      },
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Custodian Guard (Adrasite spear)": {
+    "Name": "Custodian Guard (Adrasite spear)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Adrasite spear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Adrasite spear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Custodian Guard (Pyrithite spear)": {
+    "Name": "Custodian Guard (Pyrithite spear)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      },
+      {
+        "Name": "Pyrithite spear",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2",
+        "BS": "2+"
+      }
+    ]
+  },
+  "Sagittarum Custodians": {
+    "Name": "Sagittarum Custodians",
+    "Cost": "225",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Sagittarum Custodian": {
     "Name": "Sagittarum Custodian",
+    "Cost": "0",
     "characteristics": {
       "M": "6\"",
       "T": "6",
@@ -237,10 +1557,34 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
   },
-  {
-    "Name": "Aquilon Custodian",
+  "Aquilon Custodians": {
+    "Name": "Aquilon Custodians",
+    "Cost": "195",
     "characteristics": {
       "M": "5\"",
       "T": "7",
@@ -249,10 +1593,29 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": []
   },
-  {
+  "Aquilon Custodian (Gauntlet & Lastrum bolter)": {
+    "Name": "Aquilon Custodian (Gauntlet & Lastrum bolter)"
+  },
+  "Aquilon Custodian (Gauntlet & Twin adrathic destructor)": {
+    "Name": "Aquilon Custodian (Gauntlet & Twin adrathic destructor)"
+  },
+  "Aquilon Custodian (Gauntlet & Infernus firepike)": {
+    "Name": "Aquilon Custodian (Gauntlet & Infernus firepike)"
+  },
+  "Aquilon Custodian (Talon & infernus firepike)": {
+    "Name": "Aquilon Custodian (Talon & infernus firepike)"
+  },
+  "Aquilon Custodian (Talon & Lastrum bolter)": {
+    "Name": "Aquilon Custodian (Talon & Lastrum bolter)"
+  },
+  "Aquilon Custodian (Talon & Twin adrathic destructor)": {
+    "Name": "Aquilon Custodian (Talon & Twin adrathic destructor)"
+  },
+  "Agamatus Custodians": {
     "Name": "Agamatus Custodians",
+    "Cost": "225",
     "characteristics": {
       "M": "12\"",
       "T": "6",
@@ -261,10 +1624,145 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Interceptor Lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      }
+    ]
   },
-  {
-    "Name": "Venatari Custodian",
+  "Agamatus Custodian (Lastrum bolt cannon)": {
+    "Name": "Agamatus Custodian (Lastrum bolt cannon)"
+  },
+  "Agamatus Custodian (Adrathic devastator)": {
+    "Name": "Agamatus Custodian (Adrathic devastator)"
+  },
+  "Agamatus Custodian (Twin las-pulsar)": {
+    "Name": "Agamatus Custodian (Twin las-pulsar)"
+  },
+  "Venatari Custodians": {
+    "Name": "Venatari Custodians",
+    "Cost": "165",
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Venatari Custodian (Venatari lance)": {
+    "Name": "Venatari Custodian (Venatari lance)",
+    "Cost": "0",
     "characteristics": {
       "M": "10\"",
       "T": "6",
@@ -273,10 +1771,70 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Venatari lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Venatari lance",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lance",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Venatari Custodian (Kinetic Destroyer & Tarsus Buckler)": {
+    "Name": "Venatari Custodian (Kinetic Destroyer & Tarsus Buckler)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Tarsis buckler",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Contemptor-Galatus Dreadnought": {
     "Name": "Contemptor-Galatus Dreadnought",
+    "Cost": "165",
     "characteristics": {
       "M": "6\"",
       "T": "9",
@@ -285,10 +1843,34 @@
       "LD": "6+",
       "OC": "3"
     },
-    "Cost": "165"
+    "Weapons": [
+      {
+        "Name": "Galatus warblade",
+        "Range": "Melee",
+        "A": "8",
+        "BS": "N/A",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Galatus warblade",
+        "Range": "Melee",
+        "A": "8",
+        "BS": "N/A",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Contemptor-Achillus Dreadnought": {
     "Name": "Contemptor-Achillus Dreadnought",
+    "Cost": "155",
     "characteristics": {
       "M": "6\"",
       "T": "9",
@@ -297,10 +1879,67 @@
       "LD": "6+",
       "OC": "3"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Achillus dreadspear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Achillus dreadspear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Achillus dreadspear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Achillus dreadspear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Lance",
+        "WS": "2+"
+      },
+      {
+        "Name": "Achillus dreadspear",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Lance",
+        "WS": "2+"
+      }
+    ]
   },
-  {
-    "Name": "Palas Grav-attack",
+  "Pallas Grav-attack": {
+    "Name": "Pallas Grav-attack",
+    "Cost": "105",
     "characteristics": {
       "M": "12\"",
       "T": "8",
@@ -309,10 +1948,34 @@
       "LD": "6+",
       "OC": "2"
     },
-    "Cost": "105"
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Caladius Grav-tank": {
     "Name": "Caladius Grav-tank",
+    "Cost": "215",
     "characteristics": {
       "M": "10\"",
       "T": "11",
@@ -321,10 +1984,56 @@
       "LD": "6+",
       "OC": "4"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Telemon Heavy Dreadnought": {
     "Name": "Telemon Heavy Dreadnought",
+    "Cost": "215",
     "characteristics": {
       "M": "8\"",
       "T": "10",
@@ -333,10 +2042,78 @@
       "LD": "6+",
       "OC": "4"
     },
-    "Cost": "0"
+    "Weapons": [
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
   },
-  {
+  "Coronus Grav-carrier": {
     "Name": "Coronus Grav-carrier",
+    "Cost": "200",
     "characteristics": {
       "M": "12\"",
       "T": "12",
@@ -345,10 +2122,45 @@
       "LD": "6+",
       "OC": "5"
     },
-    "Cost": "200"
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Orion Assault Dropship": {
     "Name": "Orion Assault Dropship",
+    "Cost": "690",
     "characteristics": {
       "M": "20\"",
       "T": "12",
@@ -357,10 +2169,56 @@
       "LD": "6+",
       "OC": "0"
     },
-    "Cost": "690"
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   },
-  {
+  "Ares Gunship": {
     "Name": "Ares Gunship",
+    "Cost": "580",
     "characteristics": {
       "M": "20\"",
       "T": "12",
@@ -369,6 +2227,40 @@
       "LD": "6",
       "OC": "0"
     },
-    "Cost": "580"
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "2+",
+        "S": "9",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
   }
-]
+}

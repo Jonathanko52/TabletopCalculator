@@ -129,10 +129,7 @@ xmlIntoModels = []
 findModel(data_dict, xmlIntoModels)
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
 
-count = 0
-for keys in finalDict:
-    if("characteristics" in finalDict[keys]):
-        count += 1
-        print(keys, finalDict[keys])
-print(count)
+f = open("./Data/" + codexName + ".json", "a")
+f.write(json.dumps(finalDict))
 
+f.close()

@@ -109,3 +109,6 @@ if(defenderWoundsLeft > 0):
 
   defenderRemainingModels = defenderModelCount - remainingWhole
   print("POINTS OF DAMAGE LOST", defenderRemainingModels * defenderCostPerModel)
+
+
+  
