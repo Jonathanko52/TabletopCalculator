@@ -19,7 +19,7 @@ def findModel(input, outputList):
     if type(input) == dict:
         for keys in input:
             if keys == "@type":
-                if(input["@type"]== "model"):
+                if(input["@type"]== "model" or input["@type"]== "unit"):
                     resultUnit = {}
                     resultWeapon = []
                     findUnit(input,resultUnit)
@@ -69,62 +69,70 @@ def findWeapon(input,inputList):
         for values in range(len(input)):
                 findWeapon(input[values], inputList)
 
+def characteristicHelper(inputDict):
+    returnDict = {}
+    for keys in inputDict:
+        returnDict[keys["@name"]] = keys["#text"]
+    return returnDict
+
+def weaponHelper(inputList):
+    returnList = []
+    returnDict = {}
+    for item in inputList:
+        returnDict["Name"] = item["@name"]
+        characteristics = item["characteristics"]["characteristic"]
+        for keys in characteristics:
+            returnDict[keys["@name"]] = keys["#text"]
+        returnList.append(returnDict)
+    
+    return returnList
+
+
+def extractedInformationIntoDictionary(extractedData):
+    returnDict = {}
+    for model in extractedData:
+        returnUnit = {}
+        returnCharacteristic = []
+        cost = 0
+        test = model["Model"]
+
+        # Retrieve Name of Model:
+        returnUnit["Name"] = model["Name"]
+
+        # Retrieve Cost of Model:
+        if "profiles" in model["Model"]:
+            if type(test["costs"]["cost"]) == list:
+                cost = test["costs"]["cost"][0]["@value"]
+            else:
+                cost = test["costs"]["cost"]["@value"]
+            returnUnit["Cost"] = cost
+
+        # Retrive Characteristics of Model:
+            characteristics = model["Unit"]["Unit"]["characteristics"]["characteristic"]
+            returnCharacteristic = characteristics
+
+        if len(returnCharacteristic) > 0:
+            returnUnit["characteristics"] = characteristicHelper(returnCharacteristic)
+            returnUnit["Weapons"] = weaponHelper(model["Weapon"])
+        returnDict[test["@name"]] = returnUnit
+    return returnDict
+
+
+        
+
 with open(route) as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
 
 
-result = []
+xmlIntoModels = []
 
-
-findModel(data_dict, result)
-
-# print(result[48]["Unit"])
-print(result[48]["Model"])
+findModel(data_dict, xmlIntoModels)
+finalDict = extractedInformationIntoDictionary(xmlIntoModels)
 
 count = 0
+for keys in finalDict:
+    if("characteristics" in finalDict[keys]):
+        count += 1
+        print(keys, finalDict[keys])
+print(count)
 
-# for value in result:
-    # count += 1
-    # print("_________________________________")
-    # print(value["Name"], count)
-    # print(value["Unit"])
-    # print(value["Weapon"])
-
-
-# "ARES GUNSHIP"
-# {'Unit': 
-#  {'@id': 'e3eb-3331-b91f-eeb5', 
-#   '@name': 'Ares Gunship', 
-#   '@hidden': 'false', '@typeId': 'c547-1836-d8a-ff4f', 
-#   '@typeName': 'Unit', 
-#   'characteristics': {'characteristic': 
-#                       [{'@name': 'M', '@typeId': 'e703-ecb6-5ce7-aec1', '#text': '20"'},                     
-#                         {'@name': 'T', '@typeId': 'd29d-cf75-fc2d-34a4', '#text': '12'}, 
-#                         {'@name': 'SV', '@typeId': '450-a17e-9d5e-29da', '#text': '2+'}, 
-#                         {'@name': 'W', '@typeId': '750a-a2ec-90d3-21fe', '#text': '22'}, 
-#                         {'@name': 'LD', '@typeId': '58d2-b879-49c7-43bc', '#text': '6'}, 
-#                         {'@name': 'OC', '@typeId': 'bef7-942a-1a23-59f8', '#text': '0'}]
-#                     }
-#     }
-# }
-
-# {'Weapon': 
-#   {'@id': 'a94e-7676-65b3-b21e', 
-#    '@name': 'Armoured hull', 
-#    '@hidden': 'false', 
-#    '@typeId': '8a40-4aaa-c780-9046', 
-#    '@typeName': 'Melee Weapons', 
-#    'characteristics': 
-#       {'characteristic': 
-#         [
-#           {'@name': 'Range', '@typeId': '914c-b413-91e3-a132', '#text': 'Melee'}, 
-#           {'@name': 'A', '@typeId': '2337-daa1-6682-b110', '#text': '9'}, 
-#           {'@name': 'WS', '@typeId': '95d1-95f-45b4-11d6', '#text': '4+'}, 
-#           {'@name': 'S', '@typeId': 'ab33-d393-96ce-ccba', '#text': '9'}, 
-#           {'@name': 'AP', '@typeId': '41a0-1301-112a-e2f2', '#text': '0'}, 
-#           {'@name': 'D', '@typeId': '3254-9fe6-d824-513e', '#text': '1'}, 
-#           {'@name': 'Keywords', '@typeId': '893f-9000-ccf7-648e', '#text': '-'}
-#         ]
-#       }        
-#     }
-# }
