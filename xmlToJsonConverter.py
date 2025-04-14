@@ -2,7 +2,7 @@ import json
 import xmltodict
 import re 
 
-codexName = "Imperium - Adeptus Custodes"
+codexName = "Orks"
 route = ('./40k/' + codexName + '.cat')
 
 def parseUnitModelToDictionary(input):
@@ -100,7 +100,7 @@ def extractedInformationIntoDictionary(extractedData):
         returnUnit["Name"] = model["Name"]
 
         # Retrieve Cost of Model:
-        if "profiles" in model["Model"]:
+        if "profiles" in model["Model"] and "costs" in model["Model"]:
             if type(test["costs"]["cost"]) == list:
                 cost = test["costs"]["cost"][0]["@value"]
             else:
@@ -108,13 +108,16 @@ def extractedInformationIntoDictionary(extractedData):
             returnUnit["Cost"] = cost
 
         # Retrive Characteristics of Model:
+            if not "Unit" in model["Unit"]:
+                print(model["Name"])
+                continue
             characteristics = model["Unit"]["Unit"]["characteristics"]["characteristic"]
             returnCharacteristic = characteristics
-
+            
         if len(returnCharacteristic) > 0:
             returnUnit["characteristics"] = characteristicHelper(returnCharacteristic)
             returnUnit["Weapons"] = weaponHelper(model["Weapon"])
-        returnDict[test["@name"]] = returnUnit
+            returnDict[test["@name"]] = returnUnit
     return returnDict
 
 
@@ -127,9 +130,13 @@ with open(route) as xml_file:
 xmlIntoModels = []
 
 findModel(data_dict, xmlIntoModels)
+
+# for item in xmlIntoModels:
+#     print(item["Name"])
+
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
 
-f = open("./Data/" + codexName + ".json", "a")
+f = open("./Data/" + codexName + ".json", "w")
 f.write(json.dumps(finalDict))
 
 f.close()
