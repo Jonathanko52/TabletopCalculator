@@ -11,6 +11,8 @@ def parseUnitModelToDictionary(input):
     returnDict["characteristics"] = input["characteristics"]["characteristic"]
     return returnDict
 
+    if input["@name"] == "Gretchin":
+        print("Found Grots in parseunitmodeltodict")
 
 def findModel(input, outputList):
     if input is None:
@@ -20,6 +22,8 @@ def findModel(input, outputList):
         for keys in input:
             if keys == "@type":
                 if(input["@type"]== "model" or input["@type"]== "unit"):
+                    if input["@name"] == "Gretchin":
+                        print("Found Grots in findModel")
                     resultUnit = {}
                     resultWeapon = []
                     findUnit(input,resultUnit)
@@ -98,7 +102,6 @@ def extractedInformationIntoDictionary(extractedData):
 
         # Retrieve Name of Model:
         returnUnit["Name"] = model["Name"]
-
         # Retrieve Cost of Model:
         if "profiles" in model["Model"] and "costs" in model["Model"]:
             if type(test["costs"]["cost"]) == list:
@@ -106,7 +109,9 @@ def extractedInformationIntoDictionary(extractedData):
             else:
                 cost = test["costs"]["cost"]["@value"]
             returnUnit["Cost"] = cost
-
+            if model["Name"] == "Gretchin":
+                print("NAME", model["Name"])
+                print("COST", cost)
         # Retrive Characteristics of Model:
             if not "Unit" in model["Unit"]:
                 print(model["Name"])
@@ -136,7 +141,7 @@ findModel(data_dict, xmlIntoModels)
 
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
 
-f = open("./Data/" + codexName + ".json", "w")
-f.write(json.dumps(finalDict))
+# f = open("./Data/" + codexName + ".json", "w")
+# f.write(json.dumps(finalDict))
 
-f.close()
+# f.close()
