@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 
-codexName = "Imperium - Adeptus Custodes"
+codexName = "Imperium - Blood Angels"
 
 
 armyList = []
@@ -127,7 +127,7 @@ for item in armyList:
 
 
 # Writes the file.
-# f = open("./Data/" + codexName + ".json", "a")
-# jsonString = json.dumps(armyList)
-# f.write(jsonString)
-# f.close()
+f = open("./Data/" + codexName + ".json", "a")
+jsonString = json.dumps(armyList)
+f.write(jsonString)
+f.close()
