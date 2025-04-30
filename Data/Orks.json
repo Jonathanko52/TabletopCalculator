@@ -1,0 +1,3530 @@
+{
+  "Battlewagon": {
+    "Name": "Battlewagon",
+    "Cost": "160",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Beast Snagga Boyz": {
+    "Name": "Beast Snagga Boyz",
+    "Cost": "95",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Power snappa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Power snappa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Power snappa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Power snappa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Beastboss": {
+    "Name": "Beastboss",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Shoota",
+        "Range": "18\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 1",
+        "BS": "4+"
+      },
+      {
+        "Name": "Shoota",
+        "Range": "18\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 1",
+        "BS": "4+"
+      }
+    ]
+  },
+  "Beastboss on Squigosaur": {
+    "Name": "Beastboss on Squigosaur",
+    "Cost": "130",
+    "characteristics": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Squigosaur\u2019s jaws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Devastating Wounds, Extra Attacks"
+      }
+    ]
+  },
+  "Big Mek in Mega Armour": {
+    "Name": "Big Mek in Mega Armour",
+    "Cost": "90",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Big Mek with Kustom Force Field [Legends]": {
+    "Name": "Big Mek with Kustom Force Field [Legends]",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Big Mek with Shokk Attack Gun": {
+    "Name": "Big Mek with Shokk Attack Gun",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Shokk attack gun",
+        "Range": "60\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Blast, Heavy",
+        "BS": "5+"
+      },
+      {
+        "Name": "Shokk attack gun",
+        "Range": "60\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Blast, Heavy",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Big'ed Bossbunka": {
+    "Name": "Big'ed Bossbunka",
+    "Cost": "135",
+    "characteristics": {
+      "M": "-",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Gaze of Gork - squint",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-4",
+        "D": "3",
+        "Keywords": "Sustained Hits D3"
+      },
+      {
+        "Name": "\u27a4 Gaze of Gork - squint",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-4",
+        "D": "3",
+        "Keywords": "Sustained Hits D3"
+      }
+    ]
+  },
+  "Blitza-bommer": {
+    "Name": "Blitza-bommer",
+    "Cost": "115",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Boomdakka Snazzwagon": {
+    "Name": "Boomdakka Snazzwagon",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Mek speshul",
+        "Range": "24\"",
+        "A": "12",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 4, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "Mek speshul",
+        "Range": "24\"",
+        "A": "12",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 4, Sustained Hits 1",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Boss Snikrot": {
+    "Name": "Boss Snikrot",
+    "Cost": "95",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Mork\u2019s Teeth",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Precision, Twin-linked"
+      }
+    ]
+  },
+  "Boss Zagstruk [Legends]": {
+    "Name": "Boss Zagstruk [Legends]",
+    "Cost": "90",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Da Vulcha\u2019s Klaws and choppa",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Boyz": {
+    "Name": "Boyz",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Burna Boyz": {
+    "Name": "Burna Boyz",
+    "Cost": "60",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Burna-bommer": {
+    "Name": "Burna-bommer",
+    "Cost": "125",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Skorcha missile rack",
+        "Range": "36\"",
+        "A": "2D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast, Ignores Cover",
+        "BS": "5+"
+      },
+      {
+        "Name": "Skorcha missile rack",
+        "Range": "36\"",
+        "A": "2D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Blast, Ignores Cover",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Dakkajet": {
+    "Name": "Dakkajet",
+    "Cost": "135",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Deff Dread": {
+    "Name": "Deff Dread",
+    "Cost": "120",
+    "characteristics": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Stompy feet",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Stompy feet",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Deffkilla Wartrike": {
+    "Name": "Deffkilla Wartrike",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Snagga klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Snagga klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Snagga klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Snagga klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Deffkoptas": {
+    "Name": "Deffkoptas",
+    "Cost": "90",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-blasta",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Hazardous",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Flash Gitz": {
+    "Name": "Flash Gitz",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Snazzgun",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Heavy, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "Snazzgun",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Heavy, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "Snazzgun",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Heavy, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "Snazzgun",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Heavy, Sustained Hits 1",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Ghazghkull Thraka": {
+    "Name": "Ghazghkull Thraka",
+    "Cost": "235",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Makari\u2019s stabba",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      },
+      {
+        "Name": "Makari\u2019s stabba",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      },
+      {
+        "Name": "Makari\u2019s stabba",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      },
+      {
+        "Name": "Makari\u2019s stabba",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Gorkanaut": {
+    "Name": "Gorkanaut",
+    "Cost": "265",
+    "characteristics": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Klaw of Gork - sweep",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Klaw of Gork - sweep",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Klaw of Gork - sweep",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Hunta Rig": {
+    "Name": "Hunta Rig",
+    "Cost": "135",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": []
+  },
+  "Kaptin Badrukk [Legends]": {
+    "Name": "Kaptin Badrukk [Legends]",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Da Rippa - supercharge",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Hazardous, Heavy, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Da Rippa - supercharge",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Hazardous, Heavy, Sustained Hits 1",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Da Rippa - supercharge",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Hazardous, Heavy, Sustained Hits 1",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Kill Rig": {
+    "Name": "Kill Rig",
+    "Cost": "155",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Wurrtower",
+        "Range": "24\"",
+        "A": "D3",
+        "BS": "N/A",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "Hazardous, Psychic, Torrent"
+      }
+    ]
+  },
+  "Killa Kans": {
+    "Name": "Killa Kans",
+    "Cost": "125",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24\"",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24\"",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24\"",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      }
+    ]
+  },
+  "Kommandos": {
+    "Name": "Kommandos",
+    "Cost": "120",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Big choppa",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Kustom Boosta-blasta": {
+    "Name": "Kustom Boosta-blasta",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Spiked wheels",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Spiked wheels",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Spiked wheels",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Lootas": {
+    "Name": "Lootas",
+    "Cost": "50",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Mad Dok Grotsnik [Legends]": {
+    "Name": "Mad Dok Grotsnik [Legends]",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Sustained Hits 1"
+      }
+    ]
+  },
+  "Meganobz": {
+    "Name": "Meganobz",
+    "Cost": "70",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin killsaw",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Twin-linked"
+      }
+    ]
+  },
+  "Megatrakk Scrapjet": {
+    "Name": "Megatrakk Scrapjet",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Wing missiles",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Wing missiles",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Wing missiles",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Mek": {
+    "Name": "Mek",
+    "Cost": "45",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Kustom mega-slugga",
+        "Range": "12\"",
+        "A": "D3",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-slugga",
+        "Range": "12\"",
+        "A": "D3",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-slugga",
+        "Range": "12\"",
+        "A": "D3",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Morkanaut": {
+    "Name": "Morkanaut",
+    "Cost": "280",
+    "characteristics": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "20",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "Weapons": [
+      {
+        "Name": "Kustom mega-zappa",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-zappa",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      },
+      {
+        "Name": "Kustom mega-zappa",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "Blast, Hazardous",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Mozrog Skragbad": {
+    "Name": "Mozrog Skragbad",
+    "Cost": "165",
+    "characteristics": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Gutrippa",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+      },
+      {
+        "Name": "Gutrippa",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+      }
+    ]
+  },
+  "Nob with Waaagh! Banner [Legends]": {
+    "Name": "Nob with Waaagh! Banner [Legends]",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Waaagh! banner",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Nobz": {
+    "Name": "Nobz",
+    "Cost": "105",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Painboss": {
+    "Name": "Painboss",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Beast Snagga klaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
+      }
+    ]
+  },
+  "Painboy": {
+    "Name": "Painboy",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Rukkatrukk Squigbuggy": {
+    "Name": "Rukkatrukk Squigbuggy",
+    "Cost": "100",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Squig launchas",
+        "Range": "36\"",
+        "A": "D6+6",
+        "BS": "5+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Blast, Ignores Cover, Indirect Fire"
+      },
+      {
+        "Name": "Squig launchas",
+        "Range": "36\"",
+        "A": "D6+6",
+        "BS": "5+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Blast, Ignores Cover, Indirect Fire"
+      }
+    ]
+  },
+  "Shokkjump Dragsta": {
+    "Name": "Shokkjump Dragsta",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Kustom shokk rifle",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Devastating Wounds, Hazardous, Precision"
+      }
+    ]
+  },
+  "Stompa": {
+    "Name": "Stompa",
+    "Cost": "800",
+    "characteristics": {
+      "M": "10\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "12"
+    },
+    "Weapons": [
+      {
+        "Name": "Supa-rokkits",
+        "Range": "100\"",
+        "A": "D6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Blast",
+        "WS": "3+"
+      },
+      {
+        "Name": "Supa-rokkits",
+        "Range": "100\"",
+        "A": "D6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Blast",
+        "WS": "3+"
+      },
+      {
+        "Name": "Supa-rokkits",
+        "Range": "100\"",
+        "A": "D6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Blast",
+        "WS": "3+"
+      },
+      {
+        "Name": "Supa-rokkits",
+        "Range": "100\"",
+        "A": "D6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Blast",
+        "WS": "3+"
+      },
+      {
+        "Name": "Supa-rokkits",
+        "Range": "100\"",
+        "A": "D6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Blast",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Stormboyz": {
+    "Name": "Stormboyz",
+    "Cost": "65",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Tankbustas": {
+    "Name": "Tankbustas",
+    "Cost": "120",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Trukk": {
+    "Name": "Trukk",
+    "Cost": "65",
+    "characteristics": {
+      "M": "12\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Wreckin' ball",
+        "Range": "Melee",
+        "A": "1",
+        "WS": "4+",
+        "S": "10",
+        "AP": "0",
+        "D": "D6",
+        "Keywords": "Extra Attacks"
+      },
+      {
+        "Name": "Wreckin' ball",
+        "Range": "Melee",
+        "A": "1",
+        "WS": "4+",
+        "S": "10",
+        "AP": "0",
+        "D": "D6",
+        "Keywords": "Extra Attacks"
+      }
+    ]
+  },
+  "Warbikers": {
+    "Name": "Warbikers",
+    "Cost": "70",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Warboss": {
+    "Name": "Warboss",
+    "Cost": "75",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Warboss in Mega Armour": {
+    "Name": "Warboss in Mega Armour",
+    "Cost": "90",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Big shoota",
+        "Range": "36\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "4+"
+      },
+      {
+        "Name": "Big shoota",
+        "Range": "36\"",
+        "A": "3",
+        "WS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "4+"
+      }
+    ]
+  },
+  "Wazbom Blastajet": {
+    "Name": "Wazbom Blastajet",
+    "Cost": "175",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin supa-shoota",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+        "BS": "4+"
+      },
+      {
+        "Name": "Twin supa-shoota",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+        "BS": "4+"
+      },
+      {
+        "Name": "Twin supa-shoota",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+        "BS": "4+"
+      },
+      {
+        "Name": "Twin supa-shoota",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+        "BS": "4+"
+      },
+      {
+        "Name": "Twin supa-shoota",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+        "BS": "4+"
+      }
+    ]
+  },
+  "Weirdboy": {
+    "Name": "Weirdboy",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Weirdboy staff",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "8",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      },
+      {
+        "Name": "Weirdboy staff",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "8",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Wurrboy": {
+    "Name": "Wurrboy",
+    "Cost": "60",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Eyez of Mork",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Psychic",
+        "BS": "5+"
+      },
+      {
+        "Name": "Eyez of Mork",
+        "Range": "18\"",
+        "A": "D6",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Psychic",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Zodgrod Wortsnagga": {
+    "Name": "Zodgrod Wortsnagga",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Squigstoppa",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Pistol",
+        "BS": "5+"
+      },
+      {
+        "Name": "Squigstoppa",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Pistol",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Mekboy Workshop [Legends]": {
+    "Name": "Mekboy Workshop [Legends]",
+    "Cost": "80",
+    "characteristics": {
+      "M": "-",
+      "T": "9",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": []
+  },
+  "Grot Tanks [Legends]": {
+    "Name": "Grot Tanks [Legends]",
+    "Cost": "155",
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      },
+      {
+        "Name": "Rokkit launcha",
+        "Range": "24",
+        "A": "D3",
+        "BS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Blast"
+      }
+    ]
+  },
+  "Grot Mega-Tank [Legends]": {
+    "Name": "Grot Mega-Tank [Legends]",
+    "Cost": "110",
+    "characteristics": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "8+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Twin skorcha",
+        "Range": "12\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Squiggoth [Legends]": {
+    "Name": "Squiggoth [Legends]",
+    "Cost": "150",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "18",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Gorin\u2019 horns - strike",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "-"
+      },
+      {
+        "Name": "\u27a4 Gorin\u2019 horns - strike",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Gargantuan Squiggoth": {
+    "Name": "Gargantuan Squiggoth",
+    "Cost": "440",
+    "characteristics": {
+      "M": "10\"",
+      "T": "13",
+      "SV": "3+",
+      "W": "30",
+      "LD": "7+",
+      "OC": "12"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Huge tusks - sweep",
+        "Range": "Melee",
+        "A": "18",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Huge tusks - sweep",
+        "Range": "Melee",
+        "A": "18",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Huge tusks - sweep",
+        "Range": "Melee",
+        "A": "18",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Kill Tank [Legends]": {
+    "Name": "Kill Tank [Legends]",
+    "Cost": "295",
+    "characteristics": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "10"
+    },
+    "Weapons": [
+      {
+        "Name": "Reinforced ram",
+        "Range": "Melee",
+        "A": "8",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Reinforced ram",
+        "Range": "Melee",
+        "A": "8",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Reinforced ram",
+        "Range": "Melee",
+        "A": "8",
+        "BS": "5+",
+        "S": "9",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Mega Dread [Legends]": {
+    "Name": "Mega Dread [Legends]",
+    "Cost": "225",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Meka-Dread [Legends]": {
+    "Name": "Meka-Dread [Legends]",
+    "Cost": "210",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Dread rippa klaw",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Big Trakk [Legends]": {
+    "Name": "Big Trakk [Legends]",
+    "Cost": "90",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Warboss on Warbike [Legends]": {
+    "Name": "Warboss on Warbike [Legends]",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Power klaw",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Nobz on Warbikes [Legends]": {
+    "Name": "Nobz on Warbikes [Legends]",
+    "Cost": "125",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      },
+      {
+        "Name": "Twin dakkagun",
+        "Range": "18\"",
+        "A": "3",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Kannonwagon [Legends]": {
+    "Name": "Kannonwagon [Legends]",
+    "Cost": "115",
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      },
+      {
+        "Name": "\u27a4 Supa-kannon - frag",
+        "Range": "36\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Da Red Gobbo [Legends]": {
+    "Name": "Da Red Gobbo [Legends]",
+    "Cost": "40",
+    "characteristics": {
+      "M": "6\"",
+      "T": "2",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Icon of da Revolushun",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      },
+      {
+        "Name": "Icon of da Revolushun",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Painboy on Warbike [Legends]": {
+    "Name": "Painboy on Warbike [Legends]",
+    "Cost": "85",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Deffkoptas with Big Shootas [Legends]": {
+    "Name": "Deffkoptas with Big Shootas [Legends]",
+    "Cost": "130",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Killsaw",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "12",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Kill Krusha [Legends]": {
+    "Name": "Kill Krusha [Legends]",
+    "Cost": "230",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "Weapons": [
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Tracks and wheels",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "5+",
+        "S": "8",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Deff Rolla Battle Fortress [Legends]": {
+    "Name": "Deff Rolla Battle Fortress [Legends]",
+    "Cost": "250",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "22",
+      "LD": "7+",
+      "OC": "8"
+    },
+    "Weapons": [
+      {
+        "Name": "Zzap gun",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "5+",
+        "S": "2D6",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Chinork Warkopta [Legends]": {
+    "Name": "Chinork Warkopta [Legends]",
+    "Cost": "105",
+    "characteristics": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Rattler kannon",
+        "Range": "24\"",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Rattler kannon",
+        "Range": "24\"",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      },
+      {
+        "Name": "Rattler kannon",
+        "Range": "24\"",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Fighta-Bommer [Legends]": {
+    "Name": "Fighta-Bommer [Legends]",
+    "Cost": "100",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Attack Fighta [Legends]": {
+    "Name": "Attack Fighta [Legends]",
+    "Cost": "100",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured hull",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Lifta Wagon [Legends]": {
+    "Name": "Lifta Wagon [Legends]",
+    "Cost": "135",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "16",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Lifta-droppa",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Anti-Vehicle 3+",
+        "BS": "5+"
+      },
+      {
+        "Name": "Lifta-droppa",
+        "Range": "36\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Anti-Vehicle 3+",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Grot Bomm Launcha [Legends]": {
+    "Name": "Grot Bomm Launcha [Legends]",
+    "Cost": "50",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Grot-guided bomms",
+        "Range": "72\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Blast, One Shot, Indirect Fire",
+        "BS": "4+"
+      },
+      {
+        "Name": "Grot-guided bomms",
+        "Range": "72\"",
+        "A": "D6",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Blast, One Shot, Indirect Fire",
+        "BS": "4+"
+      }
+    ]
+  },
+  "Big Mek on Warbike [Legends]": {
+    "Name": "Big Mek on Warbike [Legends]",
+    "Cost": "105",
+    "characteristics": {
+      "M": "12\"",
+      "T": "6",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "5+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Grotmas Gitz [Legends]": {
+    "Name": "Grotmas Gitz [Legends]",
+    "Cost": "40",
+    "characteristics": {
+      "M": "10\"",
+      "T": "3",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Massive gift-filled gob",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      },
+      {
+        "Name": "Massive gift-filled gob",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "4+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      }
+    ]
+  },
+  "Ufthak Blackhawk [Legends]": {
+    "Name": "Ufthak Blackhawk [Legends]",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Snazzhammer",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Snazzhammer",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Snazzhammer",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Big Mek": {
+    "Name": "Big Mek",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Traktor blasta",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Anti-Fly 3+, Devastating Wounds",
+        "BS": "5+"
+      },
+      {
+        "Name": "Traktor blasta",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Anti-Fly 3+, Devastating Wounds",
+        "BS": "5+"
+      },
+      {
+        "Name": "Traktor blasta",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Anti-Fly 3+, Devastating Wounds",
+        "BS": "5+"
+      },
+      {
+        "Name": "Traktor blasta",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Anti-Fly 3+, Devastating Wounds",
+        "BS": "5+"
+      }
+    ]
+  },
+  "Breaka Boyz": {
+    "Name": "Breaka Boyz",
+    "Cost": "140",
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Knucklebustas",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked",
+        "BS": "5+"
+      },
+      {
+        "Name": "Knucklebustas",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked",
+        "BS": "5+"
+      },
+      {
+        "Name": "Knucklebustas",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked",
+        "BS": "5+"
+      },
+      {
+        "Name": "Knucklebustas",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Monster 4+, Anti-Vehicle 4+, Twin-linked",
+        "BS": "5+"
+      }
+    ]
+  }
+}

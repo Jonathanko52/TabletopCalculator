@@ -1,260 +1,4491 @@
-{"name": "Captain in Gravis Armour", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "6", "LD": "6+", "OC": "1"}}
-{"name": "Captain in Phobos Armour", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Captain in Terminator Armour", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "6", "LD": "6+", "OC": "1"}}
-{"name": "Captain with Jump Pack", "characteristics": {}}
-{"name": "Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Infernus Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Assault Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Heavy intercessor Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Infiltrator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Incursor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Tactical Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Scout Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Scout Sniper Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Bladeguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Vanguard Veterans with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Vanguard Veterans", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Sternguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Reiver Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Aggressors", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator w/ Storm Shield", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator w/ Lightning Claws", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator Sergeant", "characteristics": {}}
-{"name": "Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Relic Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Centurion Assault Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Centurion Devastator Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Invictor Tactical Warsuit", "characteristics": {"M": "8\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Dreadnought", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Ironclad Dreadnought", "characteristics": {"M": "6\"", "T": "10", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Redemptor Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Ballistus Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Brutalis Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Assault Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Assault Squad with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Invader ATV", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
-{"name": "Outrider Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Scout Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "4+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Suppressor Squad", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Inceptor Squad", "characteristics": {"M": "10\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Storm Speeder Hailstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Storm Speeder Thunderstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Storm Speeder Hammerstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Land Speeder Typhoon", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder Tornado", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Hellblaster Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Eliminator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Eradicator Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Devastator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Desolation Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Thunderfire Cannon", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Firestrike Servo-Turrets", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Hunter", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Stalker", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Whirlwind", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Predator Destructor", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Predator Annihilator", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Lancer", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Reaper", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Valiant", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Vindicator", "characteristics": {"M": "9\"", "T": "11", "SV": "2+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Land Raider", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Land Raider Crusader", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Land Raider Redeemer", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Repulsor", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Repulsor Executioner", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Rhino", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Razorback", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Impulsor", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "2"}}
-{"name": "Drop Pod", "characteristics": {"M": "-", "T": "7", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder Storm", "characteristics": {"M": "14\"", "T": "7", "SV": "4+", "W": "7", "LD": "6+", "OC": "1"}}
-{"name": "Stormhawk Interceptor", "characteristics": {"M": "20\"+", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
-{"name": "Stormtalon Gunship", "characteristics": {"M": "20\"+", "T": "8", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
-{"name": "Stormraven Gunship", "characteristics": {"M": "20\"+", "T": "10", "SV": "3+", "W": "14", "LD": "6+", "OC": "0"}}
-{"name": "Hammerfall Bunker", "characteristics": {"M": "-", "T": "12", "SV": "2+", "W": "14", "LD": "6+", "OC": "0"}}
-{"name": "Captain on Bike", "characteristics": {}}
-{"name": "Lieutenant", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Lieutenant in Reiver Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Lieutenant in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Librarian", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Chaplain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Chaplain in Terminator Armour", "characteristics": {}}
-{"name": "Chaplain on Bike", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "5+", "OC": "1"}}
-{"name": "Chaplain with Jump Pack", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Techmarine", "characteristics": {"M": "6\"", "T": "4", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Astartes Servitors", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "1", "LD": "8+", "OC": "0"}}
-{"name": "Lieutenant with Combi-weapon", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Primaris Company Champion", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Primaris Apothecary", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Apothecary Biologis", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "5", "LD": "6+", "OC": "3"}}
-{"name": "Primaris Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Bladeguard Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Ancient in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Command Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Judiciar", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Captain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Astraeus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "24", "LD": "6+", "OC": "8"}}
-{"name": "Thunderhawk Gunship", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
-{"name": "Land Raider Helios [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Mortis Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Deimos Predator [Legends]", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Chaplain Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Land Speeder Tempest [Legends]", "characteristics": {"M": "14\"", "T": "8", "SV": "3+", "W": "7", "LD": "6+", "OC": "2"}}
-{"name": "Carab Culln the Risen [Legends]", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Caestus Assault Ram [Legends]", "characteristics": {"M": "20+\"", "T": "10", "SV": "3+", "W": "18", "LD": "6+", "OC": "0"}}
-{"name": "Land Raider Prometheus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Rhino Primaris [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "3"}}
-{"name": "Land Raider Excelsior [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Imperial Space Marine [Legends]", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Terminus Ultra [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Relic Razorback [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Company Veterans on Bikes", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Company Champion on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Ancient on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Apothecary on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Techmarine on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Librarian on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Thunderhawk Transporter [Legends]", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
-{"name": "Tarantula Air Defense Battery [Legends]", "characteristics": {"M": "-", "T": "5", "SV": "3+", "W": "4", "LD": "7+", "OC": "0"}}
-{"name": "Assault Intercessors with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Company Heroes", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-
-
-{"name": "Assault Squad", 
-"characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Captain in Gravis Armour", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "6", "LD": "6+", "OC": "1"}}
-{"name": "Captain in Phobos Armour", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Captain in Terminator Armour", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "6", "LD": "6+", "OC": "1"}}
-{"name": "Captain with Jump Pack", "characteristics": {}}
-{"name": "Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Infernus Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Assault Intercessor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Heavy intercessor Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Infiltrator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Incursor Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Tactical Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "2"}}
-{"name": "Scout Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Scout Sniper Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Bladeguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Vanguard Veterans with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Vanguard Veterans", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Sternguard Veteran Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Reiver Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Aggressors", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator w/ Storm Shield", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator w/ Lightning Claws", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Assault Terminator Sergeant", "characteristics": {}}
-{"name": "Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Relic Terminator Squad", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Centurion Assault Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Centurion Devastator Squad", "characteristics": {"M": "4\"", "T": "7", "SV": "2+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Invictor Tactical Warsuit", "characteristics": {"M": "8\"", "T": "8", "SV": "3+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Dreadnought", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Ironclad Dreadnought", "characteristics": {"M": "6\"", "T": "10", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Redemptor Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Ballistus Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Brutalis Dreadnought", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Assault Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Assault Squad with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Invader ATV", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
-{"name": "Outrider Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "4", "LD": "6+", "OC": "2"}}
-{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Attack Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Scout Bike Squad", "characteristics": {"M": "12\"", "T": "5", "SV": "4+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Suppressor Squad", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Inceptor Squad", "characteristics": {"M": "10\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Storm Speeder Hailstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Storm Speeder Thunderstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Storm Speeder Hammerstrike", "characteristics": {"M": "14\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Land Speeder Typhoon", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder Tornado", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder", "characteristics": {"M": "14\"", "T": "7", "SV": "3+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Hellblaster Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Eliminator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Eradicator Squad", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Devastator Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Desolation Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Thunderfire Cannon", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Firestrike Servo-Turrets", "characteristics": {"M": "3\"", "T": "6", "SV": "2+", "W": "6", "LD": "6+", "OC": "2"}}
-{"name": "Hunter", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Stalker", "characteristics": {"M": "9\"", "T": "11", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Whirlwind", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Predator Destructor", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Predator Annihilator", "characteristics": {"M": "10", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Lancer", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Reaper", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Gladiator Valiant", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "12", "LD": "6+", "OC": "3"}}
-{"name": "Vindicator", "characteristics": {"M": "9\"", "T": "11", "SV": "2+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Land Raider", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Land Raider Crusader", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Land Raider Redeemer", "characteristics": {"M": "12\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Repulsor", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Repulsor Executioner", "characteristics": {"M": "10\"", "T": "12", "SV": "3+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Rhino", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Razorback", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Impulsor", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "11", "LD": "6+", "OC": "2"}}
-{"name": "Drop Pod", "characteristics": {"M": "-", "T": "7", "SV": "3+", "W": "8", "LD": "6+", "OC": "2"}}
-{"name": "Land Speeder Storm", "characteristics": {"M": "14\"", "T": "7", "SV": "4+", "W": "7", "LD": "6+", "OC": "1"}}
-{"name": "Stormhawk Interceptor", "characteristics": {"M": "20\"+", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
-{"name": "Stormtalon Gunship", "characteristics": {"M": "20\"+", "T": "8", "SV": "3+", "W": "10", "LD": "6+", "OC": "0"}}
-{"name": "Stormraven Gunship", "characteristics": {"M": "20\"+", "T": "10", "SV": "3+", "W": "14", "LD": "6+", "OC": "0"}}
-{"name": "Hammerfall Bunker", "characteristics": {"M": "-", "T": "12", "SV": "2+", "W": "14", "LD": "6+", "OC": "0"}}
-{"name": "Captain on Bike", "characteristics": {}}
-{"name": "Lieutenant", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Lieutenant in Reiver Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Lieutenant in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian in Phobos Armor", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Librarian in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Librarian", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Chaplain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Chaplain in Terminator Armour", "characteristics": {}}
-{"name": "Chaplain on Bike", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "5+", "OC": "1"}}
-{"name": "Chaplain with Jump Pack", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Techmarine", "characteristics": {"M": "6\"", "T": "4", "SV": "2+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Astartes Servitors", "characteristics": {"M": "6\"", "T": "4", "SV": "4+", "W": "1", "LD": "8+", "OC": "0"}}
-{"name": "Lieutenant with Combi-weapon", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Primaris Company Champion", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Primaris Apothecary", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Apothecary Biologis", "characteristics": {"M": "5\"", "T": "6", "SV": "3+", "W": "5", "LD": "6+", "OC": "3"}}
-{"name": "Primaris Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Bladeguard Ancient", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Ancient in Terminator Armor", "characteristics": {"M": "5\"", "T": "5", "SV": "2+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Command Squad", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "3", "LD": "6+", "OC": "1"}}
-{"name": "Judiciar", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "5+", "OC": "1"}}
-{"name": "Captain", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "5", "LD": "6+", "OC": "1"}}
-{"name": "Astraeus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "24", "LD": "6+", "OC": "8"}}
-{"name": "Thunderhawk Gunship", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
-{"name": "Land Raider Helios [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Mortis Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Deimos Predator [Legends]", "characteristics": {"M": "10\"", "T": "10", "SV": "3+", "W": "11", "LD": "6+", "OC": "3"}}
-{"name": "Chaplain Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Land Speeder Tempest [Legends]", "characteristics": {"M": "14\"", "T": "8", "SV": "3+", "W": "7", "LD": "6+", "OC": "2"}}
-{"name": "Carab Culln the Risen [Legends]", "characteristics": {"M": "8\"", "T": "10", "SV": "2+", "W": "12", "LD": "6+", "OC": "4"}}
-{"name": "Caestus Assault Ram [Legends]", "characteristics": {"M": "20+\"", "T": "10", "SV": "3+", "W": "18", "LD": "6+", "OC": "0"}}
-{"name": "Land Raider Prometheus", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Venerable Dreadnought [Legends]", "characteristics": {"M": "6\"", "T": "9", "SV": "2+", "W": "8", "LD": "6+", "OC": "3"}}
-{"name": "Rhino Primaris [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "3"}}
-{"name": "Land Raider Excelsior [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Imperial Space Marine [Legends]", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
-{"name": "Terminus Ultra [Legends]", "characteristics": {"M": "10\"", "T": "12", "SV": "2+", "W": "16", "LD": "6+", "OC": "5"}}
-{"name": "Relic Razorback [Legends]", "characteristics": {"M": "12\"", "T": "9", "SV": "3+", "W": "10", "LD": "6+", "OC": "2"}}
-{"name": "Company Veterans on Bikes", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "3", "LD": "6+", "OC": "2"}}
-{"name": "Company Champion on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Ancient on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Apothecary on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Techmarine on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Librarian on Bike [Legends]", "characteristics": {"M": "12\"", "T": "5", "SV": "3+", "W": "5", "LD": "6+", "OC": "2"}}
-{"name": "Thunderhawk Transporter [Legends]", "characteristics": {"M": "20+\"", "T": "12", "SV": "2+", "W": "30", "LD": "6+", "OC": "0"}}
-{"name": "Tarantula Air Defense Battery [Legends]", "characteristics": {"M": "-", "T": "5", "SV": "3+", "W": "4", "LD": "7+", "OC": "0"}}
-{"name": "Assault Intercessors with Jump Packs", "characteristics": {"M": "12\"", "T": "4", "SV": "3+", "W": "2", "LD": "6+", "OC": "1"}}
-{"name": "Company Heroes", "characteristics": {"M": "6\"", "T": "4", "SV": "3+", "W": "4", "LD": "6+", "OC": "1"}}
+{
+  "Captain in Gravis Armour": {
+    "Name": "Captain in Gravis Armour",
+    "Cost": "80",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Boltstorm Gauntlet",
+        "Range": "12\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol",
+        "WS": "2+"
+      },
+      {
+        "Name": "Boltstorm Gauntlet",
+        "Range": "12\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol",
+        "WS": "2+"
+      },
+      {
+        "Name": "Boltstorm Gauntlet",
+        "Range": "12\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol",
+        "WS": "2+"
+      },
+      {
+        "Name": "Boltstorm Gauntlet",
+        "Range": "12\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol",
+        "WS": "2+"
+      },
+      {
+        "Name": "Boltstorm Gauntlet",
+        "Range": "12\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Captain in Phobos Armour": {
+    "Name": "Captain in Phobos Armour",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Combat Knife",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Combat Knife",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Captain in Terminator Armour": {
+    "Name": "Captain in Terminator Armour",
+    "Cost": "95",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Relic Fist",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Captain with Jump Pack": {
+    "Name": "Captain with Jump Pack",
+    "Cost": "85",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Intercessor Squad": {
+    "Name": "Intercessor Squad",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Intercessor Sergeant": { "Name": "Intercessor Sergeant" },
+  "Intercessor": { "Name": "Intercessor" },
+  "Intercessor w/ Grenade Launcher": {
+    "Name": "Intercessor w/ Grenade Launcher"
+  },
+  "Infernus Squad": {
+    "Name": "Infernus Squad",
+    "Cost": "90",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Infernus Marines": { "Name": "Infernus Marines" },
+  "Infernus Sergeant": { "Name": "Infernus Sergeant" },
+  "Assault Intercessor Squad": {
+    "Name": "Assault Intercessor Squad",
+    "Cost": "75",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Assault Intercessor Sergeant": { "Name": "Assault Intercessor Sergeant" },
+  "Assault Intercessors": { "Name": "Assault Intercessors" },
+  "Heavy Intercessor Squad": {
+    "Name": "Heavy Intercessor Squad",
+    "Cost": "110",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Heavy Bolt Rifle",
+        "Range": "30\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault, Heavy"
+      },
+      {
+        "Name": "Heavy Bolt Rifle",
+        "Range": "30\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault, Heavy"
+      }
+    ]
+  },
+  "Heavy Intercessors": { "Name": "Heavy Intercessors" },
+  "Heavy Intercessor Sergeant": { "Name": "Heavy Intercessor Sergeant" },
+  "Heavy Intercessor w/Heavy Bolter": {
+    "Name": "Heavy Intercessor w/Heavy Bolter"
+  },
+  "Infiltrator Squad": {
+    "Name": "Infiltrator Squad",
+    "Cost": "100",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Marksman Bolt Carbine",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Marksman Bolt Carbine",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Heavy"
+      }
+    ]
+  },
+  "Infiltrator": { "Name": "Infiltrator" },
+  "Infiltrator Sergeant": { "Name": "Infiltrator Sergeant" },
+  "Incursor Squad": {
+    "Name": "Incursor Squad",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Incursor Sergeant": { "Name": "Incursor Sergeant" },
+  "Incursor": { "Name": "Incursor" },
+  "Tactical Squad": {
+    "Name": "Tactical Squad",
+    "Cost": "140",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Tactical Marine": { "Name": "Tactical Marine" },
+  "Tactical Marine Sergeant": { "Name": "Tactical Marine Sergeant" },
+  "Tactical Marine w/Special Weapon": {
+    "Name": "Tactical Marine w/Special Weapon"
+  },
+  "Tactical Marine w/Heavy or Special Weapon": {
+    "Name": "Tactical Marine w/Heavy or Special Weapon"
+  },
+  "Scout Squad": {
+    "Name": "Scout Squad",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Heavy, Precision",
+        "BS": "3+"
+      },
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Heavy, Precision",
+        "BS": "3+"
+      },
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Heavy, Precision",
+        "BS": "3+"
+      },
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Heavy, Precision",
+        "BS": "3+"
+      },
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Heavy, Precision",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Scouts w/ Boltgun": { "Name": "Scouts w/ Boltgun" },
+  "Scout Sergeant": { "Name": "Scout Sergeant" },
+  "Scouts w/ Astartes Shotgun": { "Name": "Scouts w/ Astartes Shotgun" },
+  "Scouts w/ Combat Knife": { "Name": "Scouts w/ Combat Knife" },
+  "Scout w/ Heavy Weapon": { "Name": "Scout w/ Heavy Weapon" },
+  "Scout w/ Scout Sniper Rifle": { "Name": "Scout w/ Scout Sniper Rifle" },
+  "Scout Sniper Squad [Legends]": {
+    "Name": "Scout Sniper Squad [Legends]",
+    "Cost": "75",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Scout Sniper Rifle",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "4",
+        "AP": "2",
+        "D": "2",
+        "Keywords": "Heavy, Precision"
+      }
+    ]
+  },
+  "Scout Sniper Sergeant": { "Name": "Scout Sniper Sergeant" },
+  "Scout Snipers": { "Name": "Scout Snipers" },
+  "Scout Sniper w/ Missile Launcher": {
+    "Name": "Scout Sniper w/ Missile Launcher"
+  },
+  "Bladeguard Veteran Squad": {
+    "Name": "Bladeguard Veteran Squad",
+    "Cost": "90",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Neo-volkite Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Pistol",
+        "BS": "3+"
+      },
+      {
+        "Name": "Neo-volkite Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Pistol",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Bladeguard Veterans": { "Name": "Bladeguard Veterans" },
+  "Bladeguard Veteran Sergeant": { "Name": "Bladeguard Veteran Sergeant" },
+  "Vanguard Veteran Squad with Jump Packs": {
+    "Name": "Vanguard Veteran Squad with Jump Packs",
+    "Cost": "110",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      },
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Vanguard Veterans with Jump Packs": {
+    "Name": "Vanguard Veterans with Jump Packs"
+  },
+  "Vanguard Veteran Sergeant with Jump Pack": {
+    "Name": "Vanguard Veteran Sergeant with Jump Pack"
+  },
+  "Vanguard Veteran Squad [Legends]": {
+    "Name": "Vanguard Veteran Squad [Legends]",
+    "Cost": "120",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      },
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      },
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Vanguard Veterans": { "Name": "Vanguard Veterans" },
+  "Vanguard Veteran Sergeant": { "Name": "Vanguard Veteran Sergeant" },
+  "Sternguard Veteran Squad": {
+    "Name": "Sternguard Veteran Squad",
+    "Cost": "100",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      },
+      {
+        "Name": "Pyrecannon",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Sternguard Veteran w/ Bolt Rifle": {
+    "Name": "Sternguard Veteran w/ Bolt Rifle"
+  },
+  "Sternguard Veteran Sergeant": { "Name": "Sternguard Veteran Sergeant" },
+  "Sternguard Veteran w/ Special Weapon": {
+    "Name": "Sternguard Veteran w/ Special Weapon"
+  },
+  "Sternguard Veteran w/ Combi-weapon": {
+    "Name": "Sternguard Veteran w/ Combi-weapon"
+  },
+  "Reiver Squad": {
+    "Name": "Reiver Squad",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Bolt Carbine",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Precision",
+        "WS": "3+"
+      },
+      {
+        "Name": "Bolt Carbine",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Precision",
+        "WS": "3+"
+      },
+      {
+        "Name": "Bolt Carbine",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Precision",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Reivers": { "Name": "Reivers" },
+  "Reiver Sergeant": { "Name": "Reiver Sergeant" },
+  "Aggressor Squad": {
+    "Name": "Aggressor Squad",
+    "Cost": "120",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Flamestorm Gauntlets",
+        "Range": "12\"",
+        "A": "D6+1",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Aggressors": { "Name": "Aggressors" },
+  "Aggressor Sergeant": { "Name": "Aggressor Sergeant" },
+  "Terminator Assault Squad": {
+    "Name": "Terminator Assault Squad",
+    "Cost": "180",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Assault Terminator w/ Thunder Hammer & Storm Shield": {
+    "Name": "Assault Terminator w/ Thunder Hammer & Storm Shield"
+  },
+  "Assault Terminator w/ Twin Lightning Claws": {
+    "Name": "Assault Terminator w/ Twin Lightning Claws"
+  },
+  "Assault Terminator Sergeant": { "Name": "Assault Terminator Sergeant" },
+  "Terminator Squad": {
+    "Name": "Terminator Squad",
+    "Cost": "170",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Power Fist",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Fist",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Fist",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Terminator Sergeant": { "Name": "Terminator Sergeant" },
+  "Terminator w/ Power Fist": { "Name": "Terminator w/ Power Fist" },
+  "Terminator w/ Chain Fist": { "Name": "Terminator w/ Chain Fist" },
+  "Terminator w/ Heavy Weapon": { "Name": "Terminator w/ Heavy Weapon" },
+  "Relic Terminator Squad [Legends]": {
+    "Name": "Relic Terminator Squad [Legends]",
+    "Cost": "200",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Reaper Autocannon",
+        "Range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Sustained Hits 1"
+      },
+      {
+        "Name": "Reaper Autocannon",
+        "Range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Sustained Hits 1"
+      },
+      {
+        "Name": "Reaper Autocannon",
+        "Range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Sustained Hits 1"
+      },
+      {
+        "Name": "Reaper Autocannon",
+        "Range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Sustained Hits 1"
+      },
+      {
+        "Name": "Reaper Autocannon",
+        "Range": "36\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Sustained Hits 1"
+      }
+    ]
+  },
+  "Relic Terminator Sergeant": { "Name": "Relic Terminator Sergeant" },
+  "Relic Terminator w/ Power Fist": {
+    "Name": "Relic Terminator w/ Power Fist"
+  },
+  "Relic Terminator w/ Twin Lightning Claws": {
+    "Name": "Relic Terminator w/ Twin Lightning Claws"
+  },
+  "Relic Terminator w/ Power Weapon": {
+    "Name": "Relic Terminator w/ Power Weapon"
+  },
+  "Relic Terminator w/ Chain Fist": {
+    "Name": "Relic Terminator w/ Chain Fist"
+  },
+  "Relic Terminator w/ Heavy Weapon": {
+    "Name": "Relic Terminator w/ Heavy Weapon"
+  },
+  "Centurion Assault Squad": {
+    "Name": "Centurion Assault Squad",
+    "Cost": "150",
+    "characteristics": {
+      "M": "4\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin Meltagun",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2, Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "Twin Meltagun",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2, Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "Twin Meltagun",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2, Twin-linked",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Assault Centurion Sergeant": { "Name": "Assault Centurion Sergeant" },
+  "Assault Centurion": { "Name": "Assault Centurion" },
+  "Centurion Devastator Squad": {
+    "Name": "Centurion Devastator Squad",
+    "Cost": "185",
+    "characteristics": {
+      "M": "4\"",
+      "T": "7",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Grav-cannon",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-vehicle 2+",
+        "BS": "3+"
+      },
+      {
+        "Name": "Grav-cannon",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-vehicle 2+",
+        "BS": "3+"
+      },
+      {
+        "Name": "Grav-cannon",
+        "Range": "24\"",
+        "A": "3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-vehicle 2+",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Devastator Centurion Sergeant": { "Name": "Devastator Centurion Sergeant" },
+  "Devastator Centurion": { "Name": "Devastator Centurion" },
+  "Invictor Tactical Warsuit": {
+    "Name": "Invictor Tactical Warsuit",
+    "Cost": "125",
+    "characteristics": {
+      "M": "8\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin Ironhail Autocannon",
+        "Range": "48\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "Twin Ironhail Autocannon",
+        "Range": "48\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "Twin Ironhail Autocannon",
+        "Range": "48\"",
+        "A": "3",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Dreadnought": {
+    "Name": "Dreadnought",
+    "Cost": "135",
+    "characteristics": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Ironclad Dreadnought [Legends]": {
+    "Name": "Ironclad Dreadnought [Legends]",
+    "Cost": "150",
+    "characteristics": {
+      "M": "6\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Seismic Hammer",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Seismic Hammer",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Redemptor Dreadnought": {
+    "Name": "Redemptor Dreadnought",
+    "Cost": "210",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Redemptor Fist",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Redemptor Fist",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Redemptor Fist",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Ballistus Dreadnought": {
+    "Name": "Ballistus Dreadnought",
+    "Cost": "130",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "3+",
+        "S": "7",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Brutalis Dreadnought": {
+    "Name": "Brutalis Dreadnought",
+    "Cost": "160",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Brutalis Talons - Sweep",
+        "Range": "Melee",
+        "A": "10",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Brutalis Talons - Sweep",
+        "Range": "Melee",
+        "A": "10",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Brutalis Talons - Sweep",
+        "Range": "Melee",
+        "A": "10",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Brutalis Talons - Sweep",
+        "Range": "Melee",
+        "A": "10",
+        "WS": "3+",
+        "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Assault Squad [Legends]": {
+    "Name": "Assault Squad [Legends]",
+    "Cost": "95",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin Lightning Claws",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked"
+      }
+    ]
+  },
+  "Assault Sergeant": { "Name": "Assault Sergeant" },
+  "Assault Marine w/ Eviscerator": { "Name": "Assault Marine w/ Eviscerator" },
+  "Assault Marine w/ Special Weapon": {
+    "Name": "Assault Marine w/ Special Weapon"
+  },
+  "Assault Marine": { "Name": "Assault Marine" },
+  "Assault Squad with Jump Packs [Legends]": {
+    "Name": "Assault Squad with Jump Packs [Legends]",
+    "Cost": "115",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin Lightning Claws",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Twin-linked"
+      }
+    ]
+  },
+  "Assault Sergeant with Jump Pack": {
+    "Name": "Assault Sergeant with Jump Pack"
+  },
+  "Assault Marine with Jump Pack w/ Eviscerator": {
+    "Name": "Assault Marine with Jump Pack w/ Eviscerator"
+  },
+  "Assault Marine with Jump Pack w/ Special Weapon": {
+    "Name": "Assault Marine with Jump Pack w/ Special Weapon"
+  },
+  "Assault Marine with Jump Pack": { "Name": "Assault Marine with Jump Pack" },
+  "Invader ATV": {
+    "Name": "Invader ATV",
+    "Cost": "60",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Outrider Squad": {
+    "Name": "Outrider Squad",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Outrider": { "Name": "Outrider" },
+  "Outrider Sergeant": { "Name": "Outrider Sergeant" },
+  "Attack Bike Squad [Legends]": { "Name": "Attack Bike Squad [Legends]" },
+  "Attack Bike": {
+    "Name": "Attack Bike",
+    "Cost": "55",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Bike Squad [Legends]": {
+    "Name": "Bike Squad [Legends]",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Astartes Chainsword",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Astartes Chainsword",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Biker Sergeant": { "Name": "Biker Sergeant" },
+  "Space Marine Bikers w/ Bolt Pistol": {
+    "Name": "Space Marine Bikers w/ Bolt Pistol"
+  },
+  "Space Marine Bikers w/ Astartes Chainsword": {
+    "Name": "Space Marine Bikers w/ Astartes Chainsword"
+  },
+  "Space Marine Bikers w/  Special Weapon": {
+    "Name": "Space Marine Bikers w/  Special Weapon"
+  },
+  "Scout Bike Squad [Legends]": {
+    "Name": "Scout Bike Squad [Legends]",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Astartes Grenade Launcher - Krak",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Astartes Grenade Launcher - Krak",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Astartes Grenade Launcher - Krak",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Astartes Grenade Launcher - Krak",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "\u27a4 Astartes Grenade Launcher - Krak",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D3",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Scout Biker w/ Astartes Grenade Launcher": {
+    "Name": "Scout Biker w/ Astartes Grenade Launcher"
+  },
+  "Scout Biker w/ Twin Boltgun": { "Name": "Scout Biker w/ Twin Boltgun" },
+  "Scout Biker Sergeant": { "Name": "Scout Biker Sergeant" },
+  "Suppressor Squad": {
+    "Name": "Suppressor Squad",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Accelerator Autocannon",
+        "Range": "48\"",
+        "A": "3",
+        "BS": "4+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Heavy"
+      }
+    ]
+  },
+  "Suppressor Sergeant": { "Name": "Suppressor Sergeant" },
+  "Suppressor": { "Name": "Suppressor" },
+  "Inceptor Squad": {
+    "Name": "Inceptor Squad",
+    "Cost": "120",
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Plasma Exterminators - Supercharge",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Assault, Pistol, Hazardous, Twin-linked"
+      }
+    ]
+  },
+  "Inceptor Sergeant": { "Name": "Inceptor Sergeant" },
+  "Inceptor": { "Name": "Inceptor" },
+  "Storm Speeder Hailstrike": {
+    "Name": "Storm Speeder Hailstrike",
+    "Cost": "115",
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Storm Speeder Thunderstrike": {
+    "Name": "Storm Speeder Thunderstrike",
+    "Cost": "150",
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Stormfury Missiles",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Stormfury Missiles",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Stormfury Missiles",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Storm Speeder Hammerstrike": {
+    "Name": "Storm Speeder Hammerstrike",
+    "Cost": "125",
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Krakstorm Grenade Launcher",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Krakstorm Grenade Launcher",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Krakstorm Grenade Launcher",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Land Speeder Typhoon [Legends]": {
+    "Name": "Land Speeder Typhoon [Legends]",
+    "Cost": "100",
+    "characteristics": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Land Speeder Tornado [Legends]": {
+    "Name": "Land Speeder Tornado [Legends]",
+    "Cost": "95",
+    "characteristics": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Land Speeder [Legends]": {
+    "Name": "Land Speeder [Legends]",
+    "Cost": "80",
+    "characteristics": {
+      "M": "14\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Hellblaster Squad": {
+    "Name": "Hellblaster Squad",
+    "Cost": "115",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Plasma Incinerator - Supercharge",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Assault, Heavy, Hazardous"
+      },
+      {
+        "Name": "\u27a4 Plasma Incinerator - Supercharge",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Assault, Heavy, Hazardous"
+      }
+    ]
+  },
+  "Hellblaster Sergeant": { "Name": "Hellblaster Sergeant" },
+  "Hellblaster": { "Name": "Hellblaster" },
+  "Eliminator Squad": {
+    "Name": "Eliminator Squad",
+    "Cost": "85",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Las Fusil",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Las Fusil",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Las Fusil",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "Heavy"
+      }
+    ]
+  },
+  "Eliminator Sergeant": { "Name": "Eliminator Sergeant" },
+  "Eliminator": { "Name": "Eliminator" },
+  "Eradicator Squad": {
+    "Name": "Eradicator Squad",
+    "Cost": "100",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Melta Rifle",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Heavy, Melta 2"
+      }
+    ]
+  },
+  "Eradicator Sergeant": { "Name": "Eradicator Sergeant" },
+  "Eradicator": { "Name": "Eradicator" },
+  "Eradicator with Multi-melta": { "Name": "Eradicator with Multi-melta" },
+  "Devastator Squad": {
+    "Name": "Devastator Squad",
+    "Cost": "120",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Devastator Marine w/ Boltgun": { "Name": "Devastator Marine w/ Boltgun" },
+  "Devastator Marine w/ Heavy Weapon": {
+    "Name": "Devastator Marine w/ Heavy Weapon"
+  },
+  "Devastator Sergeant": { "Name": "Devastator Sergeant" },
+  "Desolation Squad": {
+    "Name": "Desolation Squad",
+    "Cost": "200",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      },
+      {
+        "Name": "Superkrak Rocket Launcher",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "4+",
+        "S": "10",
+        "AP": "-2",
+        "D": "D6+1",
+        "Keywords": "Heavy"
+      }
+    ]
+  },
+  "Desolation Marine": { "Name": "Desolation Marine" },
+  "Desolation Sergeant": { "Name": "Desolation Sergeant" },
+  "Thunderfire Cannon [Legends]": {
+    "Name": "Thunderfire Cannon [Legends]",
+    "Cost": "90",
+    "characteristics": {
+      "M": "3\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Thunderfire Cannon",
+        "Range": "48\"",
+        "A": "D6+4",
+        "WS": "3",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast, Indirect Fire",
+        "BS": "3+"
+      },
+      {
+        "Name": "Thunderfire Cannon",
+        "Range": "48\"",
+        "A": "D6+4",
+        "WS": "3",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast, Indirect Fire",
+        "BS": "3+"
+      },
+      {
+        "Name": "Thunderfire Cannon",
+        "Range": "48\"",
+        "A": "D6+4",
+        "WS": "3",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast, Indirect Fire",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Techmarine Gunner": { "Name": "Techmarine Gunner" },
+  "Thunderfire Cannon": { "Name": "Thunderfire Cannon" },
+  "Firestrike Servo-Turrets": { "Name": "Firestrike Servo-Turrets" },
+  "Firestrike Servo-Turret": { "Name": "Firestrike Servo-Turret" },
+  "Hunter [Legends]": {
+    "Name": "Hunter [Legends]",
+    "Cost": "100",
+    "characteristics": {
+      "M": "9\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Skyspear Missile Launcher",
+        "Range": "36\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Anti-Fly 3+, Devastating Wounds, Heavy"
+      }
+    ]
+  },
+  "Stalker [Legends]": {
+    "Name": "Stalker [Legends]",
+    "Cost": "140",
+    "characteristics": {
+      "M": "9\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Icarus Stormcannon",
+        "Range": "48\"",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Anti-Fly 2+"
+      }
+    ]
+  },
+  "Whirlwind": {
+    "Name": "Whirlwind",
+    "Cost": "180",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Whirlwind Vengeance Launcher",
+        "Range": "72\"",
+        "A": "D6+3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Blast, Indirect Fire"
+      }
+    ]
+  },
+  "Predator Destructor": {
+    "Name": "Predator Destructor",
+    "Cost": "130",
+    "characteristics": {
+      "M": "10",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Predator Autocannon",
+        "Range": "48\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Rapid Fire 2"
+      }
+    ]
+  },
+  "Predator Annihilator": {
+    "Name": "Predator Annihilator",
+    "Cost": "130",
+    "characteristics": {
+      "M": "10",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Predator Twin Lascannon",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
+      },
+      {
+        "Name": "Predator Twin Lascannon",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
+      }
+    ]
+  },
+  "Gladiator Lancer": {
+    "Name": "Gladiator Lancer",
+    "Cost": "160",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Lancer Laser Destroyer",
+        "Range": "72\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+3",
+        "Keywords": "Heavy"
+      }
+    ]
+  },
+  "Gladiator Reaper": {
+    "Name": "Gladiator Reaper",
+    "Cost": "160",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Tempest Bolter",
+        "Range": "24\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 4"
+      },
+      {
+        "Name": "Tempest Bolter",
+        "Range": "24\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 4"
+      }
+    ]
+  },
+  "Gladiator Valiant": {
+    "Name": "Gladiator Valiant",
+    "Cost": "160",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Twin Las-talon",
+        "Range": "36\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
+      },
+      {
+        "Name": "Twin Las-talon",
+        "Range": "36\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
+      }
+    ]
+  },
+  "Vindicator": {
+    "Name": "Vindicator",
+    "Cost": "175",
+    "characteristics": {
+      "M": "9\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Demolisher Cannon",
+        "Range": "24\"",
+        "A": "D6+3",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "Blast"
+      }
+    ]
+  },
+  "Land Raider": {
+    "Name": "Land Raider",
+    "Cost": "240",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Godhammer Lascannon",
+        "Range": "48\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Land Raider Crusader": {
+    "Name": "Land Raider Crusader",
+    "Cost": "220",
+    "characteristics": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": []
+  },
+  "Land Raider Redeemer": {
+    "Name": "Land Raider Redeemer",
+    "Cost": "285",
+    "characteristics": {
+      "M": "12\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Flamestorm Cannon",
+        "Range": "12\"",
+        "A": "D6+3",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Ignores Cover, Torrent"
+      }
+    ]
+  },
+  "Repulsor": {
+    "Name": "Repulsor",
+    "Cost": "180",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Repulsor Defensive Array",
+        "Range": "24\"",
+        "A": "18",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Repulsor Defensive Array",
+        "Range": "24\"",
+        "A": "18",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Repulsor Executioner": {
+    "Name": "Repulsor Executioner",
+    "Cost": "220",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Repulsor Executioner Defensive Array",
+        "Range": "24\"",
+        "A": "10",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Repulsor Executioner Defensive Array",
+        "Range": "24\"",
+        "A": "10",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Rhino": {
+    "Name": "Rhino",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Razorback": {
+    "Name": "Razorback",
+    "Cost": "95",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Impulsor": {
+    "Name": "Impulsor",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Ironhail Skytalon Array",
+        "Range": "36\"",
+        "A": "8",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+      },
+      {
+        "Name": "Ironhail Skytalon Array",
+        "Range": "36\"",
+        "A": "8",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+      },
+      {
+        "Name": "Ironhail Skytalon Array",
+        "Range": "36\"",
+        "A": "8",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+      },
+      {
+        "Name": "Ironhail Skytalon Array",
+        "Range": "36\"",
+        "A": "8",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Anti-Fly 4+, Sustained Hits 1"
+      }
+    ]
+  },
+  "Drop Pod": {
+    "Name": "Drop Pod",
+    "Cost": "70",
+    "characteristics": {
+      "M": "-",
+      "T": "7",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Deathwind Launcher",
+        "Range": "12\"",
+        "A": "D6+1",
+        "BS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Blast"
+      }
+    ]
+  },
+  "Land Speeder Storm [Legends]": { "Name": "Land Speeder Storm [Legends]" },
+  "Stormhawk Interceptor": {
+    "Name": "Stormhawk Interceptor",
+    "Cost": "155",
+    "characteristics": {
+      "M": "20\"+",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Icarus Stormcannon",
+        "Range": "48\"",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Anti-Fly 2+"
+      }
+    ]
+  },
+  "Stormtalon Gunship": {
+    "Name": "Stormtalon Gunship",
+    "Cost": "165",
+    "characteristics": {
+      "M": "20\"+",
+      "T": "8",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Skyhammer Missile Launcher",
+        "Range": "48\"",
+        "A": "3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Anti-Fly 2+, Twin-linked"
+      }
+    ]
+  },
+  "Stormraven Gunship": {
+    "Name": "Stormraven Gunship",
+    "Cost": "280",
+    "characteristics": {
+      "M": "20\"+",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Twin Heavy Plasma Cannon - Supercharge",
+        "Range": "36\"",
+        "A": "D3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Twin Heavy Plasma Cannon - Supercharge",
+        "Range": "36\"",
+        "A": "D3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Twin Heavy Plasma Cannon - Supercharge",
+        "Range": "36\"",
+        "A": "D3",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous, Twin-linked"
+      }
+    ]
+  },
+  "Hammerfall Bunker": {
+    "Name": "Hammerfall Bunker",
+    "Cost": "175",
+    "characteristics": {
+      "M": "-",
+      "T": "12",
+      "SV": "2+",
+      "W": "14",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Hammerfall Heavy Flamer Array",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Defensive Array, Ignores Cover, Torrent, Twin-linked"
+      },
+      {
+        "Name": "Hammerfall Heavy Flamer Array",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Defensive Array, Ignores Cover, Torrent, Twin-linked"
+      },
+      {
+        "Name": "Hammerfall Heavy Flamer Array",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Defensive Array, Ignores Cover, Torrent, Twin-linked"
+      },
+      {
+        "Name": "Hammerfall Heavy Flamer Array",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Defensive Array, Ignores Cover, Torrent, Twin-linked"
+      }
+    ]
+  },
+  "Captain on Bike [Legends]": {
+    "Name": "Captain on Bike [Legends]",
+    "Cost": "95",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Lieutenant": {
+    "Name": "Lieutenant",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Heavy Bolt Pistol",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol"
+      },
+      {
+        "Name": "Heavy Bolt Pistol",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Pistol"
+      }
+    ]
+  },
+  "Lieutenant in Reiver Armour": {
+    "Name": "Lieutenant in Reiver Armour",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Combat Knife",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Precision",
+        "WS": "2+"
+      },
+      {
+        "Name": "Combat Knife",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Precision",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Lieutenant in Phobos Armour": {
+    "Name": "Lieutenant in Phobos Armour",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "2+"
+      },
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Librarian": {
+    "Name": "Librarian",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Librarian in Phobos Armour": {
+    "Name": "Librarian in Phobos Armour",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Librarian in Terminator Armour": {
+    "Name": "Librarian in Terminator Armour",
+    "Cost": "75",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Librarian with Jump Pack [Legends]": {
+    "Name": "Librarian with Jump Pack [Legends]",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Chaplain": {
+    "Name": "Chaplain",
+    "Cost": "60",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Chaplain in Terminator Armour": {
+    "Name": "Chaplain in Terminator Armour",
+    "Cost": "75",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Chaplain on Bike": {
+    "Name": "Chaplain on Bike",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Chaplain with Jump Pack": {
+    "Name": "Chaplain with Jump Pack",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      },
+      {
+        "Name": "Bolt Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Pistol",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Techmarine": {
+    "Name": "Techmarine",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Forge Bolter",
+        "Range": "24\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Astartes Servitors [Legends]": {
+    "Name": "Astartes Servitors [Legends]",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "1",
+        "WS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "1",
+        "WS": "5+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Astartes Servitor": { "Name": "Astartes Servitor" },
+  "Astartes Servitor w/ Heavy Weapon": {
+    "Name": "Astartes Servitor w/ Heavy Weapon"
+  },
+  "Lieutenant with Combi-weapon": {
+    "Name": "Lieutenant with Combi-weapon",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Paired Combat Blades",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Anti-Infantry 4+, Sustained Hits 1"
+      }
+    ]
+  },
+  "Primaris Company Champion [Legends]": {
+    "Name": "Primaris Company Champion [Legends]",
+    "Cost": "55",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Precision"
+      }
+    ]
+  },
+  "Apothecary": { "Name": "Apothecary" },
+  "Apothecary Biologis": {
+    "Name": "Apothecary Biologis",
+    "Cost": "70",
+    "characteristics": {
+      "M": "5\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Ancient": { "Name": "Ancient" },
+  "Bladeguard Ancient": {
+    "Name": "Bladeguard Ancient",
+    "Cost": "45",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Ancient in Terminator Armor": {
+    "Name": "Ancient in Terminator Armor",
+    "Cost": "75",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Thunder Hammer",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Thunder Hammer",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Thunder Hammer",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Thunder Hammer",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Thunder Hammer",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Command Squad [Legends]": {
+    "Name": "Command Squad [Legends]",
+    "Cost": "165",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "3+"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "3+"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "3+"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "3+"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Company Ancient": { "Name": "Company Ancient" },
+  "Company Champion": { "Name": "Company Champion" },
+  "Company Veterans": { "Name": "Company Veterans" },
+  "Judiciar": {
+    "Name": "Judiciar",
+    "Cost": "70",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Executioner Relic Blade",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Precision"
+      }
+    ]
+  },
+  "Captain": {
+    "Name": "Captain",
+    "Cost": "80",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Neo-volkite Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Pistol"
+      },
+      {
+        "Name": "Neo-volkite Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Pistol"
+      },
+      {
+        "Name": "Neo-volkite Pistol",
+        "Range": "12\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Pistol"
+      }
+    ]
+  },
+  "Astraeus": {
+    "Name": "Astraeus",
+    "Cost": "525",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "8"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Plasma eradicator - supercharge",
+        "Range": "36\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous"
+      },
+      {
+        "Name": "\u27a4 Plasma eradicator - supercharge",
+        "Range": "36\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous"
+      },
+      {
+        "Name": "\u27a4 Plasma eradicator - supercharge",
+        "Range": "36\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous"
+      },
+      {
+        "Name": "\u27a4 Plasma eradicator - supercharge",
+        "Range": "36\"",
+        "A": "D6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "3",
+        "Keywords": "Blast, Hazardous"
+      }
+    ]
+  },
+  "Thunderhawk Gunship": {
+    "Name": "Thunderhawk Gunship",
+    "Cost": "840",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Hellstrike missile battery",
+        "Range": "72\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Anti-FLY 4+"
+      },
+      {
+        "Name": "Hellstrike missile battery",
+        "Range": "72\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Anti-FLY 4+"
+      },
+      {
+        "Name": "Hellstrike missile battery",
+        "Range": "72\"",
+        "A": "4",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Anti-FLY 4+"
+      }
+    ]
+  },
+  "Land Raider Helios [Legends]": {
+    "Name": "Land Raider Helios [Legends]",
+    "Cost": "265",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": []
+  },
+  "Mortis Dreadnought [Legends]": {
+    "Name": "Mortis Dreadnought [Legends]",
+    "Cost": "130",
+    "characteristics": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Armoured feet",
+        "Range": "Melee",
+        "A": "5",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Deimos Predator [Legends]": {
+    "Name": "Deimos Predator [Legends]",
+    "Cost": "115",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Magna-Melta Cannon",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 4"
+      },
+      {
+        "Name": "Magna-Melta Cannon",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 4"
+      },
+      {
+        "Name": "Magna-Melta Cannon",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 4"
+      },
+      {
+        "Name": "Magna-Melta Cannon",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 4"
+      },
+      {
+        "Name": "Magna-Melta Cannon",
+        "Range": "18\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "12",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 4"
+      }
+    ]
+  },
+  "Chaplain Venerable Dreadnought [Legends]": {
+    "Name": "Chaplain Venerable Dreadnought [Legends]",
+    "Cost": "150",
+    "characteristics": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Dreadnought Inferno Cannon",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent"
+      },
+      {
+        "Name": "Dreadnought Inferno Cannon",
+        "Range": "12\"",
+        "A": "2D6",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent"
+      }
+    ]
+  },
+  "Land Speeder Tempest [Legends]": {
+    "Name": "Land Speeder Tempest [Legends]",
+    "Cost": "95",
+    "characteristics": {
+      "M": "14\"",
+      "T": "8",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Tempest Salvo Launcher - Krak",
+        "Range": "36\"",
+        "A": "2",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "-",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Tempest Salvo Launcher - Krak",
+        "Range": "36\"",
+        "A": "2",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "-",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Tempest Salvo Launcher - Krak",
+        "Range": "36\"",
+        "A": "2",
+        "WS": "4+",
+        "S": "9",
+        "AP": "-2",
+        "D": "D6",
+        "Keywords": "-",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Carab Culln the Risen [Legends]": {
+    "Name": "Carab Culln the Risen [Legends]",
+    "Cost": "250",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Tarsus Scorpii",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-3",
+        "D": "4",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Caestus Assault Ram [Legends]": {
+    "Name": "Caestus Assault Ram [Legends]",
+    "Cost": "215",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured Hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Lance",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured Hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Lance",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured Hull",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "8",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Lance",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Land Raider Prometheus [Legends]": {
+    "Name": "Land Raider Prometheus [Legends]",
+    "Cost": "275",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Quad Heavy Bolter",
+        "Range": "36\"",
+        "A": "6",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Sustained Hits 1, Twin-Linked"
+      }
+    ]
+  },
+  "Venerable Dreadnought [Legends]": {
+    "Name": "Venerable Dreadnought [Legends]",
+    "Cost": "165",
+    "characteristics": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      },
+      {
+        "Name": "Armoured Feet",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Rhino Primaris [Legends]": {
+    "Name": "Rhino Primaris [Legends]",
+    "Cost": "95",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Twin Plasma Gun - Overcharge",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Hazardous, Rapid Fire 1, Twin-linked"
+      },
+      {
+        "Name": "\u27a4 Twin Plasma Gun - Overcharge",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-3",
+        "D": "2",
+        "Keywords": "Hazardous, Rapid Fire 1, Twin-linked"
+      }
+    ]
+  },
+  "Land Raider Excelsior [Legends]": {
+    "Name": "Land Raider Excelsior [Legends]",
+    "Cost": "310",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Grav-cannon",
+        "Range": "24\"",
+        "A": "3",
+        "BS": "3+",
+        "S": "6",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Anti-Vehicle 2+"
+      }
+    ]
+  },
+  "Imperial Space Marine [Legends]": {
+    "Name": "Imperial Space Marine [Legends]",
+    "Cost": "40",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Close Combat Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Terminus Ultra [Legends]": {
+    "Name": "Terminus Ultra [Legends]",
+    "Cost": "285",
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Terminus Lascannon - Overload",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+3",
+        "Keywords": "Hazardous, Twin-Linked"
+      },
+      {
+        "Name": "\u27a4 Terminus Lascannon - Overload",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+3",
+        "Keywords": "Hazardous, Twin-Linked"
+      }
+    ]
+  },
+  "Relic Razorback [Legends]": {
+    "Name": "Relic Razorback [Legends]",
+    "Cost": "105",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Company Veterans on Bikes [Legends]": {
+    "Name": "Company Veterans on Bikes [Legends]",
+    "Cost": "110",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      },
+      {
+        "Name": "Power Weapon",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Veteran Biker Sergeant": { "Name": "Veteran Biker Sergeant" },
+  "Veteran Bikers": { "Name": "Veteran Bikers" },
+  "Company Champion on Bike [Legends]": {
+    "Name": "Company Champion on Bike [Legends]",
+    "Cost": "60",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Precision"
+      }
+    ]
+  },
+  "Ancient on Bike [Legends]": {
+    "Name": "Ancient on Bike [Legends]",
+    "Cost": "90",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      }
+    ]
+  },
+  "Apothecary on Bike [Legends]": {
+    "Name": "Apothecary on Bike [Legends]",
+    "Cost": "65",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Techmarine on Bike [Legends]": {
+    "Name": "Techmarine on Bike [Legends]",
+    "Cost": "110",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Conversion Beamer",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Conversion, Sustained Hits D3",
+        "WS": "3+"
+      },
+      {
+        "Name": "Conversion Beamer",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Conversion, Sustained Hits D3",
+        "WS": "3+"
+      },
+      {
+        "Name": "Conversion Beamer",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Conversion, Sustained Hits D3",
+        "WS": "3+"
+      },
+      {
+        "Name": "Conversion Beamer",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Conversion, Sustained Hits D3",
+        "WS": "3+"
+      },
+      {
+        "Name": "Conversion Beamer",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "3+",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Conversion, Sustained Hits D3",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Librarian on Bike [Legends]": {
+    "Name": "Librarian on Bike [Legends]",
+    "Cost": "80",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Thunderhawk Transporter [Legends]": {
+    "Name": "Thunderhawk Transporter [Legends]",
+    "Cost": "495",
+    "characteristics": {
+      "M": "20+\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Hellstrike missile battery",
+        "Range": "72\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Anti-FLY 4+",
+        "BS": "3+"
+      },
+      {
+        "Name": "Hellstrike missile battery",
+        "Range": "72\"",
+        "A": "4",
+        "WS": "4+",
+        "S": "8",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Anti-FLY 4+",
+        "BS": "3+"
+      }
+    ]
+  },
+  "Tarantula Air Defense Battery [Legends]": {
+    "Name": "Tarantula Air Defense Battery [Legends]",
+    "Cost": "70",
+    "characteristics": {
+      "M": "-",
+      "T": "5",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Armoured Hull",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Armoured Hull",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Assault Intercessors with Jump Packs": {
+    "Name": "Assault Intercessors with Jump Packs",
+    "Cost": "90",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Assault Intercessor Sergeant with Jump Pack": {
+    "Name": "Assault Intercessor Sergeant with Jump Pack"
+  },
+  "Assault Intercessors with Jump Pack": {
+    "Name": "Assault Intercessors with Jump Pack"
+  },
+  "Assault Intercessors with Jump Pack w/ Plasma Pistol": {
+    "Name": "Assault Intercessors with Jump Pack w/ Plasma Pistol"
+  },
+  "Company Heroes": {
+    "Name": "Company Heroes",
+    "Cost": "95",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      },
+      {
+        "Name": "Master-crafted Bolt Rifle",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds, Rapid Fire 1",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Company Veteran w/ Heavy Bolter": {
+    "Name": "Company Veteran w/ Heavy Bolter"
+  },
+  "Company Veteran w/ Bolt Rifle": { "Name": "Company Veteran w/ Bolt Rifle" }
+}
