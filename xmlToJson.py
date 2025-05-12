@@ -2,7 +2,7 @@ import json
 import xmltodict
 import re 
 
-codexName = "Orks"
+codexName = "Chaos - Chaos Daemons Library"
 route = ('./40k/' + codexName + '.cat')
 
 def parseUnitModelToDictionary(input):
@@ -136,12 +136,12 @@ xmlIntoModels = []
 
 findModel(data_dict, xmlIntoModels)
 
-# for item in xmlIntoModels:
-#     print(item["Name"])
+for item in xmlIntoModels:
+    print(item["Name"])
 
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
 
-# f = open("./Data/" + codexName + ".json", "w")
-# f.write(json.dumps(finalDict))
+f = open("./Data/" + codexName + ".json", "w")
+f.write(json.dumps(finalDict))
 
-# f.close()
+f.close()

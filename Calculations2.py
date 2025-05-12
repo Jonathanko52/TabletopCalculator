@@ -89,13 +89,11 @@ print("ATTACKS CONNECTING", totalAttacksConnecting)
 totalWoundsInflicted = calculateWounds(totalAttacksConnecting, attackerStrength, defenderToughness)
 print("WOUNDS INFLICTED", round(totalWoundsInflicted,2))
 # 5. Saving throw against wounds:
-
 armorSaveMinusAttackedAP = int(defenderArmorSave[0]) + int(-1 * attackerAP)
 woundsSaved = totalWoundsInflicted * diceApprox[str(armorSaveMinusAttackedAP)+ "+"]
 print("WOUNDS SAVED", totalWoundsInflicted * diceApprox[str(armorSaveMinusAttackedAP)+ "+"])
 unsavedWounds = totalWoundsInflicted - woundsSaved
 print("TOTAL WOUNDS INFLICTED", round(totalWoundsInflicted,2))
-#Not working as intended around here
 print("UNSAVED WOUNDS", round(unsavedWounds,2))
 # 6. Subtract Wounds to determine models destroyed.
 print("DEFENDER WOUNDS", totalDefenderWounds)
@@ -107,7 +105,7 @@ if(defenderWoundsLeft > 0):
   remainingWounded = defenderWoundsLeft / defenderModelCount
   print("REMAINING WOUNDED MODELS:", round(remainingWounded ,2))
   print("REMAINING WHOLE MODELS:", remainingWhole )
-  
+
 
   defenderRemainingModels = remainingWhole + round(remainingWounded ,2)
   print("POINTS OF DAMAGE LOST", (defenderModelCount *defenderCostPerModel) - (defenderRemainingModels * defenderCostPerModel))

@@ -1,0 +1,2529 @@
+{
+  "Skarbrand": {
+    "Name": "Skarbrand",
+    "Cost": "305",
+    "characteristics": {
+      "M": "8\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Slaughter and Carnage - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "N/A",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Slaughter and Carnage - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "N/A",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Slaughter and Carnage - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "N/A",
+        "S": "8",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Bloodthirster": {
+    "Name": "Bloodthirster",
+    "Cost": "305",
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Lash of Khorne",
+        "Range": "12\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Lash of Khorne",
+        "Range": "12\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Lash of Khorne",
+        "Range": "12\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Lash of Khorne",
+        "Range": "12\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "Lash of Khorne",
+        "Range": "12\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "8",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Skulltaker": {
+    "Name": "Skulltaker",
+    "Cost": "85",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "4+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "The Slayer Sword",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Devastating Wounds, Precision"
+      }
+    ]
+  },
+  "Bloodmaster": {
+    "Name": "Bloodmaster",
+    "Cost": "65",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Skullmaster": {
+    "Name": "Skullmaster",
+    "Cost": "100",
+    "characteristics": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Rendmaster on Blood Throne": {
+    "Name": "Rendmaster on Blood Throne",
+    "Cost": "165",
+    "characteristics": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Attendant's hellblades",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      }
+    ]
+  },
+  "Karanak": {
+    "Name": "Karanak",
+    "Cost": "65",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Soul-rending fangs",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Precision"
+      }
+    ]
+  },
+  "Bloodletters": {
+    "Name": "Bloodletters",
+    "Cost": "110",
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Bloodcrushers": {
+    "Name": "Bloodcrushers",
+    "Cost": "110",
+    "characteristics": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": []
+  },
+  "Flesh Hounds": {
+    "Name": "Flesh Hounds",
+    "Cost": "70",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Burning maw",
+        "Range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent"
+      }
+    ]
+  },
+  "Skull Cannon": {
+    "Name": "Skull Cannon",
+    "Cost": "95",
+    "characteristics": {
+      "M": "8\"",
+      "T": "9",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Biting maw",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Biting maw",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Biting maw",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "3+",
+        "S": "6",
+        "AP": "0",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Skull Altar": {
+    "Name": "Skull Altar",
+    "Cost": "105",
+    "characteristics": {
+      "M": "-",
+      "T": "12",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": []
+  },
+  "Be'lakor": {
+    "Name": "Be'lakor",
+    "Cost": "325",
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 The Blade of Shadows - strike",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 The Blade of Shadows - strike",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 The Blade of Shadows - strike",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 The Blade of Shadows - strike",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-4",
+        "D": "D6+1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Daemon Prince of Chaos": {
+    "Name": "Daemon Prince of Chaos",
+    "Cost": "190",
+    "characteristics": {
+      "M": "8\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Daemon Prince of Chaos with wings": {
+    "Name": "Daemon Prince of Chaos with wings",
+    "Cost": "180",
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Hellforged weapons - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "2+",
+        "S": "6",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Kairos Fateweaver": {
+    "Name": "Kairos Fateweaver",
+    "Cost": "270",
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "6+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Infernal Gateway - focused witchfire",
+        "Range": "24\"",
+        "A": "D3+6",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D3",
+        "Keywords": "Blast, Indirect Fire, Hazardous, Psychic",
+        "BS": "2+"
+      },
+      {
+        "Name": "\u27a4 Infernal Gateway - focused witchfire",
+        "Range": "24\"",
+        "A": "D3+6",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D3",
+        "Keywords": "Blast, Indirect Fire, Hazardous, Psychic",
+        "BS": "2+"
+      },
+      {
+        "Name": "\u27a4 Infernal Gateway - focused witchfire",
+        "Range": "24\"",
+        "A": "D3+6",
+        "WS": "3+",
+        "S": "9",
+        "AP": "-3",
+        "D": "D3",
+        "Keywords": "Blast, Indirect Fire, Hazardous, Psychic",
+        "BS": "2+"
+      }
+    ]
+  },
+  "Lord of Change": {
+    "Name": "Lord of Change",
+    "Cost": "260",
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "6+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Baleful sword",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Extra Attacks",
+        "WS": "3+"
+      },
+      {
+        "Name": "Baleful sword",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Extra Attacks",
+        "WS": "3+"
+      },
+      {
+        "Name": "Baleful sword",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Extra Attacks",
+        "WS": "3+"
+      },
+      {
+        "Name": "Baleful sword",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Extra Attacks",
+        "WS": "3+"
+      },
+      {
+        "Name": "Baleful sword",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Extra Attacks",
+        "WS": "3+"
+      }
+    ]
+  },
+  "The Changeling": {
+    "Name": "The Changeling",
+    "Cost": "90",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Infernal Flames - focused witchfire",
+        "Range": "12\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Infernal Flames - focused witchfire",
+        "Range": "12\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Infernal Flames - focused witchfire",
+        "Range": "12\"",
+        "A": "D6+3",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "D3",
+        "Keywords": "Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Fateskimmer": {
+    "Name": "Fateskimmer",
+    "Cost": "95",
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "6+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Screamer bites",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      }
+    ]
+  },
+  "Fluxmaster": {
+    "Name": "Fluxmaster",
+    "Cost": "60",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "The Blue Scribes": {
+    "Name": "The Blue Scribes",
+    "Cost": "75",
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "6",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Sharp quills",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "5+",
+        "S": "2",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Anti-PSYKER 2+"
+      }
+    ]
+  },
+  "Changecaster": {
+    "Name": "Changecaster",
+    "Cost": "60",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": []
+  },
+  "Blue Horrors": {
+    "Name": "Blue Horrors",
+    "Cost": "125",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      },
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      },
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      },
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      }
+    ]
+  },
+  "Blue Horror": {
+    "Name": "Blue Horror",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      },
+      {
+        "Name": "Blue claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "4+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "5+"
+      }
+    ]
+  },
+  "Pink Horrors": {
+    "Name": "Pink Horrors",
+    "Cost": "140",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Pink Horror": {
+    "Name": "Pink Horror",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Pink claws",
+        "Range": "Melee",
+        "A": "1",
+        "BS": "3+",
+        "S": "3",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Flamers": {
+    "Name": "Flamers",
+    "Cost": "75",
+    "characteristics": {
+      "M": "9\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Flamer mouths",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "N/A",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      },
+      {
+        "Name": "Flamer mouths",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "N/A",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-",
+        "WS": "4+"
+      }
+    ]
+  },
+  "Exalted Flamer": {
+    "Name": "Exalted Flamer",
+    "Cost": "65",
+    "characteristics": {
+      "M": "9\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "6",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Flamer mouths",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "4+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Screamers": {
+    "Name": "Screamers",
+    "Cost": "85",
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Lamprey bite",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-MONSTER 4+, Anti-VEHICLE 4+"
+      }
+    ]
+  },
+  "Screamer": {
+    "Name": "Screamer",
+    "Cost": "0",
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Lamprey bite",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-MONSTER 4+, Anti-VEHICLE 4+"
+      }
+    ]
+  },
+  "Burning Chariot": {
+    "Name": "Burning Chariot",
+    "Cost": "115",
+    "characteristics": {
+      "M": "12\"",
+      "T": "8",
+      "SV": "7+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Screamer bites",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      },
+      {
+        "Name": "Screamer bites",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks"
+      }
+    ]
+  },
+  "Rotigus": {
+    "Name": "Rotigus",
+    "Cost": "230",
+    "characteristics": {
+      "M": "7\"",
+      "T": "12",
+      "SV": "5+",
+      "W": "22",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Gnarlrod - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits, Psychic",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Gnarlrod - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits, Psychic",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Gnarlrod - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits, Psychic",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Great Unclean One": {
+    "Name": "Great Unclean One",
+    "Cost": "230",
+    "characteristics": {
+      "M": "7\"",
+      "T": "12",
+      "SV": "5+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      },
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      },
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      },
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      },
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      },
+      {
+        "Name": "Doomsday bell",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "3+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits, Reverberating Summons",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Poxbringer": {
+    "Name": "Poxbringer",
+    "Cost": "55",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Foul balesword",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Spoilpox Scrivener": {
+    "Name": "Spoilpox Scrivener",
+    "Cost": "60",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Plaguesword and distended maw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Plaguesword and distended maw",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "N/A",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Epidemius": {
+    "Name": "Epidemius",
+    "Cost": "80",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "6+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Balesword and nurgling attendants",
+        "Range": "Melee",
+        "A": "D6+3",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Sloppity Bilepiper": {
+    "Name": "Sloppity Bilepiper",
+    "Cost": "55",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Marotter",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "5",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Horticulous Slimux": {
+    "Name": "Horticulous Slimux",
+    "Cost": "120",
+    "characteristics": {
+      "M": "6\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Lopping shears",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Lethal Hits"
+      },
+      {
+        "Name": "Lopping shears",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "3+",
+        "S": "6",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Plaguebearers": {
+    "Name": "Plaguebearers",
+    "Cost": "110",
+    "characteristics": {
+      "M": "5\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Plaguesword",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Nurglings": {
+    "Name": "Nurglings",
+    "Cost": "40",
+    "characteristics": {
+      "M": "5\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "4",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "Weapons": [
+      {
+        "Name": "Diseased claws and teeth",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "5+",
+        "S": "2",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Lethal Hits"
+      }
+    ]
+  },
+  "Beasts of Nurgle": {
+    "Name": "Beasts of Nurgle",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "9",
+      "SV": "6+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Putrid appendages",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Plague Drones": {
+    "Name": "Plague Drones",
+    "Cost": "110",
+    "characteristics": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "6+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Plaguesword",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "4+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Plaguesword",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "4+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Plaguesword",
+        "Range": "Melee",
+        "A": "2",
+        "BS": "4+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Feculent Gnarlmaw": {
+    "Name": "Feculent Gnarlmaw",
+    "Cost": "100",
+    "characteristics": {
+      "M": "-",
+      "T": "9",
+      "SV": "4+",
+      "W": "9",
+      "LD": "7+",
+      "OC": "0"
+    },
+    "Weapons": []
+  },
+  "Shalaxi Helbane": {
+    "Name": "Shalaxi Helbane",
+    "Cost": "425",
+    "characteristics": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "5+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Soulpiercer",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Precision",
+        "WS": "2+"
+      },
+      {
+        "Name": "Soulpiercer",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Precision",
+        "WS": "2+"
+      },
+      {
+        "Name": "Soulpiercer",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Precision",
+        "WS": "2+"
+      },
+      {
+        "Name": "Soulpiercer",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Precision",
+        "WS": "2+"
+      },
+      {
+        "Name": "Soulpiercer",
+        "Range": "Melee",
+        "A": "6",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Precision",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Keeper of Secrets": {
+    "Name": "Keeper of Secrets",
+    "Cost": "290",
+    "characteristics": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "5+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      },
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      },
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      },
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      },
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      },
+      {
+        "Name": "Ritual knife",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Extra Attacks",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Infernal Enrapturess": {
+    "Name": "Infernal Enrapturess",
+    "Cost": "60",
+    "characteristics": {
+      "M": "9\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Heartstring lyre - euphonic blast",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Assault",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Heartstring lyre - euphonic blast",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Assault",
+        "BS": "3+"
+      },
+      {
+        "Name": "\u27a4 Heartstring lyre - euphonic blast",
+        "Range": "24\"",
+        "A": "1",
+        "WS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Assault",
+        "BS": "3+"
+      }
+    ]
+  },
+  "The Masque of Slaanesh": {
+    "Name": "The Masque of Slaanesh",
+    "Cost": "85",
+    "characteristics": {
+      "M": "9\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Serrated claws",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Syll'esske": {
+    "Name": "Syll'esske",
+    "Cost": "120",
+    "characteristics": {
+      "M": "9\"",
+      "T": "6",
+      "SV": "6+",
+      "W": "9",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Cacophonic choir - focused witchfire",
+        "Range": "12\"",
+        "A": "2D6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Cacophonic choir - focused witchfire",
+        "Range": "12\"",
+        "A": "2D6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Cacophonic choir - focused witchfire",
+        "Range": "12\"",
+        "A": "2D6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Cacophonic choir - focused witchfire",
+        "Range": "12\"",
+        "A": "2D6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      },
+      {
+        "Name": "\u27a4 Cacophonic choir - focused witchfire",
+        "Range": "12\"",
+        "A": "2D6",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Ignores Cover, Psychic, Torrent",
+        "BS": "N/A"
+      }
+    ]
+  },
+  "Contorted Epitome": {
+    "Name": "Contorted Epitome",
+    "Cost": "80",
+    "characteristics": {
+      "M": "9\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "8",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "8",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Tormentbringer on Exalted Seeker Chariot": {
+    "Name": "Tormentbringer on Exalted Seeker Chariot",
+    "Cost": "140",
+    "characteristics": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "15",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Tranceweaver": {
+    "Name": "Tranceweaver",
+    "Cost": "60",
+    "characteristics": {
+      "M": "9\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Daemonettes": {
+    "Name": "Daemonettes",
+    "Cost": "100",
+    "characteristics": {
+      "M": "9\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Fiends": {
+    "Name": "Fiends",
+    "Cost": "0",
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Barbed tail and dissecting claws",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "3+",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Seekers": {
+    "Name": "Seekers",
+    "Cost": "80",
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Seeker": {
+    "Name": "Seeker",
+    "Cost": "0",
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "3",
+        "WS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Hellflayer": {
+    "Name": "Hellflayer",
+    "Cost": "0",
+    "characteristics": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Seeker Chariot": {
+    "Name": "Seeker Chariot",
+    "Cost": "65",
+    "characteristics": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "7",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "9",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Exalted Seeker Chariot": {
+    "Name": "Exalted Seeker Chariot",
+    "Cost": "115",
+    "characteristics": {
+      "M": "14\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      },
+      {
+        "Name": "Slashing claws",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "3+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Giant Chaos Spawn [Legends]": {
+    "Name": "Giant Chaos Spawn [Legends]",
+    "Cost": "130",
+    "characteristics": {
+      "M": "10\"",
+      "T": "8",
+      "SV": "4+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Churning fangs and claws",
+        "Range": "Melee",
+        "A": "D6+6",
+        "WS": "3+",
+        "S": "10",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Spined Chaos Beast [Legends]": {
+    "Name": "Spined Chaos Beast [Legends]",
+    "Cost": "145",
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "4+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "4"
+    },
+    "Weapons": [
+      {
+        "Name": "Jagged claws and tusked maw",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "3+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Pox Riders [Legends]": {
+    "Name": "Pox Riders [Legends]",
+    "Cost": "160",
+    "characteristics": {
+      "M": "7\"",
+      "T": "8",
+      "SV": "6+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Yawning maw",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Yawning maw",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Yawning maw",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Plague Toads [Legends]": {
+    "Name": "Plague Toads [Legends]",
+    "Cost": "120",
+    "characteristics": {
+      "M": "7\"",
+      "T": "8",
+      "SV": "6+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Yawning maw",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      },
+      {
+        "Name": "Yawning maw",
+        "Range": "Melee",
+        "A": "3",
+        "BS": "4+",
+        "S": "6",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Lethal Hits",
+        "WS": "3+"
+      }
+    ]
+  },
+  "An'ggrath the Unbound [Legends]": {
+    "Name": "An'ggrath the Unbound [Legends]",
+    "Cost": "415",
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "4+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Axe of Khorne - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Axe of Khorne - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Axe of Khorne - sweep",
+        "Range": "Melee",
+        "A": "16",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Aetaos'rau'keres [Legends]": {
+    "Name": "Aetaos'rau'keres [Legends]",
+    "Cost": "315",
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "6+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "Weapons": [
+      {
+        "Name": "Warpfire talons",
+        "Range": "Melee",
+        "A": "12",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      },
+      {
+        "Name": "Warpfire talons",
+        "Range": "Melee",
+        "A": "12",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      },
+      {
+        "Name": "Warpfire talons",
+        "Range": "Melee",
+        "A": "12",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      },
+      {
+        "Name": "Warpfire talons",
+        "Range": "Melee",
+        "A": "12",
+        "BS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Psychic",
+        "WS": "3+"
+      }
+    ]
+  },
+  "Scabeiathrax the Bloated [Legends]": {
+    "Name": "Scabeiathrax the Bloated [Legends]",
+    "Cost": "275",
+    "characteristics": {
+      "M": "7\"",
+      "T": "12",
+      "SV": "5+",
+      "W": "22",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Blade of decay - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Blade of decay - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      },
+      {
+        "Name": "\u27a4 Blade of decay - sweep",
+        "Range": "Melee",
+        "A": "14",
+        "BS": "N/A",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Lethal Hits",
+        "WS": "2+"
+      }
+    ]
+  },
+  "Zarakynel [Legends]": {
+    "Name": "Zarakynel [Legends]",
+    "Cost": "320",
+    "characteristics": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "5+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "Weapons": [
+      {
+        "Name": "\u27a4 Phantasmagoria - focused witchfire",
+        "Range": "18\"",
+        "A": "9",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Psychic",
+        "BS": "2+"
+      },
+      {
+        "Name": "\u27a4 Phantasmagoria - focused witchfire",
+        "Range": "18\"",
+        "A": "9",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Psychic",
+        "BS": "2+"
+      },
+      {
+        "Name": "\u27a4 Phantasmagoria - focused witchfire",
+        "Range": "18\"",
+        "A": "9",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Psychic",
+        "BS": "2+"
+      },
+      {
+        "Name": "\u27a4 Phantasmagoria - focused witchfire",
+        "Range": "18\"",
+        "A": "9",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Hazardous, Psychic",
+        "BS": "2+"
+      }
+    ]
+  },
+  "Herald of Slaanesh on Steed of Slaanesh [Legends]": {
+    "Name": "Herald of Slaanesh on Steed of Slaanesh [Legends]",
+    "Cost": "70",
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "Weapons": [
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Ravaging claws",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "4",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      }
+    ]
+  },
+  "Furies [Legends]": {
+    "Name": "Furies [Legends]",
+    "Cost": "40",
+    "characteristics": {
+      "M": "12\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "Weapons": [
+      {
+        "Name": "Daemonic claws",
+        "Range": "Melee",
+        "A": "2",
+        "WS": "4+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  }
+}
