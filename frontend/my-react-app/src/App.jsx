@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import axios from "axios";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  const refreshList = () => {
+    axios //Axios to send and receive HTTP requests
+      .get("http://localhost:8000/api/tasks/")
+      .then((res) => console.log({ taskList: res.data }))
+      .catch((err) => console.log(err));
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div class="container-fluid py-5 h-100">
+      <div class="row  h-25 mb-4 justify-content-center">
+        <div class="col-9 h-50 border border-primary">
+          <div class="box">Column 1</div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div class="row justify-content-center h-75 g-3">
+        <div class="col-2 m-4 border border-primary">
+          <div class="box">Column 1</div>
+        </div>
+        <div class="col-2 m-4 border border-primary">
+          <div class="box">Column 2</div>
+        </div>
+        <div class="col-2 m-4 border border-primary">
+          <div class="box">Column 3</div>
+        </div>
+        <div class="col-2 m-4 border border-primary">
+          <div class="box">Column 4</div>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <button onClick={() => refreshList()}>Fetch Tasks</button>
+    </div>
+  );
 }
 
-export default App
+export default App;

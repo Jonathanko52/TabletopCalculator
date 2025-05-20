@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 
-codexName = "Imperium - Blood Angels"
+codexName = "Imperium - Adeptus Custodes"
 
 
 armyList = []

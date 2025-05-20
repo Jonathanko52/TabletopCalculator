@@ -2,7 +2,11 @@ import json
 import xmltodict
 import re 
 
-codexName = "Chaos - Chaos Daemons Library"
+# This is the latest, working codex converter
+# python3 /Users/jonathanko/IndependentStudy/TabletopCalculator/xmlToJson.py
+
+
+codexName = "Orks"
 route = ('./40k/' + codexName + '.cat')
 
 def parseUnitModelToDictionary(input):
