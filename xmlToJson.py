@@ -2,14 +2,23 @@ import json
 import xmltodict
 import re 
 
-# This is the latest, working codex converter
+# This is the latest, working codex converter. Parses a Warhammer 40k BattleScribe '.cat' XML file into a structured JSON.
 # python3 /Users/jonathanko/IndependentStudy/TabletopCalculator/xmlToJson.py
 
 
 codexName = "Orks"
 route = ('./40k/' + codexName + '.cat')
 
+"""
+Converts a unit model XML node into into  dictionary containing the unit name and characteristics.
+
+Parameters: input (dict): A dictionary representation of a model or unit element from the XML.
+
+Returns: dict: A dictionary with 'unitName' and 'characteristics' keys.
+"""
+
 def parseUnitModelToDictionary(input):
+
     returnDict = {}
     returnDict["unitName"] = input["@name"]
     returnDict["characteristics"] = input["characteristics"]["characteristic"]
@@ -17,6 +26,18 @@ def parseUnitModelToDictionary(input):
 
     if input["@name"] == "Gretchin":
         print("Found Grots in parseunitmodeltodict")
+
+
+"""
+
+Recursively traverses the XML and finds entries of type 'model' or 'unit'. 
+Extracts unit and weapon information and appends it to the output list.
+
+Parameters: input (dict | list): The parsed XML input.
+
+Returns: outputList (list): A list to append the found model/unit dictionaries to.
+
+"""
 
 def findModel(input, outputList):
     if input is None:
@@ -45,7 +66,15 @@ def findModel(input, outputList):
         for values in range(len(input)):
                 findModel(input[values],outputList)
 
+"""
 
+Recursively finds a 'Unit' type in the XML structure and adds them to the input dictionary.
+
+Parameters:
+    input (dict | list): The parsed XML node or list of nodes.
+    inputDict (dict): A dictionary where the found unit data will be stored.
+
+"""
 
 def findUnit(input, inputDict):
     if input is None:
@@ -61,7 +90,16 @@ def findUnit(input, inputDict):
     if type(input) == list:
         for values in range(len(input)):
                 findUnit(input[values], inputDict)
-        
+"""
+
+Recursively finds weapon entries of type 'Melee Weapons' or 'Ranged Weapons' in the XML and adds them to the input list.
+
+Parameters:
+        input (dict | list): The XML data structure.
+        inputList (list): List to append found weapon entries to.
+
+"""
+
 def findWeapon(input,inputList):
     if input is None:
       return
@@ -77,11 +115,31 @@ def findWeapon(input,inputList):
         for values in range(len(input)):
                 findWeapon(input[values], inputList)
 
+"""
+
+Converts a list of characteristic entries into a dictionary.
+
+Parameters: inputDict (list): List of characteristic dictionaries.
+
+Returns: dict: A dictionary mapping characteristic names to their values.
+
+"""
+
 def characteristicHelper(inputDict):
     returnDict = {}
     for keys in inputDict:
         returnDict[keys["@name"]] = keys["#text"]
     return returnDict
+
+"""
+
+Converts a list of weapon entries into a list of dictionaries with weapon stats.
+
+Parameters: inputList (list): List of weapon dictionaries from XML.
+
+Returns: list: A list of dictionaries, each representing a weapon.
+
+"""
 
 def weaponHelper(inputList):
     returnList = []
@@ -95,6 +153,15 @@ def weaponHelper(inputList):
     
     return returnList
 
+"""
+
+Processes the  model data and converts it into dictionary.
+
+Parameters: extractedData (list): List of model/unit dictionaries from `findModel`.
+
+Returns: dict: Structured data including unit name, cost, characteristics, and weapons.
+
+"""
 
 def extractedInformationIntoDictionary(extractedData):
     returnDict = {}
@@ -132,18 +199,29 @@ def extractedInformationIntoDictionary(extractedData):
 
         
 
+# --- Execution Flow Starts Here ---
+
+# Load and parse the XML
+
 with open(route) as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
 
+# Extract models from XML
 
 xmlIntoModels = []
 
 findModel(data_dict, xmlIntoModels)
 
+# Optional: Print extracted model names
+
 for item in xmlIntoModels:
     print(item["Name"])
 
+# Transform into structured data
+
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
+
+# Write to JSON file
 
 f = open("./Data/" + codexName + ".json", "w")
 f.write(json.dumps(finalDict))

@@ -12,3 +12,4 @@ class Todo(models.Model):
 
   #it will return the title
     return self.title
+  
