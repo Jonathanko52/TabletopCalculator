@@ -1,39 +1,135 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
+import ArmySelect from "./ArmySelect";
+import UnitDisplay from "./UnitDisplay";
+
 import axios from "axios";
+import CharacterForm from "./form";
+// import data from "./../../../Data/Imperium - Adeptus Custodes.json";
+import data from "./../../../Data/Imperium - Adeptus Custodes.json";
+import availableArmies from "./assets/availableArmies.json";
+import Calculator from "./Calculator";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [attackerArmy, setAttackerArmy] = useState("");
+  const [defenderArmy, setDefenderArmy] = useState("");
+  const [attackerUnit, setAttackerUnit] = useState([]);
+  const [attackerUnitProfile, setAttackerUnitProfile] = useState([]);
+  const [defenderUnit, setDefenderUnit] = useState([]);
+  const [attackerArmyRoster, setAttackerArmyRoster] = useState([]);
+  const [defenderArmyRoster, setDefenderArmyRoster] = useState([]);
+  const [attackerWeapon, setAttackerWeapon] = useState({});
 
-  const refreshList = () => {
-    axios //Axios to send and receive HTTP requests
-      .get("http://localhost:8000/api/tasks/")
-      .then((res) => console.log({ taskList: res.data }))
-      .catch((err) => console.log(err));
+  const retrieveAttackerUnits = () => {
+    import(`./../../../Data/${attackerArmy}.json`)
+      .then((result) => {
+        let attackerUnits = Object.keys(result.default).map((cur) => {
+          return { value: cur, label: cur };
+        });
+        setAttackerArmyRoster(attackerUnits);
+      })
+      .catch((error) => {
+        console.error("Error loading component:", error);
+      });
   };
 
+  const retrieveDefenderUnits = () => {
+    import(`./../../../Data/${defenderArmy}.json`)
+      .then((result) => {
+        let defenderUnits = Object.keys(result.default).map((cur) => {
+          return { value: cur, label: cur };
+        });
+        setDefenderArmyRoster(defenderUnits);
+      })
+      .catch((error) => {
+        console.error("Error loading component:", error);
+      });
+  };
+
+  const retrieverAttackUnit = () => {
+    import(`./../../../Data/${attackerArmy}.json`)
+      .then((result) => {
+        setAttackerUnitProfile(result.default[attackerUnit]);
+      })
+      .catch((error) => {
+        console.error("Error loading component:", error);
+      });
+  };
+
+  useEffect(() => {
+    retrieveAttackerUnits();
+    retrieveDefenderUnits();
+  }, []);
+
+  useEffect(() => {
+    retrieveAttackerUnits();
+  }, [attackerArmy]);
+
+  useEffect(() => {
+    retrieveDefenderUnits();
+  }, [defenderArmy]);
+
+  useEffect(() => {
+    retrieverAttackUnit();
+  }, [attackerUnit]);
+
   return (
-    <div class="container-fluid py-5 h-100">
-      <div class="row  h-25 mb-4 justify-content-center">
-        <div class="col-9 h-50 border border-primary">
-          <div class="box">Column 1</div>
+    <div className="container-fluid py-5 h-100">
+      <div className="row  h-25 mb-4 justify-content-center">
+        <div className="col-9 h-50 border border-primary">
+          <div className="box">Warhammer Tabletop Calculator</div>
         </div>
       </div>
-      <div class="row justify-content-center h-75 g-3">
-        <div class="col-2 m-4 border border-primary">
-          <div class="box">Column 1</div>
+      <div className="row justify-content-center h-75 g-3">
+        <div className="col-2 m-4 border border-primary">
+          <h5 className="box mt-3">Step 1: Pick units</h5>
+          <ArmySelect
+            name={"Select your faction"}
+            setArmy={setAttackerArmy}
+            options={availableArmies}
+          />
+          <ArmySelect
+            name={"Select your unit"}
+            setArmy={setAttackerUnit}
+            options={attackerArmyRoster}
+          />
+          <ArmySelect
+            name={"Select opponent's faction"}
+            setArmy={setDefenderArmy}
+            options={availableArmies}
+          />
+          <ArmySelect
+            name={"Select opponent's unit"}
+            setArmy={setDefenderUnit}
+            options={defenderArmyRoster}
+          />
         </div>
-        <div class="col-2 m-4 border border-primary">
-          <div class="box">Column 2</div>
+        <div className="col-2 m-4 border border-primary">
+          <UnitDisplay
+            unit={attackerUnitProfile}
+            setAttackerWeapon={setAttackerWeapon}
+          />
         </div>
-        <div class="col-2 m-4 border border-primary">
-          <div class="box">Column 3</div>
+        <div className="col-2 m-4 border border-primary">
+          <Calculator
+            opposingArmy={defenderArmy}
+            attackerWeapon={attackerWeapon}
+          />
         </div>
-        <div class="col-2 m-4 border border-primary">
-          <div class="box">Column 4</div>
+        <div className="col-2 m-4 border border-primary">
+          <div className="box">Column 4</div>
         </div>
       </div>
-      <button onClick={() => refreshList()}>Fetch Tasks</button>
+
+      {/* <button
+        type="button"
+        className="btn btn-primary"
+        onClick={() => {
+          console.log("Attacker Army", attackerUnit);
+          console.log("Attacker Hit", attackerUnitProfile);
+        }}>
+        Print State App
+      </button> */}
     </div>
   );
 }

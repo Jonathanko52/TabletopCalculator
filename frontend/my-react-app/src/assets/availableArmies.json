@@ -1,0 +1,7 @@
+[
+  { "value": "None", "label": "None" },
+  { "value": "Imperium - Adeptus Custodes", "label": "Adeptus Custodes" },
+  { "value": "Imperium - Space Marines", "label": "Space Marines" },
+  { "value": "Orks", "label": "Orks" },
+  { "value": "Necrons", "label": "Necrons" }
+]
