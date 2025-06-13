@@ -3,10 +3,8 @@ import "./App.css";
 import ArmySelect from "./ArmySelect";
 import UnitDisplay from "./UnitDisplay";
 
-import axios from "axios";
 import CharacterForm from "./form";
 // import data from "./../../../Data/Imperium - Adeptus Custodes.json";
-import data from "./../../../Data/Imperium - Adeptus Custodes.json";
 import availableArmies from "./assets/availableArmies.json";
 import Calculator from "./Calculator";
 import Breakdown from "./Breakdown";

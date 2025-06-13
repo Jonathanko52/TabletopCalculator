@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react";
 import WeaponSelect from "./WeaponSelect";
 
 import "./App.css";
 
 function UnitDisplay(props) {
   let unit = props.unit;
-  console.log(props.unit);
   return (
     <div className="mb-3 text-start">
       <h5 className="box mt-3">Step 2: Your unit</h5>
