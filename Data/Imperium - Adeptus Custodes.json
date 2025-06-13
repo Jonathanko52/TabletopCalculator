@@ -45,61 +45,8 @@
         "D": "1",
         "Keywords": "-",
         "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
       }
     ]
-  },
-  "Allarus Custodian (Guardian Spear)": {
-    "Name": "Allarus Custodian (Guardian Spear)"
-  },
-  "Allarus Custodian (Castellan Axe)": {
-    "Name": "Allarus Custodian (Castellan Axe)"
-  },
-  "Allarus Custodian (Vexilla & Misericordia)": {
-    "Name": "Allarus Custodian (Vexilla & Misericordia)"
   },
   "Anathema Psykana Rhino": {
     "Name": "Anathema Psykana Rhino",
@@ -113,28 +60,6 @@
       "OC": "2"
     },
     "Weapons": [
-      {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "3",
-        "BS": "3+",
-        "S": "6",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "3",
-        "BS": "3+",
-        "S": "6",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
       {
         "Name": "Armoured tracks",
         "Range": "Melee",
@@ -216,64 +141,6 @@
         "BS": "2+"
       },
       {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      }
-    ]
-  },
-  "Custodian Guard (Guardian Spear)": {
-    "Name": "Custodian Guard (Guardian Spear)",
-    "Cost": "0",
-    "characteristics": {
-      "M": "6\"",
-      "T": "6",
-      "SV": "2+",
-      "W": "3",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "Weapons": [
-      {
         "Name": "Guardian Spear",
         "Range": "24\"",
         "A": "2",
@@ -282,42 +149,6 @@
         "AP": "-1",
         "D": "2",
         "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Guardian Spear",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      }
-    ]
-  },
-  "Custodian Guard (Sentinel Blade & Praesidium Shield)": {
-    "Name": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
-    "Cost": "0",
-    "characteristics": {
-      "M": "6\"",
-      "T": "6",
-      "SV": "2+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "2"
-    },
-    "Weapons": [
-      {
-        "Name": "Sentinel Blade",
-        "Range": "12\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault, Pistol",
         "BS": "2+"
       },
       {
@@ -330,30 +161,6 @@
         "D": "2",
         "Keywords": "Assault, Pistol",
         "BS": "2+"
-      }
-    ]
-  },
-  "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)": {
-    "Name": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
-    "Cost": "0",
-    "characteristics": {
-      "M": "6\"",
-      "T": "6",
-      "SV": "2+",
-      "W": "4",
-      "LD": "6+",
-      "OC": "3"
-    },
-    "Weapons": [
-      {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "5",
-        "WS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-"
       }
     ]
   },
@@ -459,13 +266,6 @@
       }
     ]
   },
-  "Custodian Warden (Guardian Spear)": {
-    "Name": "Custodian Warden (Guardian Spear)"
-  },
-  "Custodian Warden (Castellan axe)": {
-    "Name": "Custodian Warden (Castellan axe)"
-  },
-  "Custodian Warden w/ Vexilla": { "Name": "Custodian Warden w/ Vexilla" },
   "Knight-Centura": {
     "Name": "Knight-Centura",
     "Cost": "70",
@@ -1594,24 +1394,6 @@
       "OC": "2"
     },
     "Weapons": []
-  },
-  "Aquilon Custodian (Gauntlet & Lastrum bolter)": {
-    "Name": "Aquilon Custodian (Gauntlet & Lastrum bolter)"
-  },
-  "Aquilon Custodian (Gauntlet & Twin adrathic destructor)": {
-    "Name": "Aquilon Custodian (Gauntlet & Twin adrathic destructor)"
-  },
-  "Aquilon Custodian (Gauntlet & Infernus firepike)": {
-    "Name": "Aquilon Custodian (Gauntlet & Infernus firepike)"
-  },
-  "Aquilon Custodian (Talon & infernus firepike)": {
-    "Name": "Aquilon Custodian (Talon & infernus firepike)"
-  },
-  "Aquilon Custodian (Talon & Lastrum bolter)": {
-    "Name": "Aquilon Custodian (Talon & Lastrum bolter)"
-  },
-  "Aquilon Custodian (Talon & Twin adrathic destructor)": {
-    "Name": "Aquilon Custodian (Talon & Twin adrathic destructor)"
   },
   "Agamatus Custodians": {
     "Name": "Agamatus Custodians",

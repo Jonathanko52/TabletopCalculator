@@ -6,7 +6,7 @@ import re
 # python3 /Users/jonathanko/IndependentStudy/TabletopCalculator/xmlToJson.py
 
 
-codexName = "Orks"
+codexName = "Necrons"
 route = ('./40k/' + codexName + '.cat')
 
 """

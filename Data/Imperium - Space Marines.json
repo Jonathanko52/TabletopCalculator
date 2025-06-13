@@ -172,8 +172,7 @@
     },
     "Weapons": []
   },
-  "Infernus Marines": { "Name": "Infernus Marines" },
-  "Infernus Sergeant": { "Name": "Infernus Sergeant" },
+
   "Assault Intercessor Squad": {
     "Name": "Assault Intercessor Squad",
     "Cost": "75",

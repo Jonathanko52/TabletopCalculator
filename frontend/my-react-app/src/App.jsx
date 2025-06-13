@@ -9,6 +9,7 @@ import CharacterForm from "./form";
 import data from "./../../../Data/Imperium - Adeptus Custodes.json";
 import availableArmies from "./assets/availableArmies.json";
 import Calculator from "./Calculator";
+import Breakdown from "./Breakdown";
 
 function App() {
   const [attackerArmy, setAttackerArmy] = useState("");
@@ -19,6 +20,7 @@ function App() {
   const [attackerArmyRoster, setAttackerArmyRoster] = useState([]);
   const [defenderArmyRoster, setDefenderArmyRoster] = useState([]);
   const [attackerWeapon, setAttackerWeapon] = useState({});
+  const [selectedForDetails, setSelectedForDetails] = useState({});
 
   const retrieveAttackerUnits = () => {
     import(`./../../../Data/${attackerArmy}.json`)
@@ -112,24 +114,18 @@ function App() {
         </div>
         <div className="col-2 m-4 border border-primary">
           <Calculator
+            setSelectedForDetails={setSelectedForDetails}
             opposingArmy={defenderArmy}
             attackerWeapon={attackerWeapon}
           />
         </div>
         <div className="col-2 m-4 border border-primary">
-          <div className="box">Column 4</div>
+          <Breakdown
+            selectedForDetails={selectedForDetails}
+            attackerWeapon={attackerWeapon}
+          />
         </div>
       </div>
-
-      {/* <button
-        type="button"
-        className="btn btn-primary"
-        onClick={() => {
-          console.log("Attacker Army", attackerUnit);
-          console.log("Attacker Hit", attackerUnitProfile);
-        }}>
-        Print State App
-      </button> */}
     </div>
   );
 }

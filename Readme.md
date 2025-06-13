@@ -6,7 +6,8 @@ run "python3 manage.py runserver" in terminal
 <!-- initialize frontend -->
 
 navigate to ./frontend
-run "npm run server" in terminal
+nvm use node
+run "npm run dev" in terminal
 
 <!-- Steps for making migrations -->
 <!-- Whenever changes are made to the model.py in the backend file, migrations have to be made to update django. -->

@@ -57,14 +57,6 @@ function WeaponSelect(props) {
           <label class="fw-bold">Damage: </label>
           <label>{weaponStats.D}</label>
           <br></br>
-          {/* <button
-            type="button"
-            className="btn btn-primary"
-            onClick={() => {
-              console.log("Unit on display", weaponStats);
-            }}>
-            Print Weapon State
-          </button> */}
         </>
       ) : null}
     </div>

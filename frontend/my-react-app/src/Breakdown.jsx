@@ -2,8 +2,17 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 
-function Calculator(props) {
-  const [topTen, setTopTen] = useState([]);
+function Breakdown(props) {
+  const [totalAttacks, setTotalAttacks] = useState(0.0);
+  const [totalAttacksConnecting, setTotalAttacksConnecting] = useState(0.0);
+  const [totalWoundsInflicted, setTotalWoundsInflicted] = useState(0.0);
+  const [woundsSaved, setWoundsSaved] = useState(0.0);
+  const [unsavedWounds, setUnsavedWounds] = useState(0.0);
+  const [totalDefenderWounds, setTotalDefenderWounds] = useState(0.0);
+  const [defenderWoundsLeft, setDefendersWoundsLeft] = useState(0.0);
+  const [remainingWounded, setRemainingWounded] = useState(0.0);
+  const [remainingWhole, setRemainingWhole] = useState(0.0);
+  const [pointsLost, setPointsLost] = useState(0.0);
 
   const diceApprox = {
     "6+": 0.16,
@@ -34,34 +43,8 @@ function Calculator(props) {
     return parseFloat(totalAttacks * woundRoll);
   };
 
-  const retieveArmyAndRunCalc = () => {
-    let objKeys;
-    import(`./../../../Data/${props.opposingArmy}.json`)
-      .then((result) => {
-        let calculatedValues = [];
-        objKeys = Object.keys(result.default);
-        objKeys.forEach((cur) => {
-          calculatedValues.push(
-            calculations(result.default[cur], props.attackerWeapon)
-          );
-        });
-        return calculatedValues;
-      })
-      .then((result) => {
-        return result.sort((a, b) => b[1] - a[1]);
-      })
-      .then((result) => {
-        result = result.filter((cur) => {
-          return cur != undefined;
-        });
-        setTopTen(result);
-      })
-      .catch((error) => {
-        console.error("Error loading component:", error);
-      });
-  };
-
   const calculations = (sampleUnit, sampleWeapon) => {
+    console.log("CALCS", pointsLost);
     // Approximate dice roll success probabilities
     if ("characteristics" in sampleUnit) {
       // Sample usage with preloaded data (replace this with dynamic import or fetch as needed)
@@ -83,12 +66,10 @@ function Calculator(props) {
 
       // Step-by-step calculation
       const totalAttacks = attackerModelCount * attackerAttackCount;
-      // console.log("TOTAL ATTACKS:", totalAttacks);
 
       const totalAttacksConnecting = parseFloat(
         totalAttacks * diceApprox[attackerwBSkill]
       );
-      // console.log("ATTACKS CONNECTING:", totalAttacksConnecting);
 
       const totalWoundsInflicted = calculateWounds(
         totalAttacksConnecting,
@@ -96,7 +77,6 @@ function Calculator(props) {
         defenderToughness
       );
 
-      // Saving throw
       const armorSaveVal = parseFloat(defenderArmorSave[0]);
       const effectiveSave = parseFloat(armorSaveVal - attackerAP);
       const woundsSaved = parseFloat(
@@ -104,64 +84,98 @@ function Calculator(props) {
       );
       const unsavedWounds = parseFloat(totalWoundsInflicted - woundsSaved);
 
-      // Model casualties
       const defenderWoundsLeft = parseFloat(
         totalDefenderWounds - unsavedWounds
       );
 
-      // if (defenderWoundsLeft > 0) {
-      console.log("START----------");
-      console.log("WOUNDS LEFT", defenderWoundsLeft);
-      console.log("MODEL COUNT", defenderModelCount);
-      console.log("DEFENDER WOUNDS", defenderWounds);
       const remainingWhole = Math.floor(defenderWoundsLeft / defenderWounds);
       const remainingWounded =
         defenderWoundsLeft / (defenderModelCount * defenderWounds);
-
-      console.log("REMAINING WOUNDED MODELS:", remainingWounded.toFixed(2));
-      console.log("REMAINING WHOLE MODELS:", remainingWhole);
 
       const defenderRemainingModels = remainingWhole + remainingWounded;
       const pointsLost =
         defenderModelCount * defenderCostPerModel -
         defenderRemainingModels * defenderCostPerModel;
+      console.log("POINTS OF DAMAGE LOST:", typeof pointsLost, pointsLost);
+      console.log("CALCS", pointsLost.toFixed(2));
 
       if ((sampleUnit, sampleWeapon)) {
-        console.log(
-          "COMPARING " + sampleUnit.Name + " AGAINST " + sampleWeapon.Name
-        );
-        console.log("POINTS LOST: " + pointsLost.toFixed(2));
+        if (pointsLost.toFixed(2) >= 0) {
+          setTotalAttacks(totalAttacks);
+          setTotalAttacksConnecting(totalAttacksConnecting);
+          setTotalWoundsInflicted(totalWoundsInflicted.toFixed(2));
+          setWoundsSaved(woundsSaved.toFixed(2));
+          setUnsavedWounds(unsavedWounds.toFixed(2));
+          setTotalDefenderWounds(totalDefenderWounds);
+          setDefendersWoundsLeft(defenderWoundsLeft.toFixed(2));
+          setRemainingWounded(remainingWounded.toFixed(2));
+          setRemainingWhole(remainingWhole);
+          setPointsLost(pointsLost.toFixed(2));
+        }
       }
       return [sampleUnit, pointsLost.toFixed(2)];
     }
   };
 
   useEffect(() => {
-    retieveArmyAndRunCalc();
-  }, [props.opposingArmy, props.attackerWeapon]);
+    calculations(props.selectedForDetails, props.attackerWeapon);
+  }, [props.selectedForDetails, props.attackerWeapon]);
 
   return (
     <div className="mb-3">
       <label htmlFor="floatingInput"></label>
-      {topTen.length >= 1
-        ? topTen.map((cur) => {
-            return (
-              <div
-                value={cur[0].Name}
-                onClick={() => {
-                  props.setSelectedForDetails(cur[0]);
-                }}>
-                <label class="fw-bold">{cur[0].Name}:</label>:
-                <label>{cur[1]}</label>
-              </div>
-            );
-          })
-        : null}
+      {props.selectedForDetails.Name ? (
+        <div>
+          <div>
+            <h5 class="fw-bold">{props.selectedForDetails.Name}</h5>
+          </div>
+          <div>
+            <label class="fw-bold">Total Attacks:</label>
+            {totalAttacks}
+          </div>
+          <div>
+            <label class="fw-bold">Attacks Connect:</label>
+            {totalAttacksConnecting};
+          </div>
+          <div>
+            <label class="fw-bold">Wounds Infliced:</label>
+            {totalWoundsInflicted}
+          </div>
+          <div>
+            <label class="fw-bold">Wounds Saved:</label>
+            {woundsSaved}
+          </div>
+          <div>
+            <label class="fw-bold">Unsaved Wounds:</label>
+            {unsavedWounds};
+          </div>
+          <div>
+            <label class="fw-bold">Defenders Wounds:</label>
+            {totalDefenderWounds};
+          </div>
+          <div>
+            <label class="fw-bold">Wounds Remaining:</label>
+            {defenderWoundsLeft};
+          </div>
+          <div>
+            <label class="fw-bold">Remaining wounded models:</label>
+            {remainingWounded}
+          </div>
+          <div>
+            <label class="fw-bold">Remaining whole models:</label>
+            {remainingWhole}
+          </div>
+          <div>
+            <label class="fw-bold">Points lost:</label> {pointsLost}
+          </div>
+        </div>
+      ) : null}
       <button
         type="button"
         className="btn btn-primary"
         onClick={() => {
-          console.log("Calculalator Props", props);
+          console.log("Unit", props.selectedForDetails);
+          console.log("Weapon", props.attackerWeapon);
         }}>
         Print State App
       </button>
@@ -169,4 +183,4 @@ function Calculator(props) {
   );
 }
 
-export default Calculator;
+export default Breakdown;
