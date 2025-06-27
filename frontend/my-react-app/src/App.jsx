@@ -98,11 +98,6 @@ function App() {
             setArmy={setDefenderArmy}
             options={availableArmies}
           />
-          <ArmySelect
-            name={"Select opponent's unit"}
-            setArmy={setDefenderUnit}
-            options={defenderArmyRoster}
-          />
         </div>
         <div className="col-2 m-4 border border-primary">
           <UnitDisplay
