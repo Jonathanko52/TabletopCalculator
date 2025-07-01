@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +44,18 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.scrollable-div::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Bootstrap primary */
+  border-radius: 6px;
+  border: 2px solid #f1f1f1;
 }

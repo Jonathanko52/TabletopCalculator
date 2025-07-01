@@ -74,14 +74,14 @@ function App() {
   }, [attackerUnit]);
 
   return (
-    <div className="container-fluid py-5 h-100">
-      <div className="row  h-25 mb-4 justify-content-center">
+    <>
+      <div className="row flex-shrink-0 mb-4 justify-content-center">
         <div className="col-9 h-50 border border-primary">
           <div className="box">Warhammer Tabletop Calculator</div>
         </div>
       </div>
-      <div className="row justify-content-center h-75 g-3">
-        <div className="col-2 m-4 border border-primary">
+      <div className="row flex-grow-1 overflow-auto justify-content-center g-3">
+        <div className="col-2 p-2 m-2 border border-primary">
           <h5 className="box mt-3">Step 1: Pick units</h5>
           <ArmySelect
             name={"Select your faction"}
@@ -99,27 +99,27 @@ function App() {
             options={availableArmies}
           />
         </div>
-        <div className="col-2 m-4 border border-primary">
+        <div className="col-2 p-2 m-2 border border-primary">
           <UnitDisplay
             unit={attackerUnitProfile}
             setAttackerWeapon={setAttackerWeapon}
           />
         </div>
-        <div className="col-2 m-4 border border-primary">
+        <div className="col-2 p-2 m-2 border border-primary">
           <Calculator
             setSelectedForDetails={setSelectedForDetails}
             opposingArmy={defenderArmy}
             attackerWeapon={attackerWeapon}
           />
         </div>
-        <div className="col-2 m-4 border border-primary">
+        <div className="col-2 p-2 m-2 border border-primary">
           <Breakdown
             selectedForDetails={selectedForDetails}
             attackerWeapon={attackerWeapon}
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

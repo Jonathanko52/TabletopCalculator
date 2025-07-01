@@ -141,7 +141,9 @@ function Calculator(props) {
   }, [props.opposingArmy, props.attackerWeapon]);
 
   return (
-    <div className="mb-3">
+    <div
+      className="mb-3 scrollable-div"
+      style={{ maxHeight: "100vh", overflowY: "auto" }}>
       <label htmlFor="floatingInput"></label>
       {topTen.length >= 1
         ? topTen.map((cur) => {
