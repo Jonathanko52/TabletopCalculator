@@ -24,8 +24,10 @@ function WeaponSelect(props) {
 
   useEffect(() => {
     if (props.options) {
+      console.log("USE EFFECT", props.options);
       sortOptions();
       setWeaponStats(props.options[0]);
+      props.setAttackerWeapon(props.options[0]);
     }
   }, [props.options]);
 
