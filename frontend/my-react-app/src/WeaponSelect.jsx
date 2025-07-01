@@ -25,6 +25,7 @@ function WeaponSelect(props) {
   useEffect(() => {
     if (props.options) {
       sortOptions();
+      setWeaponStats(props.options[0]);
     }
   }, [props.options]);
 

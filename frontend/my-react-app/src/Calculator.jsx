@@ -110,28 +110,29 @@ function Calculator(props) {
       );
 
       // if (defenderWoundsLeft > 0) {
-      console.log("START----------");
-      console.log("WOUNDS LEFT", defenderWoundsLeft);
-      console.log("MODEL COUNT", defenderModelCount);
-      console.log("DEFENDER WOUNDS", defenderWounds);
+      // console.log("START----------");
+      // console.log("WOUNDS LEFT", defenderWoundsLeft);
+      // console.log("MODEL COUNT", defenderModelCount);
+      // console.log("DEFENDER WOUNDS", defenderWounds);
+
       const remainingWhole = Math.floor(defenderWoundsLeft / defenderWounds);
       const remainingWounded =
         defenderWoundsLeft / (defenderModelCount * defenderWounds);
 
-      console.log("REMAINING WOUNDED MODELS:", remainingWounded.toFixed(2));
-      console.log("REMAINING WHOLE MODELS:", remainingWhole);
+      // console.log("REMAINING WOUNDED MODELS:", remainingWounded.toFixed(2));
+      // console.log("REMAINING WHOLE MODELS:", remainingWhole);
 
       const defenderRemainingModels = remainingWhole + remainingWounded;
       const pointsLost =
         defenderModelCount * defenderCostPerModel -
         defenderRemainingModels * defenderCostPerModel;
 
-      if ((sampleUnit, sampleWeapon)) {
-        console.log(
-          "COMPARING " + sampleUnit.Name + " AGAINST " + sampleWeapon.Name
-        );
-        console.log("POINTS LOST: " + pointsLost.toFixed(2));
-      }
+      // if ((sampleUnit, sampleWeapon)) {
+      //   console.log(
+      //     "COMPARING " + sampleUnit.Name + " AGAINST " + sampleWeapon.Name
+      //   );
+      //   console.log("POINTS LOST: " + pointsLost.toFixed(2));
+      // }
       return [sampleUnit, pointsLost.toFixed(2)];
     }
   };
