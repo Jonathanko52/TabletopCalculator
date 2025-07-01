@@ -36,6 +36,26 @@
     },
     "Weapons": [
       {
+        "Name": "Guardian Spear",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "Melee",
+        "A": "4",
+        "WS": "2+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "-"
+      },
+      {
         "Name": "Misericordia",
         "Range": "Melee",
         "A": "5",
@@ -43,8 +63,7 @@
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -61,15 +80,34 @@
     },
     "Weapons": [
       {
+        "Name": "Hunter-killer missile",
+        "Range": "48\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "One Shot"
+      },
+      {
+        "Name": "Storm Bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "3+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
         "Name": "Armoured tracks",
         "Range": "Melee",
         "A": "3",
-        "BS": "3+",
+        "WS": "4+",
         "S": "6",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -86,24 +124,24 @@
     },
     "Weapons": [
       {
-        "Name": "\u27a4 Vaultswords - Victus",
+        "Name": "\u27a4 Vaultswords - Behemor",
         "Range": "Melee",
-        "A": "5",
+        "A": "6",
         "WS": "2+",
-        "S": "6",
-        "AP": "-3",
-        "D": "3",
-        "Keywords": "Devastating Wounds"
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Precision"
       },
       {
-        "Name": "\u27a4 Vaultswords - Victus",
+        "Name": "\u27a4 Vaultswords - Hurricanis",
         "Range": "Melee",
-        "A": "5",
+        "A": "9",
         "WS": "2+",
-        "S": "6",
-        "AP": "-3",
-        "D": "3",
-        "Keywords": "Devastating Wounds"
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1"
       },
       {
         "Name": "\u27a4 Vaultswords - Victus",
@@ -130,6 +168,26 @@
     },
     "Weapons": [
       {
+        "Name": "Guardian Spear",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Sentinel Blade",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-"
+      },
+      {
         "Name": "Misericordia",
         "Range": "Melee",
         "A": "5",
@@ -137,30 +195,79 @@
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Custodian Guard (Guardian Spear)": {
+    "Name": "Custodian Guard (Guardian Spear)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
       {
         "Name": "Guardian Spear",
-        "Range": "24\"",
-        "A": "2",
+        "Range": "Melee",
+        "A": "5",
         "WS": "2+",
-        "S": "4",
-        "AP": "-1",
+        "S": "7",
+        "AP": "-2",
         "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Custodian Guard (Sentinel Blade & Praesidium Shield)": {
+    "Name": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "Weapons": [
       {
         "Name": "Sentinel Blade",
-        "Range": "12\"",
-        "A": "2",
+        "Range": "Melee",
+        "A": "5",
         "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault, Pistol",
-        "BS": "2+"
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-"
+      }
+    ]
+  },
+  "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)": {
+    "Name": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
+    "Cost": "0",
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "2+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "Weapons": [
+      {
+        "Name": "Misericordia",
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "5",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-"
       }
     ]
   },
@@ -177,92 +284,24 @@
     },
     "Weapons": [
       {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
+        "Name": "Guardian Spear",
+        "Range": "Melee",
+        "A": "5",
         "WS": "2+",
-        "S": "4",
-        "AP": "-1",
+        "S": "7",
+        "AP": "-2",
         "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
+        "Keywords": "-"
       },
       {
         "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
+        "Range": "Melee",
+        "A": "4",
         "WS": "2+",
-        "S": "4",
+        "S": "9",
         "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
-      },
-      {
-        "Name": "Castellan axe",
-        "Range": "24\"",
-        "A": "2",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Assault",
-        "BS": "2+"
+        "D": "3",
+        "Keywords": "-"
       }
     ]
   },
@@ -279,15 +318,24 @@
     },
     "Weapons": [
       {
-        "Name": "Close combat weapon",
+        "Name": "Executioner Greatblade",
         "Range": "Melee",
         "A": "3",
         "WS": "2+",
-        "S": "3",
+        "S": "5",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
+      },
+      {
+        "Name": "Witchseeker Flamer",
+        "Range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
+        "Keywords": "Ignores Cover, Torrent"
       },
       {
         "Name": "Close combat weapon",
@@ -297,41 +345,17 @@
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
+        "Keywords": "-"
       },
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "3",
-        "WS": "2+",
-        "S": "3",
+        "Name": "Master-crafted boltgun",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "4",
         "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "3",
-        "WS": "2+",
-        "S": "3",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
-      },
-      {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "3",
-        "WS": "2+",
-        "S": "3",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "2+"
+        "D": "2",
+        "Keywords": "Rapid Fire 1"
       }
     ]
   },
@@ -348,48 +372,24 @@
     },
     "Weapons": [
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
+        "Name": "Boltgun",
+        "Range": "24\"",
+        "A": "1",
         "BS": "3+",
-        "S": "3",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "Rapid Fire 1"
       },
       {
         "Name": "Close combat weapon",
         "Range": "Melee",
         "A": "2",
-        "BS": "3+",
+        "WS": "3+",
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
-      },
-      {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
-        "BS": "3+",
-        "S": "3",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
-      },
-      {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
-        "BS": "3+",
-        "S": "3",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "-"
       }
     ]
   },
@@ -406,26 +406,24 @@
     },
     "Weapons": [
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
+        "Name": "Boltgun",
+        "Range": "24\"",
+        "A": "1",
         "BS": "3+",
-        "S": "3",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "Rapid Fire 1"
       },
       {
         "Name": "Close combat weapon",
         "Range": "Melee",
         "A": "2",
-        "BS": "3+",
+        "WS": "3+",
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "-"
       }
     ]
   },
@@ -442,26 +440,24 @@
     },
     "Weapons": [
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
+        "Name": "Boltgun",
+        "Range": "24\"",
+        "A": "1",
         "BS": "3+",
-        "S": "3",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "Rapid Fire 1"
       },
       {
         "Name": "Close combat weapon",
         "Range": "Melee",
         "A": "2",
-        "BS": "3+",
+        "WS": "3+",
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "-"
       }
     ]
   },
@@ -478,114 +474,44 @@
     },
     "Weapons": [
       {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
+        "Name": "Guardian Spear",
+        "Range": "Melee",
+        "A": "7",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "Melee",
+        "A": "6",
         "WS": "2+",
         "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Sentinel Blade",
+        "Range": "Melee",
+        "A": "7",
+        "WS": "2+",
+        "S": "6",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "-"
       },
       {
         "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
+        "Range": "Melee",
+        "A": "7",
         "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite Spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
       }
     ]
   },
@@ -602,59 +528,34 @@
     },
     "Weapons": [
       {
-        "Name": "Balistus grenade launcher",
-        "Range": "18\"",
-        "A": "D6",
+        "Name": "Guardian Spear",
+        "Range": "Melee",
+        "A": "7",
         "WS": "2+",
-        "S": "4",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Castellan axe",
+        "Range": "Melee",
+        "A": "6",
+        "WS": "2+",
+        "S": "9",
         "AP": "-1",
-        "D": "1",
-        "Keywords": "Blast",
-        "BS": "2+"
+        "D": "3",
+        "Keywords": "-"
       },
       {
         "Name": "Balistus grenade launcher",
         "Range": "18\"",
         "A": "D6",
-        "WS": "2+",
+        "BS": "2+",
         "S": "4",
         "AP": "-1",
         "D": "1",
-        "Keywords": "Blast",
-        "BS": "2+"
-      },
-      {
-        "Name": "Balistus grenade launcher",
-        "Range": "18\"",
-        "A": "D6",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "1",
-        "Keywords": "Blast",
-        "BS": "2+"
-      },
-      {
-        "Name": "Balistus grenade launcher",
-        "Range": "18\"",
-        "A": "D6",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "1",
-        "Keywords": "Blast",
-        "BS": "2+"
-      },
-      {
-        "Name": "Balistus grenade launcher",
-        "Range": "18\"",
-        "A": "D6",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "1",
-        "Keywords": "Blast",
-        "BS": "2+"
+        "Keywords": "Blast"
       }
     ]
   },
@@ -671,37 +572,34 @@
     },
     "Weapons": [
       {
-        "Name": "Interceptor lance",
-        "Range": "Melee",
-        "A": "6",
+        "Name": "Vertus hurricane bolter",
+        "Range": "18\"",
+        "A": "3",
         "BS": "2+",
-        "S": "7",
-        "AP": "-2",
+        "S": "4",
+        "AP": "-1",
         "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "Keywords": "Rapid Fire 3, Twin-linked"
+      },
+      {
+        "Name": "Salvo launcher",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
       },
       {
         "Name": "Interceptor lance",
         "Range": "Melee",
         "A": "6",
-        "BS": "2+",
+        "WS": "2+",
         "S": "7",
         "AP": "-2",
         "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Interceptor lance",
-        "Range": "Melee",
-        "A": "6",
-        "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "Keywords": "Lance"
       }
     ]
   },
@@ -718,26 +616,24 @@
     },
     "Weapons": [
       {
-        "Name": "Eagle's Scream",
-        "Range": "24\"",
-        "A": "2",
+        "Name": "Watcher's Axe",
+        "Range": "Melee",
+        "A": "6",
         "WS": "2+",
-        "S": "5",
+        "S": "10",
         "AP": "-2",
         "D": "3",
-        "Keywords": "Assault",
-        "BS": "2+"
+        "Keywords": "-"
       },
       {
         "Name": "Eagle's Scream",
         "Range": "24\"",
         "A": "2",
-        "WS": "2+",
+        "BS": "2+",
         "S": "5",
         "AP": "-2",
         "D": "3",
-        "Keywords": "Assault",
-        "BS": "2+"
+        "Keywords": "Assault"
       }
     ]
   },
@@ -755,25 +651,13 @@
     "Weapons": [
       {
         "Name": "Gnosis",
-        "Range": "Melee",
-        "A": "7",
+        "Range": "24\"",
+        "A": "3",
         "BS": "2+",
-        "S": "8",
-        "AP": "-3",
+        "S": "4",
+        "AP": "-1",
         "D": "2",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Gnosis",
-        "Range": "Melee",
-        "A": "7",
-        "BS": "2+",
-        "S": "8",
-        "AP": "-3",
-        "D": "2",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "Assault"
       }
     ]
   },
@@ -790,48 +674,44 @@
     },
     "Weapons": [
       {
-        "Name": "Contemptor combat weapon",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Multi-melta",
+        "Range": "18\"",
+        "A": "2",
         "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
+        "S": "9",
+        "AP": "-4",
+        "D": "D6",
+        "Keywords": "Melta 2"
+      },
+      {
+        "Name": "Kheres-pattern assault cannon",
+        "Range": "24\"",
+        "A": "6",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Combi-bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
+        "AP": "0",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
       },
       {
         "Name": "Contemptor combat weapon",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
         "S": "12",
         "AP": "-2",
         "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Contemptor combat weapon",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Contemptor combat weapon",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -848,59 +728,54 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "6",
+        "Name": "Hunter-killer missile",
+        "Range": "48\"",
+        "A": "1",
         "BS": "2+",
-        "S": "8",
+        "S": "14",
+        "AP": "-3",
+        "D": "D6",
+        "Keywords": "One Shot"
+      },
+      {
+        "Name": "Storm bolter",
+        "Range": "24\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "Rapid fire 2"
+      },
+      {
+        "Name": "Twin heavy bolter",
+        "Range": "36\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Sustained Hits 1, Twin-linked"
+      },
+      {
+        "Name": "Godhammer lascannon",
+        "Range": "48\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
       },
       {
         "Name": "Armoured tracks",
         "Range": "Melee",
         "A": "6",
-        "BS": "2+",
+        "WS": "4+",
         "S": "8",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "6",
-        "BS": "2+",
-        "S": "8",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "6",
-        "BS": "2+",
-        "S": "8",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured tracks",
-        "Range": "Melee",
-        "A": "6",
-        "BS": "2+",
-        "S": "8",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -917,56 +792,36 @@
     },
     "Weapons": [
       {
-        "Name": "Vertus hurricane bolter",
-        "Range": "18\"",
-        "A": "3",
+        "Name": "Interceptor lance",
+        "Range": "Melee",
+        "A": "5",
         "WS": "2+",
-        "S": "4",
-        "AP": "-1",
+        "S": "7",
+        "AP": "-2",
         "D": "2",
-        "Keywords": "Rapid Fire 3, Twin-linked",
-        "BS": "2+"
+        "Keywords": "Lance"
+      },
+      {
+        "Name": "Salvo launcher",
+        "Range": "24\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "10",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "Twin-linked"
       },
       {
         "Name": "Vertus hurricane bolter",
         "Range": "18\"",
         "A": "3",
-        "WS": "2+",
+        "BS": "2+",
         "S": "4",
         "AP": "-1",
         "D": "2",
-        "Keywords": "Rapid Fire 3, Twin-linked",
-        "BS": "2+"
-      },
-      {
-        "Name": "Vertus hurricane bolter",
-        "Range": "18\"",
-        "A": "3",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Rapid Fire 3, Twin-linked",
-        "BS": "2+"
-      },
-      {
-        "Name": "Vertus hurricane bolter",
-        "Range": "18\"",
-        "A": "3",
-        "WS": "2+",
-        "S": "4",
-        "AP": "-1",
-        "D": "2",
-        "Keywords": "Rapid Fire 3, Twin-linked",
-        "BS": "2+"
+        "Keywords": "Rapid Fire 3, Twin-linked"
       }
     ]
-  },
-  "Vertus Praetor (Salvo Launcher)": {
-    "Name": "Vertus Praetor (Salvo Launcher)"
-  },
-  "Vertus Praetor (Hurricane Bolter)": {
-    "Name": "Vertus Praetor (Hurricane Bolter)"
   },
   "Vigilators": {
     "Name": "Vigilators",
@@ -980,16 +835,6 @@
       "OC": "1"
     },
     "Weapons": [
-      {
-        "Name": "Executioner greatblade",
-        "Range": "Melee",
-        "A": "2",
-        "WS": "3+",
-        "S": "5",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Anti-Psyker 5+, Devastating Wounds"
-      },
       {
         "Name": "Executioner greatblade",
         "Range": "Melee",
@@ -1070,41 +915,27 @@
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "BS": "N/A"
+        "Keywords": "-"
       },
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
-        "WS": "3+",
-        "S": "3",
+        "Name": "Witchseeker flamer",
+        "Range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "BS": "N/A"
+        "Keywords": "Ignores Cover, Torrent"
       },
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
-        "WS": "3+",
-        "S": "3",
+        "Name": "Witchseeker Flamer",
+        "Range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "BS": "N/A"
-      },
-      {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
-        "WS": "3+",
-        "S": "3",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "BS": "N/A"
+        "Keywords": "Ignores Cover, Torrent"
       }
     ]
   },
@@ -1121,26 +952,24 @@
     },
     "Weapons": [
       {
-        "Name": "Witchseeker flamer",
-        "Range": "12\"",
-        "A": "D6",
+        "Name": "Close combat weapon",
+        "Range": "Melee",
+        "A": "2",
         "WS": "3+",
-        "S": "4",
+        "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "Ignores Cover, Torrent",
-        "BS": "N/A"
+        "Keywords": "-"
       },
       {
         "Name": "Witchseeker flamer",
         "Range": "12\"",
         "A": "D6",
-        "WS": "3+",
+        "BS": "N/A",
         "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "Ignores Cover, Torrent",
-        "BS": "N/A"
+        "Keywords": "Ignores Cover, Torrent"
       }
     ]
   },
@@ -1157,26 +986,24 @@
     },
     "Weapons": [
       {
-        "Name": "Close combat weapon",
-        "Range": "Melee",
-        "A": "2",
+        "Name": "Witchseeker Flamer",
+        "Range": "12\"",
+        "A": "D6",
         "BS": "N/A",
-        "S": "3",
+        "S": "4",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "Ignores Cover, Torrent"
       },
       {
         "Name": "Close combat weapon",
         "Range": "Melee",
         "A": "2",
-        "BS": "N/A",
+        "WS": "3+",
         "S": "3",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "3+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1193,48 +1020,24 @@
     },
     "Weapons": [
       {
-        "Name": "Pyrithite spear",
-        "Range": "12\"",
+        "Name": "Adrasite spear",
+        "Range": "18\"",
         "A": "1",
         "BS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "WS": "2+"
+        "S": "5",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-"
       },
       {
         "Name": "Pyrithite spear",
-        "Range": "12\"",
-        "A": "1",
-        "BS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "WS": "2+"
-      },
-      {
-        "Name": "Pyrithite spear",
-        "Range": "12\"",
-        "A": "1",
-        "BS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "WS": "2+"
-      },
-      {
-        "Name": "Pyrithite spear",
-        "Range": "12\"",
-        "A": "1",
-        "BS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "WS": "2+"
+        "Range": "Melee",
+        "A": "5",
+        "WS": "2+",
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
       }
     ]
   },
@@ -1252,25 +1055,13 @@
     "Weapons": [
       {
         "Name": "Adrasite spear",
-        "Range": "Melee",
-        "A": "5",
+        "Range": "18\"",
+        "A": "1",
         "BS": "2+",
-        "S": "7",
+        "S": "5",
         "AP": "-2",
-        "D": "2",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Adrasite spear",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "-",
-        "WS": "2+"
+        "D": "3",
+        "Keywords": "-"
       }
     ]
   },
@@ -1288,25 +1079,13 @@
     "Weapons": [
       {
         "Name": "Pyrithite spear",
-        "Range": "12\"",
-        "A": "1",
+        "Range": "Melee",
+        "A": "5",
         "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
-      },
-      {
-        "Name": "Pyrithite spear",
-        "Range": "12\"",
-        "A": "1",
-        "WS": "2+",
-        "S": "9",
-        "AP": "-4",
-        "D": "D6",
-        "Keywords": "Melta 2",
-        "BS": "2+"
+        "S": "7",
+        "AP": "-2",
+        "D": "2",
+        "Keywords": "-"
       }
     ]
   },
@@ -1323,26 +1102,24 @@
     },
     "Weapons": [
       {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "4",
+        "Name": "Adrastus bolt caliver",
+        "Range": "36\"",
+        "A": "3",
         "BS": "2+",
         "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Sustained Hits 1"
       },
       {
         "Name": "Misericordia",
         "Range": "Melee",
         "A": "4",
-        "BS": "2+",
+        "WS": "2+",
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1359,26 +1136,24 @@
     },
     "Weapons": [
       {
-        "Name": "Misericordia",
-        "Range": "Melee",
-        "A": "4",
+        "Name": "Adrastus bolt caliver",
+        "Range": "36\"",
+        "A": "3",
         "BS": "2+",
         "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Sustained Hits 1"
       },
       {
         "Name": "Misericordia",
         "Range": "Melee",
         "A": "4",
-        "BS": "2+",
+        "WS": "2+",
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1408,81 +1183,46 @@
     },
     "Weapons": [
       {
-        "Name": "Interceptor Lance",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Lastrum bolt cannon",
+        "Range": "36\"",
+        "A": "3",
         "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Sustained Hits 1"
       },
       {
         "Name": "Interceptor Lance",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
         "S": "7",
         "AP": "-2",
         "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "Keywords": "Lance"
       },
       {
-        "Name": "Interceptor Lance",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Adrathic devastator",
+        "Range": "18\"",
+        "A": "1",
         "BS": "2+",
         "S": "7",
         "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "D": "3",
+        "Keywords": "-"
       },
       {
-        "Name": "Interceptor Lance",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Twin las-pulsar",
+        "Range": "24\"",
+        "A": "2",
         "BS": "2+",
-        "S": "7",
-        "AP": "-2",
+        "S": "9",
+        "AP": "-1",
         "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Interceptor Lance",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Interceptor Lance",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "Keywords": "Twin-linked"
       }
     ]
-  },
-  "Agamatus Custodian (Lastrum bolt cannon)": {
-    "Name": "Agamatus Custodian (Lastrum bolt cannon)"
-  },
-  "Agamatus Custodian (Adrathic devastator)": {
-    "Name": "Agamatus Custodian (Adrathic devastator)"
-  },
-  "Agamatus Custodian (Twin las-pulsar)": {
-    "Name": "Agamatus Custodian (Twin las-pulsar)"
   },
   "Venatari Custodians": {
     "Name": "Venatari Custodians",
@@ -1497,48 +1237,34 @@
     },
     "Weapons": [
       {
-        "Name": "Tarsis buckler",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Venatari lance",
+        "Range": "24\"",
+        "A": "2",
         "BS": "2+",
-        "S": "5",
-        "AP": "-2",
+        "S": "4",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Assault"
+      },
+      {
+        "Name": "Kinetic destroyer",
+        "Range": "12\"",
+        "A": "2",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "Pistol, Sustained Hits 1"
       },
       {
         "Name": "Tarsis buckler",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Tarsis buckler",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Tarsis buckler",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "5",
-        "AP": "-2",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1556,25 +1282,13 @@
     "Weapons": [
       {
         "Name": "Venatari lance",
-        "Range": "Melee",
-        "A": "5",
+        "Range": "24\"",
+        "A": "2",
         "BS": "2+",
-        "S": "7",
-        "AP": "-2",
+        "S": "4",
+        "AP": "-1",
         "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Venatari lance",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "-2",
-        "D": "2",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "Keywords": "Assault"
       }
     ]
   },
@@ -1591,26 +1305,24 @@
     },
     "Weapons": [
       {
-        "Name": "Tarsis buckler",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Kinetic destroyer",
+        "Range": "12\"",
+        "A": "2",
         "BS": "2+",
-        "S": "5",
-        "AP": "-2",
+        "S": "6",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "Pistol, Sustained Hits 1"
       },
       {
         "Name": "Tarsis buckler",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
         "S": "5",
         "AP": "-2",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1628,25 +1340,13 @@
     "Weapons": [
       {
         "Name": "Galatus warblade",
-        "Range": "Melee",
-        "A": "8",
+        "Range": "12\"",
+        "A": "D6",
         "BS": "N/A",
-        "S": "8",
-        "AP": "-2",
-        "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Galatus warblade",
-        "Range": "Melee",
-        "A": "8",
-        "BS": "N/A",
-        "S": "8",
-        "AP": "-2",
-        "D": "3",
-        "Keywords": "-",
-        "WS": "2+"
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent, Twin-linked"
       }
     ]
   },
@@ -1663,59 +1363,44 @@
     },
     "Weapons": [
       {
-        "Name": "Achillus dreadspear",
-        "Range": "Melee",
-        "A": "5",
+        "Name": "Infernus incinerator",
+        "Range": "12\"",
+        "A": "D6",
+        "BS": "N/A",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Ignores Cover, Torrent"
+      },
+      {
+        "Name": "Lastrum storm bolter",
+        "Range": "24\"",
+        "A": "2",
         "BS": "2+",
-        "S": "12",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Rapid Fire 2"
+      },
+      {
+        "Name": "Twin adrathic destructor",
+        "Range": "18\"",
+        "A": "1",
+        "BS": "2+",
+        "S": "6",
         "AP": "-2",
-        "D": "D6+1",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "D": "3",
+        "Keywords": "Twin-linked"
       },
       {
         "Name": "Achillus dreadspear",
-        "Range": "Melee",
-        "A": "5",
+        "Range": "12\"",
+        "A": "1",
         "BS": "2+",
-        "S": "12",
+        "S": "9",
         "AP": "-2",
-        "D": "D6+1",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Achillus dreadspear",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "D6+1",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Achillus dreadspear",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "D6+1",
-        "Keywords": "Lance",
-        "WS": "2+"
-      },
-      {
-        "Name": "Achillus dreadspear",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "12",
-        "AP": "-2",
-        "D": "D6+1",
-        "Keywords": "Lance",
-        "WS": "2+"
+        "D": "3",
+        "Keywords": "-"
       }
     ]
   },
@@ -1732,26 +1417,24 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "3",
+        "Name": "Twin arachnus blaze cannon",
+        "Range": "24\"",
+        "A": "8",
         "BS": "2+",
-        "S": "6",
-        "AP": "0",
+        "S": "5",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "Devastating Wounds, Twin-linked"
       },
       {
         "Name": "Armoured hull",
         "Range": "Melee",
         "A": "3",
-        "BS": "2+",
+        "WS": "4+",
         "S": "6",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1768,48 +1451,44 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured hull",
-        "Range": "Melee",
+        "Name": "Twin iliastus accelerator cannon",
+        "Range": "48\"",
         "A": "4",
         "BS": "2+",
+        "S": "10",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "Rapid Fire 4, Twin-linked"
+      },
+      {
+        "Name": "Twin arachnus heavy blaze cannon",
+        "Range": "48\"",
+        "A": "4",
+        "BS": "2+",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+2",
+        "Keywords": "Twin-linked"
+      },
+      {
+        "Name": "Twin lastrum bolt cannon",
+        "Range": "36\"",
+        "A": "3",
+        "BS": "2+",
         "S": "6",
-        "AP": "0",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "Sustained Hits 1"
       },
       {
         "Name": "Armoured hull",
         "Range": "Melee",
         "A": "4",
-        "BS": "2+",
+        "WS": "4+",
         "S": "6",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "4",
-        "BS": "2+",
-        "S": "6",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "4",
-        "BS": "2+",
-        "S": "6",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1826,70 +1505,64 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured feet",
+        "Name": "Arachnus storm cannon",
+        "Range": "24\"",
+        "A": "12",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds"
+      },
+      {
+        "Name": "Iliastus accelerator culverin",
+        "Range": "48\"",
+        "A": "4",
+        "BS": "2+",
+        "S": "9",
+        "AP": "-1",
+        "D": "3",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Telemon Caestus",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
+        "S": "12",
+        "AP": "-2",
+        "D": "3",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Twin plasma projector",
+        "Range": "12\"",
+        "A": "D3",
+        "BS": "N/A",
         "S": "7",
+        "AP": "-2",
+        "D": "1",
+        "Keywords": "Torrent, Twin-linked"
+      },
+      {
+        "Name": "Spiculus bolt launcher",
+        "Range": "36\"",
+        "A": "D6+3",
+        "BS": "2+",
+        "S": "5",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "Blast"
       },
       {
         "Name": "Armoured feet",
         "Range": "Melee",
         "A": "5",
-        "BS": "2+",
+        "WS": "2+",
         "S": "7",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Armoured feet",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Armoured feet",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Armoured feet",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
-      },
-      {
-        "Name": "Armoured feet",
-        "Range": "Melee",
-        "A": "5",
-        "BS": "2+",
-        "S": "7",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "2+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1906,37 +1579,34 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "6",
+        "Name": "Twin lastrum bolt cannon",
+        "Range": "36\"",
+        "A": "3",
         "BS": "2+",
-        "S": "8",
-        "AP": "0",
+        "S": "6",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "Sustained Hits 1"
+      },
+      {
+        "Name": "Twin arachnus blaze cannon",
+        "Range": "24\"",
+        "A": "8",
+        "BS": "2+",
+        "S": "5",
+        "AP": "-1",
+        "D": "1",
+        "Keywords": "Devastating Wounds, Twin-linked"
       },
       {
         "Name": "Armoured hull",
         "Range": "Melee",
         "A": "6",
-        "BS": "2+",
+        "WS": "4+",
         "S": "8",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "6",
-        "BS": "2+",
-        "S": "8",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -1953,48 +1623,44 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "9",
+        "Name": "Arachnus heavy blaze cannon",
+        "Range": "36\"",
+        "A": "4",
         "BS": "2+",
-        "S": "9",
-        "AP": "0",
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Twin lastrum bolt cannon",
+        "Range": "36\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "6",
+        "AP": "-1",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "Sustained Hits 1"
+      },
+      {
+        "Name": "Spiculus heavy bolt launcher",
+        "Range": "36\"",
+        "A": "D6+6",
+        "BS": "2+",
+        "S": "7",
+        "AP": "-1",
+        "D": "2",
+        "Keywords": "Blast"
       },
       {
         "Name": "Armoured hull",
         "Range": "Melee",
         "A": "9",
-        "BS": "2+",
+        "WS": "4+",
         "S": "9",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "9",
-        "BS": "2+",
-        "S": "9",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "9",
-        "BS": "2+",
-        "S": "9",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   },
@@ -2011,37 +1677,34 @@
     },
     "Weapons": [
       {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "9",
+        "Name": "Arachnus heavy blaze cannon",
+        "Range": "36\"",
+        "A": "4",
         "BS": "2+",
-        "S": "9",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "S": "12",
+        "AP": "-3",
+        "D": "D6+1",
+        "Keywords": "-"
+      },
+      {
+        "Name": "Arachnus magna-blaze cannon",
+        "Range": "48\"",
+        "A": "3",
+        "BS": "2+",
+        "S": "18",
+        "AP": "-4",
+        "D": "D6+6",
+        "Keywords": "-"
       },
       {
         "Name": "Armoured hull",
         "Range": "Melee",
         "A": "9",
-        "BS": "2+",
+        "WS": "4+",
         "S": "9",
         "AP": "0",
         "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
-      },
-      {
-        "Name": "Armoured hull",
-        "Range": "Melee",
-        "A": "9",
-        "BS": "2+",
-        "S": "9",
-        "AP": "0",
-        "D": "1",
-        "Keywords": "-",
-        "WS": "4+"
+        "Keywords": "-"
       }
     ]
   }

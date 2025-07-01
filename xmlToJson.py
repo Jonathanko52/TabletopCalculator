@@ -6,7 +6,7 @@ import re
 # python3 /Users/jonathanko/IndependentStudy/TabletopCalculator/xmlToJson.py
 
 
-codexName = "Necrons"
+codexName = "Imperium - Adeptus Custodes"
 route = ('./40k/' + codexName + '.cat')
 
 """
@@ -47,12 +47,18 @@ def findModel(input, outputList):
         for keys in input:
             if keys == "@type":
                 if(input["@type"]== "model" or input["@type"]== "unit"):
-                    if input["@name"] == "Gretchin":
-                        print("Found Grots in findModel")
+
                     resultUnit = {}
                     resultWeapon = []
+                    weaponsKey = {}
                     findUnit(input,resultUnit)
-                    findWeapon(input,resultWeapon)
+                    findWeapon(input,resultWeapon,weaponsKey)
+
+                    if input["@name"] == "Knight-Centura":
+                        for item in resultWeapon:
+                            print("_________________")
+                            print(item)
+                
                     result = {
                         "Name": input["@name"],
                         "Unit": resultUnit,
@@ -100,7 +106,8 @@ Parameters:
 
 """
 
-def findWeapon(input,inputList):
+def findWeapon(input,inputList, inputDict):
+    
     if input is None:
       return
     
@@ -108,12 +115,14 @@ def findWeapon(input,inputList):
         for keys in input:
             if "@typeName" in keys:
                 if(input["@typeName"]== "Melee Weapons" or input["@typeName"]== "Ranged Weapons"):
-                    inputList.append(input)
+                    if input["@name"] not in inputDict:
+                        inputList.append(input)
+                    inputDict[input["@name"]] = True
             else:
-                findWeapon(input[keys], inputList)
+                findWeapon(input[keys], inputList, inputDict)
     if type(input) == list:
         for values in range(len(input)):
-                findWeapon(input[values], inputList)
+                findWeapon(input[values], inputList, inputDict)
 
 """
 
@@ -143,14 +152,16 @@ Returns: list: A list of dictionaries, each representing a weapon.
 
 def weaponHelper(inputList):
     returnList = []
-    returnDict = {}
     for item in inputList:
+        returnDict = {}
         returnDict["Name"] = item["@name"]
         characteristics = item["characteristics"]["characteristic"]
         for keys in characteristics:
             returnDict[keys["@name"]] = keys["#text"]
         returnList.append(returnDict)
     
+    # print("RETURN", returnList)
+
     return returnList
 
 """
@@ -180,9 +191,6 @@ def extractedInformationIntoDictionary(extractedData):
             else:
                 cost = test["costs"]["cost"]["@value"]
             returnUnit["Cost"] = cost
-            if model["Name"] == "Gretchin":
-                print("NAME", model["Name"])
-                print("COST", cost)
         # Retrive Characteristics of Model:
             if not "Unit" in model["Unit"]:
                 print(model["Name"])
@@ -214,12 +222,16 @@ findModel(data_dict, xmlIntoModels)
 
 # Optional: Print extracted model names
 
-for item in xmlIntoModels:
-    print(item["Name"])
+# for item in xmlIntoModels:
+#     print(item["Name"])
 
 # Transform into structured data
 
 finalDict = extractedInformationIntoDictionary(xmlIntoModels)
+
+# for item in finalDict:
+#     print("____________________")
+#     print(finalDict[item])
 
 # Write to JSON file
 
