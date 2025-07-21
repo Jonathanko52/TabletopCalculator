@@ -6,7 +6,7 @@ import re
 # python3 /Users/jonathanko/IndependentStudy/TabletopCalculator/xmlToJson.py
 
 
-codexName = "Chaos - Chaos Space Marines"
+codexName = "Imperium - Astra Militarum"
 route = ('./40k/' + codexName + '.cat')
 
 """
